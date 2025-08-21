@@ -1,9 +1,9 @@
 {
   "total_episodes": 51,
-  "total_steps": 66,
-  "training_time_hours": 0.0004922355545891655,
-  "final_performance": -0.1783,
-  "best_performance": -0.2615,
+  "total_steps": 51,
+  "training_time_hours": 0.00042464693387349447,
+  "final_performance": -0.168,
+  "best_performance": -0.202,
   "curriculum_completed": false,
   "final_stage": "BASIC_ACTIONS",
   "curriculum_summary": {
@@ -12,19 +12,19 @@
       "stage_description": "Basic Actions: HIT, STAND, DOUBLE",
       "episodes_in_stage": 51,
       "min_episodes_required": 10,
-      "recent_performance": -0.4117647058823529,
-      "stability": 0.9219857212163723,
-      "stability_threshold": 0.05,
+      "recent_performance": -0.3235294117647059,
+      "stability": 2.263956458234237,
+      "stability_threshold": 0.5,
       "ready_to_advance": false,
       "is_final_stage": false
     },
     "total_episodes": 51,
-    "overall_performance": -0.4117647058823529,
+    "overall_performance": -0.3235294117647059,
     "stage_history": [],
     "transition_log": [],
     "config": {
       "min_episodes_per_stage": 10,
-      "stability_threshold": 0.05,
+      "stability_threshold": 0.5,
       "performance_thresholds": {
         "basic_actions": -0.2,
         "surrender": -0.1,

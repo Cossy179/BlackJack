@@ -243,3 +243,4 @@ def initialize_device_manager():
 # Initialize when module is imported
 if device_manager._device is None:
     initialize_device_manager()
+

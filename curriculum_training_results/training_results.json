@@ -1,34 +1,52 @@
 {
-  "total_episodes": 5000,
-  "total_steps": 5056,
-  "training_time_hours": 0.04258156643973456,
-  "final_performance": -0.1543,
-  "best_performance": -Infinity,
+  "total_episodes": 40000,
+  "total_steps": 40000,
+  "training_time_hours": 0.6489906868007448,
+  "final_performance": -0.1448,
+  "best_performance": -0.0755,
   "curriculum_completed": false,
-  "final_stage": "BASIC_ACTIONS",
+  "final_stage": "ADD_SPLIT_ACES",
   "curriculum_summary": {
     "current_stage": {
-      "stage": "BASIC_ACTIONS",
-      "stage_description": "Basic Actions: HIT, STAND, DOUBLE",
-      "episodes_in_stage": 5000,
-      "min_episodes_required": 2000,
-      "recent_performance": -0.115,
-      "stability": 1.0013865387551404,
-      "stability_threshold": 0.05,
+      "stage": "ADD_SPLIT_ACES",
+      "stage_description": "Basic + SURRENDER + SPLIT (Aces & Eights only)",
+      "episodes_in_stage": 32802,
+      "min_episodes_required": 3000,
+      "recent_performance": -0.157,
+      "stability": 0.6494302794973588,
+      "stability_threshold": 0.5,
       "ready_to_advance": false,
       "is_final_stage": false
     },
-    "total_episodes": 5000,
-    "overall_performance": -0.1857,
-    "stage_history": [],
-    "transition_log": [],
+    "total_episodes": 40000,
+    "overall_performance": -0.1684,
+    "stage_history": [
+      {
+        "stage": "BASIC_ACTIONS",
+        "episodes": 3806,
+        "performance": -0.143,
+        "stability": 0.49987863051142756,
+        "completed_at_episode": 3806
+      },
+      {
+        "stage": "ADD_SURRENDER",
+        "episodes": 3392,
+        "performance": -0.149,
+        "stability": 0.4637523157199454,
+        "completed_at_episode": 7198
+      }
+    ],
+    "transition_log": [
+      "\ud83d\udcc8 Stage Transition: BASIC_ACTIONS \u2192 ADD_SURRENDER (Episode 3806, Performance: -0.1430)",
+      "\ud83d\udcc8 Stage Transition: ADD_SURRENDER \u2192 ADD_SPLIT_ACES (Episode 7198, Performance: -0.1490)"
+    ],
     "config": {
-      "min_episodes_per_stage": 2000,
-      "stability_threshold": 0.05,
+      "min_episodes_per_stage": 3000,
+      "stability_threshold": 0.5,
       "performance_thresholds": {
-        "basic_actions": -0.3,
-        "surrender": -0.2,
-        "split_aces": -0.1
+        "basic_actions": -0.25,
+        "surrender": -0.15,
+        "split_aces": -0.12
       }
     }
   }

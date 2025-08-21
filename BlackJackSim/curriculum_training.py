@@ -563,7 +563,7 @@ def train_curriculum_agent(
         curriculum_config = CurriculumConfig(
             min_episodes_per_stage=2000,
             performance_window=1000,
-            stability_threshold=0.05,
+            stability_threshold=0.5,  # Updated for coefficient of variation
             basic_actions_threshold=-0.3,
             surrender_threshold=-0.2,
             split_aces_threshold=-0.1

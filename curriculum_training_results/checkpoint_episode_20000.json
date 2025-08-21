@@ -1,0 +1,9241 @@
+{
+  "total_episodes": 20001,
+  "total_steps": 20001,
+  "curriculum_summary": {
+    "current_stage": {
+      "stage": "ADD_SPLIT_ACES",
+      "stage_description": "Basic + SURRENDER + SPLIT (Aces & Eights only)",
+      "episodes_in_stage": 12803,
+      "min_episodes_required": 3000,
+      "recent_performance": -0.1525,
+      "stability": 0.6553904191003421,
+      "stability_threshold": 0.5,
+      "ready_to_advance": false,
+      "is_final_stage": false
+    },
+    "total_episodes": 20001,
+    "overall_performance": -0.1651,
+    "stage_history": [
+      {
+        "stage": "BASIC_ACTIONS",
+        "episodes": 3806,
+        "performance": -0.143,
+        "stability": 0.49987863051142756,
+        "completed_at_episode": 3806
+      },
+      {
+        "stage": "ADD_SURRENDER",
+        "episodes": 3392,
+        "performance": -0.149,
+        "stability": 0.4637523157199454,
+        "completed_at_episode": 7198
+      }
+    ],
+    "transition_log": [
+      "\ud83d\udcc8 Stage Transition: BASIC_ACTIONS \u2192 ADD_SURRENDER (Episode 3806, Performance: -0.1430)",
+      "\ud83d\udcc8 Stage Transition: ADD_SURRENDER \u2192 ADD_SPLIT_ACES (Episode 7198, Performance: -0.1490)"
+    ],
+    "config": {
+      "min_episodes_per_stage": 3000,
+      "stability_threshold": 0.5,
+      "performance_thresholds": {
+        "basic_actions": -0.25,
+        "surrender": -0.15,
+        "split_aces": -0.12
+      }
+    }
+  },
+  "recent_rewards": [
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    1.5,
+    0.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.5,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.5,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    0.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.5,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.5,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    0.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "training_metrics": [
+    {
+      "step": 19002,
+      "episode": 19001,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19000,
+      "beta": 0.512464
+    },
+    {
+      "step": 19003,
+      "episode": 19002,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19001,
+      "beta": 0.51247
+    },
+    {
+      "step": 19004,
+      "episode": 19003,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19002,
+      "beta": 0.512476
+    },
+    {
+      "step": 19005,
+      "episode": 19004,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19003,
+      "beta": 0.512482
+    },
+    {
+      "step": 19006,
+      "episode": 19005,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19004,
+      "beta": 0.512488
+    },
+    {
+      "step": 19007,
+      "episode": 19006,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19005,
+      "beta": 0.512494
+    },
+    {
+      "step": 19008,
+      "episode": 19007,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19006,
+      "beta": 0.5125
+    },
+    {
+      "step": 19009,
+      "episode": 19008,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19007,
+      "beta": 0.512506
+    },
+    {
+      "step": 19010,
+      "episode": 19009,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19008,
+      "beta": 0.512512
+    },
+    {
+      "step": 19011,
+      "episode": 19010,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19009,
+      "beta": 0.512518
+    },
+    {
+      "step": 19012,
+      "episode": 19011,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19010,
+      "beta": 0.512524
+    },
+    {
+      "step": 19013,
+      "episode": 19012,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19011,
+      "beta": 0.51253
+    },
+    {
+      "step": 19014,
+      "episode": 19013,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19012,
+      "beta": 0.512536
+    },
+    {
+      "step": 19015,
+      "episode": 19014,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19013,
+      "beta": 0.512542
+    },
+    {
+      "step": 19016,
+      "episode": 19015,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19014,
+      "beta": 0.512548
+    },
+    {
+      "step": 19017,
+      "episode": 19016,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19015,
+      "beta": 0.5125540000000001
+    },
+    {
+      "step": 19018,
+      "episode": 19017,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19016,
+      "beta": 0.51256
+    },
+    {
+      "step": 19019,
+      "episode": 19018,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19017,
+      "beta": 0.5125660000000001
+    },
+    {
+      "step": 19020,
+      "episode": 19019,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19018,
+      "beta": 0.512572
+    },
+    {
+      "step": 19021,
+      "episode": 19020,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19019,
+      "beta": 0.512578
+    },
+    {
+      "step": 19022,
+      "episode": 19021,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19020,
+      "beta": 0.512584
+    },
+    {
+      "step": 19023,
+      "episode": 19022,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19021,
+      "beta": 0.51259
+    },
+    {
+      "step": 19024,
+      "episode": 19023,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19022,
+      "beta": 0.512596
+    },
+    {
+      "step": 19025,
+      "episode": 19024,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19023,
+      "beta": 0.512602
+    },
+    {
+      "step": 19026,
+      "episode": 19025,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19024,
+      "beta": 0.5126080000000001
+    },
+    {
+      "step": 19027,
+      "episode": 19026,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19025,
+      "beta": 0.512614
+    },
+    {
+      "step": 19028,
+      "episode": 19027,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19026,
+      "beta": 0.5126200000000001
+    },
+    {
+      "step": 19029,
+      "episode": 19028,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19027,
+      "beta": 0.512626
+    },
+    {
+      "step": 19030,
+      "episode": 19029,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19028,
+      "beta": 0.512632
+    },
+    {
+      "step": 19031,
+      "episode": 19030,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19029,
+      "beta": 0.512638
+    },
+    {
+      "step": 19032,
+      "episode": 19031,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19030,
+      "beta": 0.512644
+    },
+    {
+      "step": 19033,
+      "episode": 19032,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19031,
+      "beta": 0.51265
+    },
+    {
+      "step": 19034,
+      "episode": 19033,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19032,
+      "beta": 0.512656
+    },
+    {
+      "step": 19035,
+      "episode": 19034,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19033,
+      "beta": 0.512662
+    },
+    {
+      "step": 19036,
+      "episode": 19035,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19034,
+      "beta": 0.512668
+    },
+    {
+      "step": 19037,
+      "episode": 19036,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19035,
+      "beta": 0.5126740000000001
+    },
+    {
+      "step": 19038,
+      "episode": 19037,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19036,
+      "beta": 0.51268
+    },
+    {
+      "step": 19039,
+      "episode": 19038,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19037,
+      "beta": 0.512686
+    },
+    {
+      "step": 19040,
+      "episode": 19039,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19038,
+      "beta": 0.512692
+    },
+    {
+      "step": 19041,
+      "episode": 19040,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19039,
+      "beta": 0.512698
+    },
+    {
+      "step": 19042,
+      "episode": 19041,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19040,
+      "beta": 0.512704
+    },
+    {
+      "step": 19043,
+      "episode": 19042,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19041,
+      "beta": 0.51271
+    },
+    {
+      "step": 19044,
+      "episode": 19043,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19042,
+      "beta": 0.5127160000000001
+    },
+    {
+      "step": 19045,
+      "episode": 19044,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19043,
+      "beta": 0.512722
+    },
+    {
+      "step": 19046,
+      "episode": 19045,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19044,
+      "beta": 0.5127280000000001
+    },
+    {
+      "step": 19047,
+      "episode": 19046,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19045,
+      "beta": 0.512734
+    },
+    {
+      "step": 19048,
+      "episode": 19047,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19046,
+      "beta": 0.51274
+    },
+    {
+      "step": 19049,
+      "episode": 19048,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19047,
+      "beta": 0.512746
+    },
+    {
+      "step": 19050,
+      "episode": 19049,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19048,
+      "beta": 0.512752
+    },
+    {
+      "step": 19051,
+      "episode": 19050,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19049,
+      "beta": 0.512758
+    },
+    {
+      "step": 19052,
+      "episode": 19051,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19050,
+      "beta": 0.512764
+    },
+    {
+      "step": 19053,
+      "episode": 19052,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19051,
+      "beta": 0.5127700000000001
+    },
+    {
+      "step": 19054,
+      "episode": 19053,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19052,
+      "beta": 0.512776
+    },
+    {
+      "step": 19055,
+      "episode": 19054,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19053,
+      "beta": 0.5127820000000001
+    },
+    {
+      "step": 19056,
+      "episode": 19055,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19054,
+      "beta": 0.512788
+    },
+    {
+      "step": 19057,
+      "episode": 19056,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19055,
+      "beta": 0.512794
+    },
+    {
+      "step": 19058,
+      "episode": 19057,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19056,
+      "beta": 0.5128
+    },
+    {
+      "step": 19059,
+      "episode": 19058,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19057,
+      "beta": 0.512806
+    },
+    {
+      "step": 19060,
+      "episode": 19059,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19058,
+      "beta": 0.512812
+    },
+    {
+      "step": 19061,
+      "episode": 19060,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19059,
+      "beta": 0.512818
+    },
+    {
+      "step": 19062,
+      "episode": 19061,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19060,
+      "beta": 0.5128240000000001
+    },
+    {
+      "step": 19063,
+      "episode": 19062,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19061,
+      "beta": 0.51283
+    },
+    {
+      "step": 19064,
+      "episode": 19063,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19062,
+      "beta": 0.5128360000000001
+    },
+    {
+      "step": 19065,
+      "episode": 19064,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19063,
+      "beta": 0.512842
+    },
+    {
+      "step": 19066,
+      "episode": 19065,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19064,
+      "beta": 0.512848
+    },
+    {
+      "step": 19067,
+      "episode": 19066,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19065,
+      "beta": 0.512854
+    },
+    {
+      "step": 19068,
+      "episode": 19067,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19066,
+      "beta": 0.51286
+    },
+    {
+      "step": 19069,
+      "episode": 19068,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19067,
+      "beta": 0.512866
+    },
+    {
+      "step": 19070,
+      "episode": 19069,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19068,
+      "beta": 0.512872
+    },
+    {
+      "step": 19071,
+      "episode": 19070,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19069,
+      "beta": 0.5128780000000001
+    },
+    {
+      "step": 19072,
+      "episode": 19071,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19070,
+      "beta": 0.512884
+    },
+    {
+      "step": 19073,
+      "episode": 19072,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19071,
+      "beta": 0.5128900000000001
+    },
+    {
+      "step": 19074,
+      "episode": 19073,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19072,
+      "beta": 0.512896
+    },
+    {
+      "step": 19075,
+      "episode": 19074,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19073,
+      "beta": 0.512902
+    },
+    {
+      "step": 19076,
+      "episode": 19075,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19074,
+      "beta": 0.512908
+    },
+    {
+      "step": 19077,
+      "episode": 19076,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19075,
+      "beta": 0.512914
+    },
+    {
+      "step": 19078,
+      "episode": 19077,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19076,
+      "beta": 0.51292
+    },
+    {
+      "step": 19079,
+      "episode": 19078,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19077,
+      "beta": 0.512926
+    },
+    {
+      "step": 19080,
+      "episode": 19079,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19078,
+      "beta": 0.512932
+    },
+    {
+      "step": 19081,
+      "episode": 19080,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19079,
+      "beta": 0.512938
+    },
+    {
+      "step": 19082,
+      "episode": 19081,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19080,
+      "beta": 0.5129440000000001
+    },
+    {
+      "step": 19083,
+      "episode": 19082,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19081,
+      "beta": 0.51295
+    },
+    {
+      "step": 19084,
+      "episode": 19083,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19082,
+      "beta": 0.512956
+    },
+    {
+      "step": 19085,
+      "episode": 19084,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19083,
+      "beta": 0.512962
+    },
+    {
+      "step": 19086,
+      "episode": 19085,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19084,
+      "beta": 0.512968
+    },
+    {
+      "step": 19087,
+      "episode": 19086,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19085,
+      "beta": 0.512974
+    },
+    {
+      "step": 19088,
+      "episode": 19087,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19086,
+      "beta": 0.51298
+    },
+    {
+      "step": 19089,
+      "episode": 19088,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19087,
+      "beta": 0.512986
+    },
+    {
+      "step": 19090,
+      "episode": 19089,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19088,
+      "beta": 0.512992
+    },
+    {
+      "step": 19091,
+      "episode": 19090,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19089,
+      "beta": 0.5129980000000001
+    },
+    {
+      "step": 19092,
+      "episode": 19091,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19090,
+      "beta": 0.513004
+    },
+    {
+      "step": 19093,
+      "episode": 19092,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19091,
+      "beta": 0.51301
+    },
+    {
+      "step": 19094,
+      "episode": 19093,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19092,
+      "beta": 0.513016
+    },
+    {
+      "step": 19095,
+      "episode": 19094,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19093,
+      "beta": 0.513022
+    },
+    {
+      "step": 19096,
+      "episode": 19095,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19094,
+      "beta": 0.513028
+    },
+    {
+      "step": 19097,
+      "episode": 19096,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19095,
+      "beta": 0.513034
+    },
+    {
+      "step": 19098,
+      "episode": 19097,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19096,
+      "beta": 0.51304
+    },
+    {
+      "step": 19099,
+      "episode": 19098,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19097,
+      "beta": 0.513046
+    },
+    {
+      "step": 19100,
+      "episode": 19099,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19098,
+      "beta": 0.5130520000000001
+    },
+    {
+      "step": 19101,
+      "episode": 19100,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19099,
+      "beta": 0.513058
+    },
+    {
+      "step": 19102,
+      "episode": 19101,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19100,
+      "beta": 0.513064
+    },
+    {
+      "step": 19103,
+      "episode": 19102,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19101,
+      "beta": 0.51307
+    },
+    {
+      "step": 19104,
+      "episode": 19103,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19102,
+      "beta": 0.513076
+    },
+    {
+      "step": 19105,
+      "episode": 19104,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19103,
+      "beta": 0.513082
+    },
+    {
+      "step": 19106,
+      "episode": 19105,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19104,
+      "beta": 0.513088
+    },
+    {
+      "step": 19107,
+      "episode": 19106,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19105,
+      "beta": 0.513094
+    },
+    {
+      "step": 19108,
+      "episode": 19107,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19106,
+      "beta": 0.5131
+    },
+    {
+      "step": 19109,
+      "episode": 19108,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19107,
+      "beta": 0.5131060000000001
+    },
+    {
+      "step": 19110,
+      "episode": 19109,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19108,
+      "beta": 0.513112
+    },
+    {
+      "step": 19111,
+      "episode": 19110,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19109,
+      "beta": 0.513118
+    },
+    {
+      "step": 19112,
+      "episode": 19111,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19110,
+      "beta": 0.513124
+    },
+    {
+      "step": 19113,
+      "episode": 19112,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19111,
+      "beta": 0.51313
+    },
+    {
+      "step": 19114,
+      "episode": 19113,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19112,
+      "beta": 0.513136
+    },
+    {
+      "step": 19115,
+      "episode": 19114,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19113,
+      "beta": 0.513142
+    },
+    {
+      "step": 19116,
+      "episode": 19115,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19114,
+      "beta": 0.513148
+    },
+    {
+      "step": 19117,
+      "episode": 19116,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19115,
+      "beta": 0.513154
+    },
+    {
+      "step": 19118,
+      "episode": 19117,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19116,
+      "beta": 0.5131600000000001
+    },
+    {
+      "step": 19119,
+      "episode": 19118,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19117,
+      "beta": 0.513166
+    },
+    {
+      "step": 19120,
+      "episode": 19119,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19118,
+      "beta": 0.513172
+    },
+    {
+      "step": 19121,
+      "episode": 19120,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19119,
+      "beta": 0.513178
+    },
+    {
+      "step": 19122,
+      "episode": 19121,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19120,
+      "beta": 0.513184
+    },
+    {
+      "step": 19123,
+      "episode": 19122,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19121,
+      "beta": 0.51319
+    },
+    {
+      "step": 19124,
+      "episode": 19123,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19122,
+      "beta": 0.513196
+    },
+    {
+      "step": 19125,
+      "episode": 19124,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19123,
+      "beta": 0.513202
+    },
+    {
+      "step": 19126,
+      "episode": 19125,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19124,
+      "beta": 0.513208
+    },
+    {
+      "step": 19127,
+      "episode": 19126,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19125,
+      "beta": 0.5132140000000001
+    },
+    {
+      "step": 19128,
+      "episode": 19127,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19126,
+      "beta": 0.51322
+    },
+    {
+      "step": 19129,
+      "episode": 19128,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19127,
+      "beta": 0.513226
+    },
+    {
+      "step": 19130,
+      "episode": 19129,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19128,
+      "beta": 0.513232
+    },
+    {
+      "step": 19131,
+      "episode": 19130,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19129,
+      "beta": 0.5132380000000001
+    },
+    {
+      "step": 19132,
+      "episode": 19131,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19130,
+      "beta": 0.513244
+    },
+    {
+      "step": 19133,
+      "episode": 19132,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19131,
+      "beta": 0.51325
+    },
+    {
+      "step": 19134,
+      "episode": 19133,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19132,
+      "beta": 0.513256
+    },
+    {
+      "step": 19135,
+      "episode": 19134,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19133,
+      "beta": 0.513262
+    },
+    {
+      "step": 19136,
+      "episode": 19135,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19134,
+      "beta": 0.5132680000000001
+    },
+    {
+      "step": 19137,
+      "episode": 19136,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19135,
+      "beta": 0.513274
+    },
+    {
+      "step": 19138,
+      "episode": 19137,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19136,
+      "beta": 0.51328
+    },
+    {
+      "step": 19139,
+      "episode": 19138,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19137,
+      "beta": 0.513286
+    },
+    {
+      "step": 19140,
+      "episode": 19139,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19138,
+      "beta": 0.513292
+    },
+    {
+      "step": 19141,
+      "episode": 19140,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19139,
+      "beta": 0.513298
+    },
+    {
+      "step": 19142,
+      "episode": 19141,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19140,
+      "beta": 0.513304
+    },
+    {
+      "step": 19143,
+      "episode": 19142,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19141,
+      "beta": 0.51331
+    },
+    {
+      "step": 19144,
+      "episode": 19143,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19142,
+      "beta": 0.513316
+    },
+    {
+      "step": 19145,
+      "episode": 19144,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19143,
+      "beta": 0.5133220000000001
+    },
+    {
+      "step": 19146,
+      "episode": 19145,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19144,
+      "beta": 0.513328
+    },
+    {
+      "step": 19147,
+      "episode": 19146,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19145,
+      "beta": 0.513334
+    },
+    {
+      "step": 19148,
+      "episode": 19147,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19146,
+      "beta": 0.51334
+    },
+    {
+      "step": 19149,
+      "episode": 19148,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19147,
+      "beta": 0.513346
+    },
+    {
+      "step": 19150,
+      "episode": 19149,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19148,
+      "beta": 0.513352
+    },
+    {
+      "step": 19151,
+      "episode": 19150,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19149,
+      "beta": 0.513358
+    },
+    {
+      "step": 19152,
+      "episode": 19151,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19150,
+      "beta": 0.513364
+    },
+    {
+      "step": 19153,
+      "episode": 19152,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19151,
+      "beta": 0.51337
+    },
+    {
+      "step": 19154,
+      "episode": 19153,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19152,
+      "beta": 0.513376
+    },
+    {
+      "step": 19155,
+      "episode": 19154,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19153,
+      "beta": 0.513382
+    },
+    {
+      "step": 19156,
+      "episode": 19155,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19154,
+      "beta": 0.5133880000000001
+    },
+    {
+      "step": 19157,
+      "episode": 19156,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19155,
+      "beta": 0.513394
+    },
+    {
+      "step": 19158,
+      "episode": 19157,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19156,
+      "beta": 0.5134000000000001
+    },
+    {
+      "step": 19159,
+      "episode": 19158,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19157,
+      "beta": 0.513406
+    },
+    {
+      "step": 19160,
+      "episode": 19159,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19158,
+      "beta": 0.513412
+    },
+    {
+      "step": 19161,
+      "episode": 19160,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19159,
+      "beta": 0.513418
+    },
+    {
+      "step": 19162,
+      "episode": 19161,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19160,
+      "beta": 0.513424
+    },
+    {
+      "step": 19163,
+      "episode": 19162,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19161,
+      "beta": 0.51343
+    },
+    {
+      "step": 19164,
+      "episode": 19163,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19162,
+      "beta": 0.513436
+    },
+    {
+      "step": 19165,
+      "episode": 19164,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19163,
+      "beta": 0.513442
+    },
+    {
+      "step": 19166,
+      "episode": 19165,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19164,
+      "beta": 0.513448
+    },
+    {
+      "step": 19167,
+      "episode": 19166,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19165,
+      "beta": 0.5134540000000001
+    },
+    {
+      "step": 19168,
+      "episode": 19167,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19166,
+      "beta": 0.51346
+    },
+    {
+      "step": 19169,
+      "episode": 19168,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19167,
+      "beta": 0.513466
+    },
+    {
+      "step": 19170,
+      "episode": 19169,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19168,
+      "beta": 0.513472
+    },
+    {
+      "step": 19171,
+      "episode": 19170,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19169,
+      "beta": 0.513478
+    },
+    {
+      "step": 19172,
+      "episode": 19171,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19170,
+      "beta": 0.513484
+    },
+    {
+      "step": 19173,
+      "episode": 19172,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19171,
+      "beta": 0.51349
+    },
+    {
+      "step": 19174,
+      "episode": 19173,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19172,
+      "beta": 0.513496
+    },
+    {
+      "step": 19175,
+      "episode": 19174,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19173,
+      "beta": 0.513502
+    },
+    {
+      "step": 19176,
+      "episode": 19175,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19174,
+      "beta": 0.513508
+    },
+    {
+      "step": 19177,
+      "episode": 19176,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19175,
+      "beta": 0.513514
+    },
+    {
+      "step": 19178,
+      "episode": 19177,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19176,
+      "beta": 0.51352
+    },
+    {
+      "step": 19179,
+      "episode": 19178,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19177,
+      "beta": 0.513526
+    },
+    {
+      "step": 19180,
+      "episode": 19179,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19178,
+      "beta": 0.513532
+    },
+    {
+      "step": 19181,
+      "episode": 19180,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19179,
+      "beta": 0.513538
+    },
+    {
+      "step": 19182,
+      "episode": 19181,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19180,
+      "beta": 0.513544
+    },
+    {
+      "step": 19183,
+      "episode": 19182,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19181,
+      "beta": 0.5135500000000001
+    },
+    {
+      "step": 19184,
+      "episode": 19183,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19182,
+      "beta": 0.513556
+    },
+    {
+      "step": 19185,
+      "episode": 19184,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19183,
+      "beta": 0.5135620000000001
+    },
+    {
+      "step": 19186,
+      "episode": 19185,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19184,
+      "beta": 0.513568
+    },
+    {
+      "step": 19187,
+      "episode": 19186,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19185,
+      "beta": 0.513574
+    },
+    {
+      "step": 19188,
+      "episode": 19187,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19186,
+      "beta": 0.51358
+    },
+    {
+      "step": 19189,
+      "episode": 19188,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19187,
+      "beta": 0.513586
+    },
+    {
+      "step": 19190,
+      "episode": 19189,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19188,
+      "beta": 0.513592
+    },
+    {
+      "step": 19191,
+      "episode": 19190,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19189,
+      "beta": 0.513598
+    },
+    {
+      "step": 19192,
+      "episode": 19191,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19190,
+      "beta": 0.5136040000000001
+    },
+    {
+      "step": 19193,
+      "episode": 19192,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19191,
+      "beta": 0.51361
+    },
+    {
+      "step": 19194,
+      "episode": 19193,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19192,
+      "beta": 0.5136160000000001
+    },
+    {
+      "step": 19195,
+      "episode": 19194,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19193,
+      "beta": 0.513622
+    },
+    {
+      "step": 19196,
+      "episode": 19195,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19194,
+      "beta": 0.513628
+    },
+    {
+      "step": 19197,
+      "episode": 19196,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19195,
+      "beta": 0.513634
+    },
+    {
+      "step": 19198,
+      "episode": 19197,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19196,
+      "beta": 0.51364
+    },
+    {
+      "step": 19199,
+      "episode": 19198,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19197,
+      "beta": 0.513646
+    },
+    {
+      "step": 19200,
+      "episode": 19199,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19198,
+      "beta": 0.513652
+    },
+    {
+      "step": 19201,
+      "episode": 19200,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19199,
+      "beta": 0.513658
+    },
+    {
+      "step": 19202,
+      "episode": 19201,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19200,
+      "beta": 0.513664
+    },
+    {
+      "step": 19203,
+      "episode": 19202,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19201,
+      "beta": 0.5136700000000001
+    },
+    {
+      "step": 19204,
+      "episode": 19203,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19202,
+      "beta": 0.513676
+    },
+    {
+      "step": 19205,
+      "episode": 19204,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19203,
+      "beta": 0.513682
+    },
+    {
+      "step": 19206,
+      "episode": 19205,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19204,
+      "beta": 0.513688
+    },
+    {
+      "step": 19207,
+      "episode": 19206,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19205,
+      "beta": 0.513694
+    },
+    {
+      "step": 19208,
+      "episode": 19207,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19206,
+      "beta": 0.5137
+    },
+    {
+      "step": 19209,
+      "episode": 19208,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19207,
+      "beta": 0.513706
+    },
+    {
+      "step": 19210,
+      "episode": 19209,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19208,
+      "beta": 0.5137120000000001
+    },
+    {
+      "step": 19211,
+      "episode": 19210,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19209,
+      "beta": 0.513718
+    },
+    {
+      "step": 19212,
+      "episode": 19211,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19210,
+      "beta": 0.5137240000000001
+    },
+    {
+      "step": 19213,
+      "episode": 19212,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19211,
+      "beta": 0.51373
+    },
+    {
+      "step": 19214,
+      "episode": 19213,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19212,
+      "beta": 0.513736
+    },
+    {
+      "step": 19215,
+      "episode": 19214,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19213,
+      "beta": 0.513742
+    },
+    {
+      "step": 19216,
+      "episode": 19215,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19214,
+      "beta": 0.513748
+    },
+    {
+      "step": 19217,
+      "episode": 19216,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19215,
+      "beta": 0.513754
+    },
+    {
+      "step": 19218,
+      "episode": 19217,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19216,
+      "beta": 0.51376
+    },
+    {
+      "step": 19219,
+      "episode": 19218,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19217,
+      "beta": 0.5137660000000001
+    },
+    {
+      "step": 19220,
+      "episode": 19219,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19218,
+      "beta": 0.513772
+    },
+    {
+      "step": 19221,
+      "episode": 19220,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19219,
+      "beta": 0.5137780000000001
+    },
+    {
+      "step": 19222,
+      "episode": 19221,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19220,
+      "beta": 0.513784
+    },
+    {
+      "step": 19223,
+      "episode": 19222,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19221,
+      "beta": 0.51379
+    },
+    {
+      "step": 19224,
+      "episode": 19223,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19222,
+      "beta": 0.513796
+    },
+    {
+      "step": 19225,
+      "episode": 19224,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19223,
+      "beta": 0.513802
+    },
+    {
+      "step": 19226,
+      "episode": 19225,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19224,
+      "beta": 0.513808
+    },
+    {
+      "step": 19227,
+      "episode": 19226,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19225,
+      "beta": 0.513814
+    },
+    {
+      "step": 19228,
+      "episode": 19227,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19226,
+      "beta": 0.51382
+    },
+    {
+      "step": 19229,
+      "episode": 19228,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19227,
+      "beta": 0.513826
+    },
+    {
+      "step": 19230,
+      "episode": 19229,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19228,
+      "beta": 0.5138320000000001
+    },
+    {
+      "step": 19231,
+      "episode": 19230,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19229,
+      "beta": 0.513838
+    },
+    {
+      "step": 19232,
+      "episode": 19231,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19230,
+      "beta": 0.513844
+    },
+    {
+      "step": 19233,
+      "episode": 19232,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19231,
+      "beta": 0.51385
+    },
+    {
+      "step": 19234,
+      "episode": 19233,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19232,
+      "beta": 0.513856
+    },
+    {
+      "step": 19235,
+      "episode": 19234,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19233,
+      "beta": 0.513862
+    },
+    {
+      "step": 19236,
+      "episode": 19235,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19234,
+      "beta": 0.513868
+    },
+    {
+      "step": 19237,
+      "episode": 19236,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19235,
+      "beta": 0.513874
+    },
+    {
+      "step": 19238,
+      "episode": 19237,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19236,
+      "beta": 0.51388
+    },
+    {
+      "step": 19239,
+      "episode": 19238,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19237,
+      "beta": 0.5138860000000001
+    },
+    {
+      "step": 19240,
+      "episode": 19239,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19238,
+      "beta": 0.513892
+    },
+    {
+      "step": 19241,
+      "episode": 19240,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19239,
+      "beta": 0.513898
+    },
+    {
+      "step": 19242,
+      "episode": 19241,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19240,
+      "beta": 0.513904
+    },
+    {
+      "step": 19243,
+      "episode": 19242,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19241,
+      "beta": 0.51391
+    },
+    {
+      "step": 19244,
+      "episode": 19243,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19242,
+      "beta": 0.513916
+    },
+    {
+      "step": 19245,
+      "episode": 19244,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19243,
+      "beta": 0.513922
+    },
+    {
+      "step": 19246,
+      "episode": 19245,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19244,
+      "beta": 0.513928
+    },
+    {
+      "step": 19247,
+      "episode": 19246,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19245,
+      "beta": 0.513934
+    },
+    {
+      "step": 19248,
+      "episode": 19247,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19246,
+      "beta": 0.5139400000000001
+    },
+    {
+      "step": 19249,
+      "episode": 19248,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19247,
+      "beta": 0.513946
+    },
+    {
+      "step": 19250,
+      "episode": 19249,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19248,
+      "beta": 0.513952
+    },
+    {
+      "step": 19251,
+      "episode": 19250,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19249,
+      "beta": 0.513958
+    },
+    {
+      "step": 19252,
+      "episode": 19251,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19250,
+      "beta": 0.513964
+    },
+    {
+      "step": 19253,
+      "episode": 19252,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19251,
+      "beta": 0.51397
+    },
+    {
+      "step": 19254,
+      "episode": 19253,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19252,
+      "beta": 0.513976
+    },
+    {
+      "step": 19255,
+      "episode": 19254,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19253,
+      "beta": 0.513982
+    },
+    {
+      "step": 19256,
+      "episode": 19255,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19254,
+      "beta": 0.513988
+    },
+    {
+      "step": 19257,
+      "episode": 19256,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19255,
+      "beta": 0.5139940000000001
+    },
+    {
+      "step": 19258,
+      "episode": 19257,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19256,
+      "beta": 0.514
+    },
+    {
+      "step": 19259,
+      "episode": 19258,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19257,
+      "beta": 0.514006
+    },
+    {
+      "step": 19260,
+      "episode": 19259,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19258,
+      "beta": 0.514012
+    },
+    {
+      "step": 19261,
+      "episode": 19260,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19259,
+      "beta": 0.514018
+    },
+    {
+      "step": 19262,
+      "episode": 19261,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19260,
+      "beta": 0.514024
+    },
+    {
+      "step": 19263,
+      "episode": 19262,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19261,
+      "beta": 0.51403
+    },
+    {
+      "step": 19264,
+      "episode": 19263,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19262,
+      "beta": 0.514036
+    },
+    {
+      "step": 19265,
+      "episode": 19264,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19263,
+      "beta": 0.514042
+    },
+    {
+      "step": 19266,
+      "episode": 19265,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19264,
+      "beta": 0.5140480000000001
+    },
+    {
+      "step": 19267,
+      "episode": 19266,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19265,
+      "beta": 0.514054
+    },
+    {
+      "step": 19268,
+      "episode": 19267,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19266,
+      "beta": 0.51406
+    },
+    {
+      "step": 19269,
+      "episode": 19268,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19267,
+      "beta": 0.514066
+    },
+    {
+      "step": 19270,
+      "episode": 19269,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19268,
+      "beta": 0.5140720000000001
+    },
+    {
+      "step": 19271,
+      "episode": 19270,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19269,
+      "beta": 0.514078
+    },
+    {
+      "step": 19272,
+      "episode": 19271,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19270,
+      "beta": 0.514084
+    },
+    {
+      "step": 19273,
+      "episode": 19272,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19271,
+      "beta": 0.51409
+    },
+    {
+      "step": 19274,
+      "episode": 19273,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19272,
+      "beta": 0.514096
+    },
+    {
+      "step": 19275,
+      "episode": 19274,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19273,
+      "beta": 0.5141020000000001
+    },
+    {
+      "step": 19276,
+      "episode": 19275,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19274,
+      "beta": 0.514108
+    },
+    {
+      "step": 19277,
+      "episode": 19276,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19275,
+      "beta": 0.514114
+    },
+    {
+      "step": 19278,
+      "episode": 19277,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19276,
+      "beta": 0.51412
+    },
+    {
+      "step": 19279,
+      "episode": 19278,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19277,
+      "beta": 0.514126
+    },
+    {
+      "step": 19280,
+      "episode": 19279,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19278,
+      "beta": 0.514132
+    },
+    {
+      "step": 19281,
+      "episode": 19280,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19279,
+      "beta": 0.514138
+    },
+    {
+      "step": 19282,
+      "episode": 19281,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19280,
+      "beta": 0.514144
+    },
+    {
+      "step": 19283,
+      "episode": 19282,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19281,
+      "beta": 0.51415
+    },
+    {
+      "step": 19284,
+      "episode": 19283,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19282,
+      "beta": 0.5141560000000001
+    },
+    {
+      "step": 19285,
+      "episode": 19284,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19283,
+      "beta": 0.514162
+    },
+    {
+      "step": 19286,
+      "episode": 19285,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19284,
+      "beta": 0.514168
+    },
+    {
+      "step": 19287,
+      "episode": 19286,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19285,
+      "beta": 0.514174
+    },
+    {
+      "step": 19288,
+      "episode": 19287,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19286,
+      "beta": 0.51418
+    },
+    {
+      "step": 19289,
+      "episode": 19288,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19287,
+      "beta": 0.514186
+    },
+    {
+      "step": 19290,
+      "episode": 19289,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19288,
+      "beta": 0.514192
+    },
+    {
+      "step": 19291,
+      "episode": 19290,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19289,
+      "beta": 0.514198
+    },
+    {
+      "step": 19292,
+      "episode": 19291,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19290,
+      "beta": 0.514204
+    },
+    {
+      "step": 19293,
+      "episode": 19292,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19291,
+      "beta": 0.5142100000000001
+    },
+    {
+      "step": 19294,
+      "episode": 19293,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19292,
+      "beta": 0.514216
+    },
+    {
+      "step": 19295,
+      "episode": 19294,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19293,
+      "beta": 0.5142220000000001
+    },
+    {
+      "step": 19296,
+      "episode": 19295,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19294,
+      "beta": 0.514228
+    },
+    {
+      "step": 19297,
+      "episode": 19296,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19295,
+      "beta": 0.5142340000000001
+    },
+    {
+      "step": 19298,
+      "episode": 19297,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19296,
+      "beta": 0.51424
+    },
+    {
+      "step": 19299,
+      "episode": 19298,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19297,
+      "beta": 0.514246
+    },
+    {
+      "step": 19300,
+      "episode": 19299,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19298,
+      "beta": 0.514252
+    },
+    {
+      "step": 19301,
+      "episode": 19300,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19299,
+      "beta": 0.514258
+    },
+    {
+      "step": 19302,
+      "episode": 19301,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19300,
+      "beta": 0.514264
+    },
+    {
+      "step": 19303,
+      "episode": 19302,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19301,
+      "beta": 0.51427
+    },
+    {
+      "step": 19304,
+      "episode": 19303,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19302,
+      "beta": 0.514276
+    },
+    {
+      "step": 19305,
+      "episode": 19304,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19303,
+      "beta": 0.514282
+    },
+    {
+      "step": 19306,
+      "episode": 19305,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19304,
+      "beta": 0.5142880000000001
+    },
+    {
+      "step": 19307,
+      "episode": 19306,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19305,
+      "beta": 0.514294
+    },
+    {
+      "step": 19308,
+      "episode": 19307,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19306,
+      "beta": 0.5143
+    },
+    {
+      "step": 19309,
+      "episode": 19308,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19307,
+      "beta": 0.514306
+    },
+    {
+      "step": 19310,
+      "episode": 19309,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19308,
+      "beta": 0.514312
+    },
+    {
+      "step": 19311,
+      "episode": 19310,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19309,
+      "beta": 0.514318
+    },
+    {
+      "step": 19312,
+      "episode": 19311,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19310,
+      "beta": 0.514324
+    },
+    {
+      "step": 19313,
+      "episode": 19312,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19311,
+      "beta": 0.51433
+    },
+    {
+      "step": 19314,
+      "episode": 19313,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19312,
+      "beta": 0.514336
+    },
+    {
+      "step": 19315,
+      "episode": 19314,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19313,
+      "beta": 0.514342
+    },
+    {
+      "step": 19316,
+      "episode": 19315,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19314,
+      "beta": 0.514348
+    },
+    {
+      "step": 19317,
+      "episode": 19316,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19315,
+      "beta": 0.514354
+    },
+    {
+      "step": 19318,
+      "episode": 19317,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19316,
+      "beta": 0.51436
+    },
+    {
+      "step": 19319,
+      "episode": 19318,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19317,
+      "beta": 0.514366
+    },
+    {
+      "step": 19320,
+      "episode": 19319,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19318,
+      "beta": 0.514372
+    },
+    {
+      "step": 19321,
+      "episode": 19320,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19319,
+      "beta": 0.514378
+    },
+    {
+      "step": 19322,
+      "episode": 19321,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19320,
+      "beta": 0.5143840000000001
+    },
+    {
+      "step": 19323,
+      "episode": 19322,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19321,
+      "beta": 0.51439
+    },
+    {
+      "step": 19324,
+      "episode": 19323,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19322,
+      "beta": 0.5143960000000001
+    },
+    {
+      "step": 19325,
+      "episode": 19324,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19323,
+      "beta": 0.514402
+    },
+    {
+      "step": 19326,
+      "episode": 19325,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19324,
+      "beta": 0.514408
+    },
+    {
+      "step": 19327,
+      "episode": 19326,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19325,
+      "beta": 0.514414
+    },
+    {
+      "step": 19328,
+      "episode": 19327,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19326,
+      "beta": 0.51442
+    },
+    {
+      "step": 19329,
+      "episode": 19328,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19327,
+      "beta": 0.514426
+    },
+    {
+      "step": 19330,
+      "episode": 19329,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19328,
+      "beta": 0.514432
+    },
+    {
+      "step": 19331,
+      "episode": 19330,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19329,
+      "beta": 0.5144380000000001
+    },
+    {
+      "step": 19332,
+      "episode": 19331,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19330,
+      "beta": 0.514444
+    },
+    {
+      "step": 19333,
+      "episode": 19332,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19331,
+      "beta": 0.5144500000000001
+    },
+    {
+      "step": 19334,
+      "episode": 19333,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19332,
+      "beta": 0.514456
+    },
+    {
+      "step": 19335,
+      "episode": 19334,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19333,
+      "beta": 0.514462
+    },
+    {
+      "step": 19336,
+      "episode": 19335,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19334,
+      "beta": 0.514468
+    },
+    {
+      "step": 19337,
+      "episode": 19336,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19335,
+      "beta": 0.514474
+    },
+    {
+      "step": 19338,
+      "episode": 19337,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19336,
+      "beta": 0.51448
+    },
+    {
+      "step": 19339,
+      "episode": 19338,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19337,
+      "beta": 0.514486
+    },
+    {
+      "step": 19340,
+      "episode": 19339,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19338,
+      "beta": 0.514492
+    },
+    {
+      "step": 19341,
+      "episode": 19340,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19339,
+      "beta": 0.514498
+    },
+    {
+      "step": 19342,
+      "episode": 19341,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19340,
+      "beta": 0.5145040000000001
+    },
+    {
+      "step": 19343,
+      "episode": 19342,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19341,
+      "beta": 0.51451
+    },
+    {
+      "step": 19344,
+      "episode": 19343,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19342,
+      "beta": 0.514516
+    },
+    {
+      "step": 19345,
+      "episode": 19344,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19343,
+      "beta": 0.514522
+    },
+    {
+      "step": 19346,
+      "episode": 19345,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19344,
+      "beta": 0.514528
+    },
+    {
+      "step": 19347,
+      "episode": 19346,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19345,
+      "beta": 0.514534
+    },
+    {
+      "step": 19348,
+      "episode": 19347,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19346,
+      "beta": 0.51454
+    },
+    {
+      "step": 19349,
+      "episode": 19348,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19347,
+      "beta": 0.5145460000000001
+    },
+    {
+      "step": 19350,
+      "episode": 19349,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19348,
+      "beta": 0.514552
+    },
+    {
+      "step": 19351,
+      "episode": 19350,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19349,
+      "beta": 0.5145580000000001
+    },
+    {
+      "step": 19352,
+      "episode": 19351,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19350,
+      "beta": 0.514564
+    },
+    {
+      "step": 19353,
+      "episode": 19352,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19351,
+      "beta": 0.51457
+    },
+    {
+      "step": 19354,
+      "episode": 19353,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19352,
+      "beta": 0.514576
+    },
+    {
+      "step": 19355,
+      "episode": 19354,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19353,
+      "beta": 0.514582
+    },
+    {
+      "step": 19356,
+      "episode": 19355,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19354,
+      "beta": 0.514588
+    },
+    {
+      "step": 19357,
+      "episode": 19356,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19355,
+      "beta": 0.514594
+    },
+    {
+      "step": 19358,
+      "episode": 19357,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19356,
+      "beta": 0.5146000000000001
+    },
+    {
+      "step": 19359,
+      "episode": 19358,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19357,
+      "beta": 0.514606
+    },
+    {
+      "step": 19360,
+      "episode": 19359,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19358,
+      "beta": 0.5146120000000001
+    },
+    {
+      "step": 19361,
+      "episode": 19360,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19359,
+      "beta": 0.514618
+    },
+    {
+      "step": 19362,
+      "episode": 19361,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19360,
+      "beta": 0.514624
+    },
+    {
+      "step": 19363,
+      "episode": 19362,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19361,
+      "beta": 0.51463
+    },
+    {
+      "step": 19364,
+      "episode": 19363,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19362,
+      "beta": 0.514636
+    },
+    {
+      "step": 19365,
+      "episode": 19364,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19363,
+      "beta": 0.514642
+    },
+    {
+      "step": 19366,
+      "episode": 19365,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19364,
+      "beta": 0.514648
+    },
+    {
+      "step": 19367,
+      "episode": 19366,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19365,
+      "beta": 0.5146540000000001
+    },
+    {
+      "step": 19368,
+      "episode": 19367,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19366,
+      "beta": 0.51466
+    },
+    {
+      "step": 19369,
+      "episode": 19368,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19367,
+      "beta": 0.5146660000000001
+    },
+    {
+      "step": 19370,
+      "episode": 19369,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19368,
+      "beta": 0.514672
+    },
+    {
+      "step": 19371,
+      "episode": 19370,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19369,
+      "beta": 0.514678
+    },
+    {
+      "step": 19372,
+      "episode": 19371,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19370,
+      "beta": 0.514684
+    },
+    {
+      "step": 19373,
+      "episode": 19372,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19371,
+      "beta": 0.51469
+    },
+    {
+      "step": 19374,
+      "episode": 19373,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19372,
+      "beta": 0.514696
+    },
+    {
+      "step": 19375,
+      "episode": 19374,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19373,
+      "beta": 0.514702
+    },
+    {
+      "step": 19376,
+      "episode": 19375,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19374,
+      "beta": 0.514708
+    },
+    {
+      "step": 19377,
+      "episode": 19376,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19375,
+      "beta": 0.514714
+    },
+    {
+      "step": 19378,
+      "episode": 19377,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19376,
+      "beta": 0.5147200000000001
+    },
+    {
+      "step": 19379,
+      "episode": 19378,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19377,
+      "beta": 0.514726
+    },
+    {
+      "step": 19380,
+      "episode": 19379,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19378,
+      "beta": 0.514732
+    },
+    {
+      "step": 19381,
+      "episode": 19380,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19379,
+      "beta": 0.514738
+    },
+    {
+      "step": 19382,
+      "episode": 19381,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19380,
+      "beta": 0.514744
+    },
+    {
+      "step": 19383,
+      "episode": 19382,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19381,
+      "beta": 0.51475
+    },
+    {
+      "step": 19384,
+      "episode": 19383,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19382,
+      "beta": 0.514756
+    },
+    {
+      "step": 19385,
+      "episode": 19384,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19383,
+      "beta": 0.514762
+    },
+    {
+      "step": 19386,
+      "episode": 19385,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19384,
+      "beta": 0.514768
+    },
+    {
+      "step": 19387,
+      "episode": 19386,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19385,
+      "beta": 0.5147740000000001
+    },
+    {
+      "step": 19388,
+      "episode": 19387,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19386,
+      "beta": 0.51478
+    },
+    {
+      "step": 19389,
+      "episode": 19388,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19387,
+      "beta": 0.514786
+    },
+    {
+      "step": 19390,
+      "episode": 19389,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19388,
+      "beta": 0.514792
+    },
+    {
+      "step": 19391,
+      "episode": 19390,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19389,
+      "beta": 0.514798
+    },
+    {
+      "step": 19392,
+      "episode": 19391,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19390,
+      "beta": 0.514804
+    },
+    {
+      "step": 19393,
+      "episode": 19392,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19391,
+      "beta": 0.51481
+    },
+    {
+      "step": 19394,
+      "episode": 19393,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19392,
+      "beta": 0.514816
+    },
+    {
+      "step": 19395,
+      "episode": 19394,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19393,
+      "beta": 0.514822
+    },
+    {
+      "step": 19396,
+      "episode": 19395,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19394,
+      "beta": 0.5148280000000001
+    },
+    {
+      "step": 19397,
+      "episode": 19396,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19395,
+      "beta": 0.514834
+    },
+    {
+      "step": 19398,
+      "episode": 19397,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19396,
+      "beta": 0.51484
+    },
+    {
+      "step": 19399,
+      "episode": 19398,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19397,
+      "beta": 0.514846
+    },
+    {
+      "step": 19400,
+      "episode": 19399,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19398,
+      "beta": 0.514852
+    },
+    {
+      "step": 19401,
+      "episode": 19400,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19399,
+      "beta": 0.514858
+    },
+    {
+      "step": 19402,
+      "episode": 19401,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19400,
+      "beta": 0.514864
+    },
+    {
+      "step": 19403,
+      "episode": 19402,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19401,
+      "beta": 0.51487
+    },
+    {
+      "step": 19404,
+      "episode": 19403,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19402,
+      "beta": 0.514876
+    },
+    {
+      "step": 19405,
+      "episode": 19404,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19403,
+      "beta": 0.5148820000000001
+    },
+    {
+      "step": 19406,
+      "episode": 19405,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19404,
+      "beta": 0.514888
+    },
+    {
+      "step": 19407,
+      "episode": 19406,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19405,
+      "beta": 0.514894
+    },
+    {
+      "step": 19408,
+      "episode": 19407,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19406,
+      "beta": 0.5149
+    },
+    {
+      "step": 19409,
+      "episode": 19408,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19407,
+      "beta": 0.5149060000000001
+    },
+    {
+      "step": 19410,
+      "episode": 19409,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19408,
+      "beta": 0.514912
+    },
+    {
+      "step": 19411,
+      "episode": 19410,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19409,
+      "beta": 0.514918
+    },
+    {
+      "step": 19412,
+      "episode": 19411,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19410,
+      "beta": 0.514924
+    },
+    {
+      "step": 19413,
+      "episode": 19412,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19411,
+      "beta": 0.51493
+    },
+    {
+      "step": 19414,
+      "episode": 19413,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19412,
+      "beta": 0.5149360000000001
+    },
+    {
+      "step": 19415,
+      "episode": 19414,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19413,
+      "beta": 0.514942
+    },
+    {
+      "step": 19416,
+      "episode": 19415,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19414,
+      "beta": 0.514948
+    },
+    {
+      "step": 19417,
+      "episode": 19416,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19415,
+      "beta": 0.514954
+    },
+    {
+      "step": 19418,
+      "episode": 19417,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19416,
+      "beta": 0.51496
+    },
+    {
+      "step": 19419,
+      "episode": 19418,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19417,
+      "beta": 0.514966
+    },
+    {
+      "step": 19420,
+      "episode": 19419,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19418,
+      "beta": 0.514972
+    },
+    {
+      "step": 19421,
+      "episode": 19420,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19419,
+      "beta": 0.514978
+    },
+    {
+      "step": 19422,
+      "episode": 19421,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19420,
+      "beta": 0.514984
+    },
+    {
+      "step": 19423,
+      "episode": 19422,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19421,
+      "beta": 0.5149900000000001
+    },
+    {
+      "step": 19424,
+      "episode": 19423,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19422,
+      "beta": 0.514996
+    },
+    {
+      "step": 19425,
+      "episode": 19424,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19423,
+      "beta": 0.515002
+    },
+    {
+      "step": 19426,
+      "episode": 19425,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19424,
+      "beta": 0.515008
+    },
+    {
+      "step": 19427,
+      "episode": 19426,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19425,
+      "beta": 0.515014
+    },
+    {
+      "step": 19428,
+      "episode": 19427,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19426,
+      "beta": 0.51502
+    },
+    {
+      "step": 19429,
+      "episode": 19428,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19427,
+      "beta": 0.515026
+    },
+    {
+      "step": 19430,
+      "episode": 19429,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19428,
+      "beta": 0.515032
+    },
+    {
+      "step": 19431,
+      "episode": 19430,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19429,
+      "beta": 0.515038
+    },
+    {
+      "step": 19432,
+      "episode": 19431,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19430,
+      "beta": 0.5150440000000001
+    },
+    {
+      "step": 19433,
+      "episode": 19432,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19431,
+      "beta": 0.51505
+    },
+    {
+      "step": 19434,
+      "episode": 19433,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19432,
+      "beta": 0.5150560000000001
+    },
+    {
+      "step": 19435,
+      "episode": 19434,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19433,
+      "beta": 0.515062
+    },
+    {
+      "step": 19436,
+      "episode": 19435,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19434,
+      "beta": 0.5150680000000001
+    },
+    {
+      "step": 19437,
+      "episode": 19436,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19435,
+      "beta": 0.515074
+    },
+    {
+      "step": 19438,
+      "episode": 19437,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19436,
+      "beta": 0.51508
+    },
+    {
+      "step": 19439,
+      "episode": 19438,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19437,
+      "beta": 0.515086
+    },
+    {
+      "step": 19440,
+      "episode": 19439,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19438,
+      "beta": 0.515092
+    },
+    {
+      "step": 19441,
+      "episode": 19440,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19439,
+      "beta": 0.5150980000000001
+    },
+    {
+      "step": 19442,
+      "episode": 19441,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19440,
+      "beta": 0.515104
+    },
+    {
+      "step": 19443,
+      "episode": 19442,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19441,
+      "beta": 0.51511
+    },
+    {
+      "step": 19444,
+      "episode": 19443,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19442,
+      "beta": 0.515116
+    },
+    {
+      "step": 19445,
+      "episode": 19444,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19443,
+      "beta": 0.5151220000000001
+    },
+    {
+      "step": 19446,
+      "episode": 19445,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19444,
+      "beta": 0.515128
+    },
+    {
+      "step": 19447,
+      "episode": 19446,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19445,
+      "beta": 0.515134
+    },
+    {
+      "step": 19448,
+      "episode": 19447,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19446,
+      "beta": 0.51514
+    },
+    {
+      "step": 19449,
+      "episode": 19448,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19447,
+      "beta": 0.515146
+    },
+    {
+      "step": 19450,
+      "episode": 19449,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19448,
+      "beta": 0.515152
+    },
+    {
+      "step": 19451,
+      "episode": 19450,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19449,
+      "beta": 0.515158
+    },
+    {
+      "step": 19452,
+      "episode": 19451,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19450,
+      "beta": 0.515164
+    },
+    {
+      "step": 19453,
+      "episode": 19452,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19451,
+      "beta": 0.51517
+    },
+    {
+      "step": 19454,
+      "episode": 19453,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19452,
+      "beta": 0.515176
+    },
+    {
+      "step": 19455,
+      "episode": 19454,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19453,
+      "beta": 0.515182
+    },
+    {
+      "step": 19456,
+      "episode": 19455,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19454,
+      "beta": 0.515188
+    },
+    {
+      "step": 19457,
+      "episode": 19456,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19455,
+      "beta": 0.515194
+    },
+    {
+      "step": 19458,
+      "episode": 19457,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19456,
+      "beta": 0.5152
+    },
+    {
+      "step": 19459,
+      "episode": 19458,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19457,
+      "beta": 0.515206
+    },
+    {
+      "step": 19460,
+      "episode": 19459,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19458,
+      "beta": 0.515212
+    },
+    {
+      "step": 19461,
+      "episode": 19460,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19459,
+      "beta": 0.5152180000000001
+    },
+    {
+      "step": 19462,
+      "episode": 19461,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19460,
+      "beta": 0.515224
+    },
+    {
+      "step": 19463,
+      "episode": 19462,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19461,
+      "beta": 0.5152300000000001
+    },
+    {
+      "step": 19464,
+      "episode": 19463,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19462,
+      "beta": 0.515236
+    },
+    {
+      "step": 19465,
+      "episode": 19464,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19463,
+      "beta": 0.515242
+    },
+    {
+      "step": 19466,
+      "episode": 19465,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19464,
+      "beta": 0.515248
+    },
+    {
+      "step": 19467,
+      "episode": 19466,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19465,
+      "beta": 0.515254
+    },
+    {
+      "step": 19468,
+      "episode": 19467,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19466,
+      "beta": 0.51526
+    },
+    {
+      "step": 19469,
+      "episode": 19468,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19467,
+      "beta": 0.515266
+    },
+    {
+      "step": 19470,
+      "episode": 19469,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19468,
+      "beta": 0.5152720000000001
+    },
+    {
+      "step": 19471,
+      "episode": 19470,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19469,
+      "beta": 0.515278
+    },
+    {
+      "step": 19472,
+      "episode": 19471,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19470,
+      "beta": 0.5152840000000001
+    },
+    {
+      "step": 19473,
+      "episode": 19472,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19471,
+      "beta": 0.51529
+    },
+    {
+      "step": 19474,
+      "episode": 19473,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19472,
+      "beta": 0.515296
+    },
+    {
+      "step": 19475,
+      "episode": 19474,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19473,
+      "beta": 0.515302
+    },
+    {
+      "step": 19476,
+      "episode": 19475,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19474,
+      "beta": 0.515308
+    },
+    {
+      "step": 19477,
+      "episode": 19476,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19475,
+      "beta": 0.515314
+    },
+    {
+      "step": 19478,
+      "episode": 19477,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19476,
+      "beta": 0.51532
+    },
+    {
+      "step": 19479,
+      "episode": 19478,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19477,
+      "beta": 0.515326
+    },
+    {
+      "step": 19480,
+      "episode": 19479,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19478,
+      "beta": 0.515332
+    },
+    {
+      "step": 19481,
+      "episode": 19480,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19479,
+      "beta": 0.5153380000000001
+    },
+    {
+      "step": 19482,
+      "episode": 19481,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19480,
+      "beta": 0.515344
+    },
+    {
+      "step": 19483,
+      "episode": 19482,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19481,
+      "beta": 0.51535
+    },
+    {
+      "step": 19484,
+      "episode": 19483,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19482,
+      "beta": 0.515356
+    },
+    {
+      "step": 19485,
+      "episode": 19484,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19483,
+      "beta": 0.515362
+    },
+    {
+      "step": 19486,
+      "episode": 19485,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19484,
+      "beta": 0.515368
+    },
+    {
+      "step": 19487,
+      "episode": 19486,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19485,
+      "beta": 0.515374
+    },
+    {
+      "step": 19488,
+      "episode": 19487,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19486,
+      "beta": 0.5153800000000001
+    },
+    {
+      "step": 19489,
+      "episode": 19488,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19487,
+      "beta": 0.515386
+    },
+    {
+      "step": 19490,
+      "episode": 19489,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19488,
+      "beta": 0.5153920000000001
+    },
+    {
+      "step": 19491,
+      "episode": 19490,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19489,
+      "beta": 0.515398
+    },
+    {
+      "step": 19492,
+      "episode": 19491,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19490,
+      "beta": 0.515404
+    },
+    {
+      "step": 19493,
+      "episode": 19492,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19491,
+      "beta": 0.51541
+    },
+    {
+      "step": 19494,
+      "episode": 19493,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19492,
+      "beta": 0.515416
+    },
+    {
+      "step": 19495,
+      "episode": 19494,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19493,
+      "beta": 0.515422
+    },
+    {
+      "step": 19496,
+      "episode": 19495,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19494,
+      "beta": 0.515428
+    },
+    {
+      "step": 19497,
+      "episode": 19496,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19495,
+      "beta": 0.5154340000000001
+    },
+    {
+      "step": 19498,
+      "episode": 19497,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19496,
+      "beta": 0.51544
+    },
+    {
+      "step": 19499,
+      "episode": 19498,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19497,
+      "beta": 0.5154460000000001
+    },
+    {
+      "step": 19500,
+      "episode": 19499,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19498,
+      "beta": 0.515452
+    },
+    {
+      "step": 19501,
+      "episode": 19500,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19499,
+      "beta": 0.515458
+    },
+    {
+      "step": 19502,
+      "episode": 19501,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19500,
+      "beta": 0.515464
+    },
+    {
+      "step": 19503,
+      "episode": 19502,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19501,
+      "beta": 0.51547
+    },
+    {
+      "step": 19504,
+      "episode": 19503,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19502,
+      "beta": 0.515476
+    },
+    {
+      "step": 19505,
+      "episode": 19504,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19503,
+      "beta": 0.515482
+    },
+    {
+      "step": 19506,
+      "episode": 19505,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19504,
+      "beta": 0.5154880000000001
+    },
+    {
+      "step": 19507,
+      "episode": 19506,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19505,
+      "beta": 0.515494
+    },
+    {
+      "step": 19508,
+      "episode": 19507,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19506,
+      "beta": 0.5155000000000001
+    },
+    {
+      "step": 19509,
+      "episode": 19508,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19507,
+      "beta": 0.515506
+    },
+    {
+      "step": 19510,
+      "episode": 19509,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19508,
+      "beta": 0.515512
+    },
+    {
+      "step": 19511,
+      "episode": 19510,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19509,
+      "beta": 0.515518
+    },
+    {
+      "step": 19512,
+      "episode": 19511,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19510,
+      "beta": 0.515524
+    },
+    {
+      "step": 19513,
+      "episode": 19512,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19511,
+      "beta": 0.51553
+    },
+    {
+      "step": 19514,
+      "episode": 19513,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19512,
+      "beta": 0.515536
+    },
+    {
+      "step": 19515,
+      "episode": 19514,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19513,
+      "beta": 0.5155420000000001
+    },
+    {
+      "step": 19516,
+      "episode": 19515,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19514,
+      "beta": 0.515548
+    },
+    {
+      "step": 19517,
+      "episode": 19516,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19515,
+      "beta": 0.5155540000000001
+    },
+    {
+      "step": 19518,
+      "episode": 19517,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19516,
+      "beta": 0.51556
+    },
+    {
+      "step": 19519,
+      "episode": 19518,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19517,
+      "beta": 0.515566
+    },
+    {
+      "step": 19520,
+      "episode": 19519,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19518,
+      "beta": 0.515572
+    },
+    {
+      "step": 19521,
+      "episode": 19520,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19519,
+      "beta": 0.515578
+    },
+    {
+      "step": 19522,
+      "episode": 19521,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19520,
+      "beta": 0.515584
+    },
+    {
+      "step": 19523,
+      "episode": 19522,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19521,
+      "beta": 0.51559
+    },
+    {
+      "step": 19524,
+      "episode": 19523,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19522,
+      "beta": 0.515596
+    },
+    {
+      "step": 19525,
+      "episode": 19524,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19523,
+      "beta": 0.515602
+    },
+    {
+      "step": 19526,
+      "episode": 19525,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19524,
+      "beta": 0.5156080000000001
+    },
+    {
+      "step": 19527,
+      "episode": 19526,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19525,
+      "beta": 0.515614
+    },
+    {
+      "step": 19528,
+      "episode": 19527,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19526,
+      "beta": 0.51562
+    },
+    {
+      "step": 19529,
+      "episode": 19528,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19527,
+      "beta": 0.515626
+    },
+    {
+      "step": 19530,
+      "episode": 19529,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19528,
+      "beta": 0.515632
+    },
+    {
+      "step": 19531,
+      "episode": 19530,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19529,
+      "beta": 0.515638
+    },
+    {
+      "step": 19532,
+      "episode": 19531,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19530,
+      "beta": 0.515644
+    },
+    {
+      "step": 19533,
+      "episode": 19532,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19531,
+      "beta": 0.51565
+    },
+    {
+      "step": 19534,
+      "episode": 19533,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19532,
+      "beta": 0.515656
+    },
+    {
+      "step": 19535,
+      "episode": 19534,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19533,
+      "beta": 0.5156620000000001
+    },
+    {
+      "step": 19536,
+      "episode": 19535,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19534,
+      "beta": 0.515668
+    },
+    {
+      "step": 19537,
+      "episode": 19536,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19535,
+      "beta": 0.515674
+    },
+    {
+      "step": 19538,
+      "episode": 19537,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19536,
+      "beta": 0.51568
+    },
+    {
+      "step": 19539,
+      "episode": 19538,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19537,
+      "beta": 0.515686
+    },
+    {
+      "step": 19540,
+      "episode": 19539,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19538,
+      "beta": 0.515692
+    },
+    {
+      "step": 19541,
+      "episode": 19540,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19539,
+      "beta": 0.515698
+    },
+    {
+      "step": 19542,
+      "episode": 19541,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19540,
+      "beta": 0.515704
+    },
+    {
+      "step": 19543,
+      "episode": 19542,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19541,
+      "beta": 0.51571
+    },
+    {
+      "step": 19544,
+      "episode": 19543,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19542,
+      "beta": 0.5157160000000001
+    },
+    {
+      "step": 19545,
+      "episode": 19544,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19543,
+      "beta": 0.515722
+    },
+    {
+      "step": 19546,
+      "episode": 19545,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19544,
+      "beta": 0.515728
+    },
+    {
+      "step": 19547,
+      "episode": 19546,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19545,
+      "beta": 0.515734
+    },
+    {
+      "step": 19548,
+      "episode": 19547,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19546,
+      "beta": 0.51574
+    },
+    {
+      "step": 19549,
+      "episode": 19548,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19547,
+      "beta": 0.515746
+    },
+    {
+      "step": 19550,
+      "episode": 19549,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19548,
+      "beta": 0.515752
+    },
+    {
+      "step": 19551,
+      "episode": 19550,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19549,
+      "beta": 0.515758
+    },
+    {
+      "step": 19552,
+      "episode": 19551,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19550,
+      "beta": 0.515764
+    },
+    {
+      "step": 19553,
+      "episode": 19552,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19551,
+      "beta": 0.5157700000000001
+    },
+    {
+      "step": 19554,
+      "episode": 19553,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19552,
+      "beta": 0.515776
+    },
+    {
+      "step": 19555,
+      "episode": 19554,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19553,
+      "beta": 0.515782
+    },
+    {
+      "step": 19556,
+      "episode": 19555,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19554,
+      "beta": 0.515788
+    },
+    {
+      "step": 19557,
+      "episode": 19556,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19555,
+      "beta": 0.515794
+    },
+    {
+      "step": 19558,
+      "episode": 19557,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19556,
+      "beta": 0.5158
+    },
+    {
+      "step": 19559,
+      "episode": 19558,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19557,
+      "beta": 0.515806
+    },
+    {
+      "step": 19560,
+      "episode": 19559,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19558,
+      "beta": 0.515812
+    },
+    {
+      "step": 19561,
+      "episode": 19560,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19559,
+      "beta": 0.515818
+    },
+    {
+      "step": 19562,
+      "episode": 19561,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19560,
+      "beta": 0.5158240000000001
+    },
+    {
+      "step": 19563,
+      "episode": 19562,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19561,
+      "beta": 0.51583
+    },
+    {
+      "step": 19564,
+      "episode": 19563,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19562,
+      "beta": 0.515836
+    },
+    {
+      "step": 19565,
+      "episode": 19564,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19563,
+      "beta": 0.515842
+    },
+    {
+      "step": 19566,
+      "episode": 19565,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19564,
+      "beta": 0.515848
+    },
+    {
+      "step": 19567,
+      "episode": 19566,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19565,
+      "beta": 0.515854
+    },
+    {
+      "step": 19568,
+      "episode": 19567,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19566,
+      "beta": 0.51586
+    },
+    {
+      "step": 19569,
+      "episode": 19568,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19567,
+      "beta": 0.515866
+    },
+    {
+      "step": 19570,
+      "episode": 19569,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19568,
+      "beta": 0.515872
+    },
+    {
+      "step": 19571,
+      "episode": 19570,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19569,
+      "beta": 0.5158780000000001
+    },
+    {
+      "step": 19572,
+      "episode": 19571,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19570,
+      "beta": 0.515884
+    },
+    {
+      "step": 19573,
+      "episode": 19572,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19571,
+      "beta": 0.51589
+    },
+    {
+      "step": 19574,
+      "episode": 19573,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19572,
+      "beta": 0.515896
+    },
+    {
+      "step": 19575,
+      "episode": 19574,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19573,
+      "beta": 0.5159020000000001
+    },
+    {
+      "step": 19576,
+      "episode": 19575,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19574,
+      "beta": 0.515908
+    },
+    {
+      "step": 19577,
+      "episode": 19576,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19575,
+      "beta": 0.515914
+    },
+    {
+      "step": 19578,
+      "episode": 19577,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19576,
+      "beta": 0.51592
+    },
+    {
+      "step": 19579,
+      "episode": 19578,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19577,
+      "beta": 0.515926
+    },
+    {
+      "step": 19580,
+      "episode": 19579,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19578,
+      "beta": 0.5159320000000001
+    },
+    {
+      "step": 19581,
+      "episode": 19580,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19579,
+      "beta": 0.515938
+    },
+    {
+      "step": 19582,
+      "episode": 19581,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19580,
+      "beta": 0.515944
+    },
+    {
+      "step": 19583,
+      "episode": 19582,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19581,
+      "beta": 0.51595
+    },
+    {
+      "step": 19584,
+      "episode": 19583,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19582,
+      "beta": 0.515956
+    },
+    {
+      "step": 19585,
+      "episode": 19584,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19583,
+      "beta": 0.515962
+    },
+    {
+      "step": 19586,
+      "episode": 19585,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19584,
+      "beta": 0.515968
+    },
+    {
+      "step": 19587,
+      "episode": 19586,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19585,
+      "beta": 0.515974
+    },
+    {
+      "step": 19588,
+      "episode": 19587,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19586,
+      "beta": 0.51598
+    },
+    {
+      "step": 19589,
+      "episode": 19588,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19587,
+      "beta": 0.5159860000000001
+    },
+    {
+      "step": 19590,
+      "episode": 19589,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19588,
+      "beta": 0.515992
+    },
+    {
+      "step": 19591,
+      "episode": 19590,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19589,
+      "beta": 0.515998
+    },
+    {
+      "step": 19592,
+      "episode": 19591,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19590,
+      "beta": 0.516004
+    },
+    {
+      "step": 19593,
+      "episode": 19592,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19591,
+      "beta": 0.51601
+    },
+    {
+      "step": 19594,
+      "episode": 19593,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19592,
+      "beta": 0.516016
+    },
+    {
+      "step": 19595,
+      "episode": 19594,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19593,
+      "beta": 0.516022
+    },
+    {
+      "step": 19596,
+      "episode": 19595,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19594,
+      "beta": 0.516028
+    },
+    {
+      "step": 19597,
+      "episode": 19596,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19595,
+      "beta": 0.516034
+    },
+    {
+      "step": 19598,
+      "episode": 19597,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19596,
+      "beta": 0.51604
+    },
+    {
+      "step": 19599,
+      "episode": 19598,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19597,
+      "beta": 0.516046
+    },
+    {
+      "step": 19600,
+      "episode": 19599,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19598,
+      "beta": 0.5160520000000001
+    },
+    {
+      "step": 19601,
+      "episode": 19600,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19599,
+      "beta": 0.516058
+    },
+    {
+      "step": 19602,
+      "episode": 19601,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19600,
+      "beta": 0.5160640000000001
+    },
+    {
+      "step": 19603,
+      "episode": 19602,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19601,
+      "beta": 0.51607
+    },
+    {
+      "step": 19604,
+      "episode": 19603,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19602,
+      "beta": 0.516076
+    },
+    {
+      "step": 19605,
+      "episode": 19604,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19603,
+      "beta": 0.516082
+    },
+    {
+      "step": 19606,
+      "episode": 19605,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19604,
+      "beta": 0.516088
+    },
+    {
+      "step": 19607,
+      "episode": 19606,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19605,
+      "beta": 0.516094
+    },
+    {
+      "step": 19608,
+      "episode": 19607,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19606,
+      "beta": 0.5161
+    },
+    {
+      "step": 19609,
+      "episode": 19608,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19607,
+      "beta": 0.516106
+    },
+    {
+      "step": 19610,
+      "episode": 19609,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19608,
+      "beta": 0.516112
+    },
+    {
+      "step": 19611,
+      "episode": 19610,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19609,
+      "beta": 0.5161180000000001
+    },
+    {
+      "step": 19612,
+      "episode": 19611,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19610,
+      "beta": 0.516124
+    },
+    {
+      "step": 19613,
+      "episode": 19612,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19611,
+      "beta": 0.51613
+    },
+    {
+      "step": 19614,
+      "episode": 19613,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19612,
+      "beta": 0.516136
+    },
+    {
+      "step": 19615,
+      "episode": 19614,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19613,
+      "beta": 0.516142
+    },
+    {
+      "step": 19616,
+      "episode": 19615,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19614,
+      "beta": 0.516148
+    },
+    {
+      "step": 19617,
+      "episode": 19616,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19615,
+      "beta": 0.516154
+    },
+    {
+      "step": 19618,
+      "episode": 19617,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19616,
+      "beta": 0.51616
+    },
+    {
+      "step": 19619,
+      "episode": 19618,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19617,
+      "beta": 0.516166
+    },
+    {
+      "step": 19620,
+      "episode": 19619,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19618,
+      "beta": 0.516172
+    },
+    {
+      "step": 19621,
+      "episode": 19620,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19619,
+      "beta": 0.516178
+    },
+    {
+      "step": 19622,
+      "episode": 19621,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19620,
+      "beta": 0.516184
+    },
+    {
+      "step": 19623,
+      "episode": 19622,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19621,
+      "beta": 0.51619
+    },
+    {
+      "step": 19624,
+      "episode": 19623,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19622,
+      "beta": 0.516196
+    },
+    {
+      "step": 19625,
+      "episode": 19624,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19623,
+      "beta": 0.516202
+    },
+    {
+      "step": 19626,
+      "episode": 19625,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19624,
+      "beta": 0.516208
+    },
+    {
+      "step": 19627,
+      "episode": 19626,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19625,
+      "beta": 0.5162140000000001
+    },
+    {
+      "step": 19628,
+      "episode": 19627,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19626,
+      "beta": 0.51622
+    },
+    {
+      "step": 19629,
+      "episode": 19628,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19627,
+      "beta": 0.5162260000000001
+    },
+    {
+      "step": 19630,
+      "episode": 19629,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19628,
+      "beta": 0.516232
+    },
+    {
+      "step": 19631,
+      "episode": 19630,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19629,
+      "beta": 0.516238
+    },
+    {
+      "step": 19632,
+      "episode": 19631,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19630,
+      "beta": 0.516244
+    },
+    {
+      "step": 19633,
+      "episode": 19632,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19631,
+      "beta": 0.51625
+    },
+    {
+      "step": 19634,
+      "episode": 19633,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19632,
+      "beta": 0.516256
+    },
+    {
+      "step": 19635,
+      "episode": 19634,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19633,
+      "beta": 0.516262
+    },
+    {
+      "step": 19636,
+      "episode": 19635,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19634,
+      "beta": 0.5162680000000001
+    },
+    {
+      "step": 19637,
+      "episode": 19636,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19635,
+      "beta": 0.516274
+    },
+    {
+      "step": 19638,
+      "episode": 19637,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19636,
+      "beta": 0.5162800000000001
+    },
+    {
+      "step": 19639,
+      "episode": 19638,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19637,
+      "beta": 0.516286
+    },
+    {
+      "step": 19640,
+      "episode": 19639,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19638,
+      "beta": 0.516292
+    },
+    {
+      "step": 19641,
+      "episode": 19640,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19639,
+      "beta": 0.516298
+    },
+    {
+      "step": 19642,
+      "episode": 19641,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19640,
+      "beta": 0.516304
+    },
+    {
+      "step": 19643,
+      "episode": 19642,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19641,
+      "beta": 0.51631
+    },
+    {
+      "step": 19644,
+      "episode": 19643,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19642,
+      "beta": 0.516316
+    },
+    {
+      "step": 19645,
+      "episode": 19644,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19643,
+      "beta": 0.516322
+    },
+    {
+      "step": 19646,
+      "episode": 19645,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19644,
+      "beta": 0.516328
+    },
+    {
+      "step": 19647,
+      "episode": 19646,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19645,
+      "beta": 0.5163340000000001
+    },
+    {
+      "step": 19648,
+      "episode": 19647,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19646,
+      "beta": 0.51634
+    },
+    {
+      "step": 19649,
+      "episode": 19648,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19647,
+      "beta": 0.516346
+    },
+    {
+      "step": 19650,
+      "episode": 19649,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19648,
+      "beta": 0.516352
+    },
+    {
+      "step": 19651,
+      "episode": 19650,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19649,
+      "beta": 0.516358
+    },
+    {
+      "step": 19652,
+      "episode": 19651,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19650,
+      "beta": 0.516364
+    },
+    {
+      "step": 19653,
+      "episode": 19652,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19651,
+      "beta": 0.51637
+    },
+    {
+      "step": 19654,
+      "episode": 19653,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19652,
+      "beta": 0.5163760000000001
+    },
+    {
+      "step": 19655,
+      "episode": 19654,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19653,
+      "beta": 0.516382
+    },
+    {
+      "step": 19656,
+      "episode": 19655,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19654,
+      "beta": 0.5163880000000001
+    },
+    {
+      "step": 19657,
+      "episode": 19656,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19655,
+      "beta": 0.516394
+    },
+    {
+      "step": 19658,
+      "episode": 19657,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19656,
+      "beta": 0.5164
+    },
+    {
+      "step": 19659,
+      "episode": 19658,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19657,
+      "beta": 0.516406
+    },
+    {
+      "step": 19660,
+      "episode": 19659,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19658,
+      "beta": 0.516412
+    },
+    {
+      "step": 19661,
+      "episode": 19660,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19659,
+      "beta": 0.516418
+    },
+    {
+      "step": 19662,
+      "episode": 19661,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19660,
+      "beta": 0.516424
+    },
+    {
+      "step": 19663,
+      "episode": 19662,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19661,
+      "beta": 0.5164300000000001
+    },
+    {
+      "step": 19664,
+      "episode": 19663,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19662,
+      "beta": 0.516436
+    },
+    {
+      "step": 19665,
+      "episode": 19664,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19663,
+      "beta": 0.5164420000000001
+    },
+    {
+      "step": 19666,
+      "episode": 19665,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19664,
+      "beta": 0.516448
+    },
+    {
+      "step": 19667,
+      "episode": 19666,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19665,
+      "beta": 0.516454
+    },
+    {
+      "step": 19668,
+      "episode": 19667,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19666,
+      "beta": 0.51646
+    },
+    {
+      "step": 19669,
+      "episode": 19668,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19667,
+      "beta": 0.516466
+    },
+    {
+      "step": 19670,
+      "episode": 19669,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19668,
+      "beta": 0.516472
+    },
+    {
+      "step": 19671,
+      "episode": 19670,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19669,
+      "beta": 0.516478
+    },
+    {
+      "step": 19672,
+      "episode": 19671,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19670,
+      "beta": 0.516484
+    },
+    {
+      "step": 19673,
+      "episode": 19672,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19671,
+      "beta": 0.51649
+    },
+    {
+      "step": 19674,
+      "episode": 19673,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19672,
+      "beta": 0.5164960000000001
+    },
+    {
+      "step": 19675,
+      "episode": 19674,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19673,
+      "beta": 0.516502
+    },
+    {
+      "step": 19676,
+      "episode": 19675,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19674,
+      "beta": 0.516508
+    },
+    {
+      "step": 19677,
+      "episode": 19676,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19675,
+      "beta": 0.516514
+    },
+    {
+      "step": 19678,
+      "episode": 19677,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19676,
+      "beta": 0.51652
+    },
+    {
+      "step": 19679,
+      "episode": 19678,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19677,
+      "beta": 0.516526
+    },
+    {
+      "step": 19680,
+      "episode": 19679,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19678,
+      "beta": 0.516532
+    },
+    {
+      "step": 19681,
+      "episode": 19680,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19679,
+      "beta": 0.516538
+    },
+    {
+      "step": 19682,
+      "episode": 19681,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19680,
+      "beta": 0.516544
+    },
+    {
+      "step": 19683,
+      "episode": 19682,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19681,
+      "beta": 0.5165500000000001
+    },
+    {
+      "step": 19684,
+      "episode": 19683,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19682,
+      "beta": 0.516556
+    },
+    {
+      "step": 19685,
+      "episode": 19684,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19683,
+      "beta": 0.516562
+    },
+    {
+      "step": 19686,
+      "episode": 19685,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19684,
+      "beta": 0.516568
+    },
+    {
+      "step": 19687,
+      "episode": 19686,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19685,
+      "beta": 0.516574
+    },
+    {
+      "step": 19688,
+      "episode": 19687,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19686,
+      "beta": 0.51658
+    },
+    {
+      "step": 19689,
+      "episode": 19688,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19687,
+      "beta": 0.516586
+    },
+    {
+      "step": 19690,
+      "episode": 19689,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19688,
+      "beta": 0.516592
+    },
+    {
+      "step": 19691,
+      "episode": 19690,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19689,
+      "beta": 0.516598
+    },
+    {
+      "step": 19692,
+      "episode": 19691,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19690,
+      "beta": 0.5166040000000001
+    },
+    {
+      "step": 19693,
+      "episode": 19692,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19691,
+      "beta": 0.51661
+    },
+    {
+      "step": 19694,
+      "episode": 19693,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19692,
+      "beta": 0.516616
+    },
+    {
+      "step": 19695,
+      "episode": 19694,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19693,
+      "beta": 0.516622
+    },
+    {
+      "step": 19696,
+      "episode": 19695,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19694,
+      "beta": 0.516628
+    },
+    {
+      "step": 19697,
+      "episode": 19696,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19695,
+      "beta": 0.516634
+    },
+    {
+      "step": 19698,
+      "episode": 19697,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19696,
+      "beta": 0.51664
+    },
+    {
+      "step": 19699,
+      "episode": 19698,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19697,
+      "beta": 0.516646
+    },
+    {
+      "step": 19700,
+      "episode": 19699,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19698,
+      "beta": 0.516652
+    },
+    {
+      "step": 19701,
+      "episode": 19700,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19699,
+      "beta": 0.5166580000000001
+    },
+    {
+      "step": 19702,
+      "episode": 19701,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19700,
+      "beta": 0.516664
+    },
+    {
+      "step": 19703,
+      "episode": 19702,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19701,
+      "beta": 0.51667
+    },
+    {
+      "step": 19704,
+      "episode": 19703,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19702,
+      "beta": 0.516676
+    },
+    {
+      "step": 19705,
+      "episode": 19704,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19703,
+      "beta": 0.516682
+    },
+    {
+      "step": 19706,
+      "episode": 19705,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19704,
+      "beta": 0.516688
+    },
+    {
+      "step": 19707,
+      "episode": 19706,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19705,
+      "beta": 0.516694
+    },
+    {
+      "step": 19708,
+      "episode": 19707,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19706,
+      "beta": 0.5167
+    },
+    {
+      "step": 19709,
+      "episode": 19708,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19707,
+      "beta": 0.516706
+    },
+    {
+      "step": 19710,
+      "episode": 19709,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19708,
+      "beta": 0.5167120000000001
+    },
+    {
+      "step": 19711,
+      "episode": 19710,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19709,
+      "beta": 0.516718
+    },
+    {
+      "step": 19712,
+      "episode": 19711,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19710,
+      "beta": 0.516724
+    },
+    {
+      "step": 19713,
+      "episode": 19712,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19711,
+      "beta": 0.51673
+    },
+    {
+      "step": 19714,
+      "episode": 19713,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19712,
+      "beta": 0.5167360000000001
+    },
+    {
+      "step": 19715,
+      "episode": 19714,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19713,
+      "beta": 0.516742
+    },
+    {
+      "step": 19716,
+      "episode": 19715,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19714,
+      "beta": 0.516748
+    },
+    {
+      "step": 19717,
+      "episode": 19716,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19715,
+      "beta": 0.516754
+    },
+    {
+      "step": 19718,
+      "episode": 19717,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19716,
+      "beta": 0.51676
+    },
+    {
+      "step": 19719,
+      "episode": 19718,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19717,
+      "beta": 0.5167660000000001
+    },
+    {
+      "step": 19720,
+      "episode": 19719,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19718,
+      "beta": 0.516772
+    },
+    {
+      "step": 19721,
+      "episode": 19720,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19719,
+      "beta": 0.516778
+    },
+    {
+      "step": 19722,
+      "episode": 19721,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19720,
+      "beta": 0.516784
+    },
+    {
+      "step": 19723,
+      "episode": 19722,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19721,
+      "beta": 0.51679
+    },
+    {
+      "step": 19724,
+      "episode": 19723,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19722,
+      "beta": 0.516796
+    },
+    {
+      "step": 19725,
+      "episode": 19724,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19723,
+      "beta": 0.516802
+    },
+    {
+      "step": 19726,
+      "episode": 19725,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19724,
+      "beta": 0.516808
+    },
+    {
+      "step": 19727,
+      "episode": 19726,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19725,
+      "beta": 0.516814
+    },
+    {
+      "step": 19728,
+      "episode": 19727,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19726,
+      "beta": 0.5168200000000001
+    },
+    {
+      "step": 19729,
+      "episode": 19728,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19727,
+      "beta": 0.516826
+    },
+    {
+      "step": 19730,
+      "episode": 19729,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19728,
+      "beta": 0.516832
+    },
+    {
+      "step": 19731,
+      "episode": 19730,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19729,
+      "beta": 0.516838
+    },
+    {
+      "step": 19732,
+      "episode": 19731,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19730,
+      "beta": 0.516844
+    },
+    {
+      "step": 19733,
+      "episode": 19732,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19731,
+      "beta": 0.51685
+    },
+    {
+      "step": 19734,
+      "episode": 19733,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19732,
+      "beta": 0.516856
+    },
+    {
+      "step": 19735,
+      "episode": 19734,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19733,
+      "beta": 0.516862
+    },
+    {
+      "step": 19736,
+      "episode": 19735,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19734,
+      "beta": 0.516868
+    },
+    {
+      "step": 19737,
+      "episode": 19736,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19735,
+      "beta": 0.5168740000000001
+    },
+    {
+      "step": 19738,
+      "episode": 19737,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19736,
+      "beta": 0.51688
+    },
+    {
+      "step": 19739,
+      "episode": 19738,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19737,
+      "beta": 0.5168860000000001
+    },
+    {
+      "step": 19740,
+      "episode": 19739,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19738,
+      "beta": 0.516892
+    },
+    {
+      "step": 19741,
+      "episode": 19740,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19739,
+      "beta": 0.5168980000000001
+    },
+    {
+      "step": 19742,
+      "episode": 19741,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19740,
+      "beta": 0.516904
+    },
+    {
+      "step": 19743,
+      "episode": 19742,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19741,
+      "beta": 0.51691
+    },
+    {
+      "step": 19744,
+      "episode": 19743,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19742,
+      "beta": 0.516916
+    },
+    {
+      "step": 19745,
+      "episode": 19744,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19743,
+      "beta": 0.516922
+    },
+    {
+      "step": 19746,
+      "episode": 19745,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19744,
+      "beta": 0.516928
+    },
+    {
+      "step": 19747,
+      "episode": 19746,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19745,
+      "beta": 0.516934
+    },
+    {
+      "step": 19748,
+      "episode": 19747,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19746,
+      "beta": 0.51694
+    },
+    {
+      "step": 19749,
+      "episode": 19748,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19747,
+      "beta": 0.516946
+    },
+    {
+      "step": 19750,
+      "episode": 19749,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19748,
+      "beta": 0.5169520000000001
+    },
+    {
+      "step": 19751,
+      "episode": 19750,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19749,
+      "beta": 0.516958
+    },
+    {
+      "step": 19752,
+      "episode": 19751,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19750,
+      "beta": 0.516964
+    },
+    {
+      "step": 19753,
+      "episode": 19752,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19751,
+      "beta": 0.51697
+    },
+    {
+      "step": 19754,
+      "episode": 19753,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19752,
+      "beta": 0.516976
+    },
+    {
+      "step": 19755,
+      "episode": 19754,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19753,
+      "beta": 0.516982
+    },
+    {
+      "step": 19756,
+      "episode": 19755,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19754,
+      "beta": 0.516988
+    },
+    {
+      "step": 19757,
+      "episode": 19756,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19755,
+      "beta": 0.516994
+    },
+    {
+      "step": 19758,
+      "episode": 19757,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19756,
+      "beta": 0.517
+    },
+    {
+      "step": 19759,
+      "episode": 19758,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19757,
+      "beta": 0.517006
+    },
+    {
+      "step": 19760,
+      "episode": 19759,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19758,
+      "beta": 0.517012
+    },
+    {
+      "step": 19761,
+      "episode": 19760,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19759,
+      "beta": 0.517018
+    },
+    {
+      "step": 19762,
+      "episode": 19761,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19760,
+      "beta": 0.517024
+    },
+    {
+      "step": 19763,
+      "episode": 19762,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19761,
+      "beta": 0.51703
+    },
+    {
+      "step": 19764,
+      "episode": 19763,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19762,
+      "beta": 0.517036
+    },
+    {
+      "step": 19765,
+      "episode": 19764,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19763,
+      "beta": 0.517042
+    },
+    {
+      "step": 19766,
+      "episode": 19765,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19764,
+      "beta": 0.5170480000000001
+    },
+    {
+      "step": 19767,
+      "episode": 19766,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19765,
+      "beta": 0.517054
+    },
+    {
+      "step": 19768,
+      "episode": 19767,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19766,
+      "beta": 0.5170600000000001
+    },
+    {
+      "step": 19769,
+      "episode": 19768,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19767,
+      "beta": 0.517066
+    },
+    {
+      "step": 19770,
+      "episode": 19769,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19768,
+      "beta": 0.517072
+    },
+    {
+      "step": 19771,
+      "episode": 19770,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19769,
+      "beta": 0.517078
+    },
+    {
+      "step": 19772,
+      "episode": 19771,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19770,
+      "beta": 0.517084
+    },
+    {
+      "step": 19773,
+      "episode": 19772,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19771,
+      "beta": 0.51709
+    },
+    {
+      "step": 19774,
+      "episode": 19773,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19772,
+      "beta": 0.517096
+    },
+    {
+      "step": 19775,
+      "episode": 19774,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19773,
+      "beta": 0.5171020000000001
+    },
+    {
+      "step": 19776,
+      "episode": 19775,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19774,
+      "beta": 0.517108
+    },
+    {
+      "step": 19777,
+      "episode": 19776,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19775,
+      "beta": 0.5171140000000001
+    },
+    {
+      "step": 19778,
+      "episode": 19777,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19776,
+      "beta": 0.51712
+    },
+    {
+      "step": 19779,
+      "episode": 19778,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19777,
+      "beta": 0.517126
+    },
+    {
+      "step": 19780,
+      "episode": 19779,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19778,
+      "beta": 0.517132
+    },
+    {
+      "step": 19781,
+      "episode": 19780,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19779,
+      "beta": 0.517138
+    },
+    {
+      "step": 19782,
+      "episode": 19781,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19780,
+      "beta": 0.517144
+    },
+    {
+      "step": 19783,
+      "episode": 19782,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19781,
+      "beta": 0.51715
+    },
+    {
+      "step": 19784,
+      "episode": 19783,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19782,
+      "beta": 0.517156
+    },
+    {
+      "step": 19785,
+      "episode": 19784,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19783,
+      "beta": 0.517162
+    },
+    {
+      "step": 19786,
+      "episode": 19785,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19784,
+      "beta": 0.5171680000000001
+    },
+    {
+      "step": 19787,
+      "episode": 19786,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19785,
+      "beta": 0.517174
+    },
+    {
+      "step": 19788,
+      "episode": 19787,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19786,
+      "beta": 0.51718
+    },
+    {
+      "step": 19789,
+      "episode": 19788,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19787,
+      "beta": 0.517186
+    },
+    {
+      "step": 19790,
+      "episode": 19789,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19788,
+      "beta": 0.517192
+    },
+    {
+      "step": 19791,
+      "episode": 19790,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19789,
+      "beta": 0.517198
+    },
+    {
+      "step": 19792,
+      "episode": 19791,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19790,
+      "beta": 0.517204
+    },
+    {
+      "step": 19793,
+      "episode": 19792,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19791,
+      "beta": 0.5172100000000001
+    },
+    {
+      "step": 19794,
+      "episode": 19793,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19792,
+      "beta": 0.517216
+    },
+    {
+      "step": 19795,
+      "episode": 19794,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19793,
+      "beta": 0.5172220000000001
+    },
+    {
+      "step": 19796,
+      "episode": 19795,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19794,
+      "beta": 0.517228
+    },
+    {
+      "step": 19797,
+      "episode": 19796,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19795,
+      "beta": 0.517234
+    },
+    {
+      "step": 19798,
+      "episode": 19797,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19796,
+      "beta": 0.51724
+    },
+    {
+      "step": 19799,
+      "episode": 19798,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19797,
+      "beta": 0.517246
+    },
+    {
+      "step": 19800,
+      "episode": 19799,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19798,
+      "beta": 0.517252
+    },
+    {
+      "step": 19801,
+      "episode": 19800,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19799,
+      "beta": 0.517258
+    },
+    {
+      "step": 19802,
+      "episode": 19801,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19800,
+      "beta": 0.5172640000000001
+    },
+    {
+      "step": 19803,
+      "episode": 19802,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19801,
+      "beta": 0.51727
+    },
+    {
+      "step": 19804,
+      "episode": 19803,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19802,
+      "beta": 0.5172760000000001
+    },
+    {
+      "step": 19805,
+      "episode": 19804,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19803,
+      "beta": 0.517282
+    },
+    {
+      "step": 19806,
+      "episode": 19805,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19804,
+      "beta": 0.517288
+    },
+    {
+      "step": 19807,
+      "episode": 19806,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19805,
+      "beta": 0.517294
+    },
+    {
+      "step": 19808,
+      "episode": 19807,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19806,
+      "beta": 0.5173
+    },
+    {
+      "step": 19809,
+      "episode": 19808,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19807,
+      "beta": 0.517306
+    },
+    {
+      "step": 19810,
+      "episode": 19809,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19808,
+      "beta": 0.517312
+    },
+    {
+      "step": 19811,
+      "episode": 19810,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19809,
+      "beta": 0.5173180000000001
+    },
+    {
+      "step": 19812,
+      "episode": 19811,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19810,
+      "beta": 0.517324
+    },
+    {
+      "step": 19813,
+      "episode": 19812,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19811,
+      "beta": 0.5173300000000001
+    },
+    {
+      "step": 19814,
+      "episode": 19813,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19812,
+      "beta": 0.517336
+    },
+    {
+      "step": 19815,
+      "episode": 19814,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19813,
+      "beta": 0.517342
+    },
+    {
+      "step": 19816,
+      "episode": 19815,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19814,
+      "beta": 0.517348
+    },
+    {
+      "step": 19817,
+      "episode": 19816,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19815,
+      "beta": 0.517354
+    },
+    {
+      "step": 19818,
+      "episode": 19817,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19816,
+      "beta": 0.51736
+    },
+    {
+      "step": 19819,
+      "episode": 19818,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19817,
+      "beta": 0.517366
+    },
+    {
+      "step": 19820,
+      "episode": 19819,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19818,
+      "beta": 0.517372
+    },
+    {
+      "step": 19821,
+      "episode": 19820,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19819,
+      "beta": 0.517378
+    },
+    {
+      "step": 19822,
+      "episode": 19821,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19820,
+      "beta": 0.5173840000000001
+    },
+    {
+      "step": 19823,
+      "episode": 19822,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19821,
+      "beta": 0.51739
+    },
+    {
+      "step": 19824,
+      "episode": 19823,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19822,
+      "beta": 0.517396
+    },
+    {
+      "step": 19825,
+      "episode": 19824,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19823,
+      "beta": 0.517402
+    },
+    {
+      "step": 19826,
+      "episode": 19825,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19824,
+      "beta": 0.517408
+    },
+    {
+      "step": 19827,
+      "episode": 19826,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19825,
+      "beta": 0.517414
+    },
+    {
+      "step": 19828,
+      "episode": 19827,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19826,
+      "beta": 0.51742
+    },
+    {
+      "step": 19829,
+      "episode": 19828,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19827,
+      "beta": 0.517426
+    },
+    {
+      "step": 19830,
+      "episode": 19829,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19828,
+      "beta": 0.517432
+    },
+    {
+      "step": 19831,
+      "episode": 19830,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19829,
+      "beta": 0.5174380000000001
+    },
+    {
+      "step": 19832,
+      "episode": 19831,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19830,
+      "beta": 0.517444
+    },
+    {
+      "step": 19833,
+      "episode": 19832,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19831,
+      "beta": 0.51745
+    },
+    {
+      "step": 19834,
+      "episode": 19833,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19832,
+      "beta": 0.517456
+    },
+    {
+      "step": 19835,
+      "episode": 19834,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19833,
+      "beta": 0.517462
+    },
+    {
+      "step": 19836,
+      "episode": 19835,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19834,
+      "beta": 0.517468
+    },
+    {
+      "step": 19837,
+      "episode": 19836,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19835,
+      "beta": 0.517474
+    },
+    {
+      "step": 19838,
+      "episode": 19837,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19836,
+      "beta": 0.51748
+    },
+    {
+      "step": 19839,
+      "episode": 19838,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19837,
+      "beta": 0.517486
+    },
+    {
+      "step": 19840,
+      "episode": 19839,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19838,
+      "beta": 0.5174920000000001
+    },
+    {
+      "step": 19841,
+      "episode": 19840,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19839,
+      "beta": 0.517498
+    },
+    {
+      "step": 19842,
+      "episode": 19841,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19840,
+      "beta": 0.517504
+    },
+    {
+      "step": 19843,
+      "episode": 19842,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19841,
+      "beta": 0.51751
+    },
+    {
+      "step": 19844,
+      "episode": 19843,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19842,
+      "beta": 0.517516
+    },
+    {
+      "step": 19845,
+      "episode": 19844,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19843,
+      "beta": 0.517522
+    },
+    {
+      "step": 19846,
+      "episode": 19845,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19844,
+      "beta": 0.517528
+    },
+    {
+      "step": 19847,
+      "episode": 19846,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19845,
+      "beta": 0.517534
+    },
+    {
+      "step": 19848,
+      "episode": 19847,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19846,
+      "beta": 0.51754
+    },
+    {
+      "step": 19849,
+      "episode": 19848,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19847,
+      "beta": 0.5175460000000001
+    },
+    {
+      "step": 19850,
+      "episode": 19849,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19848,
+      "beta": 0.517552
+    },
+    {
+      "step": 19851,
+      "episode": 19850,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19849,
+      "beta": 0.517558
+    },
+    {
+      "step": 19852,
+      "episode": 19851,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19850,
+      "beta": 0.517564
+    },
+    {
+      "step": 19853,
+      "episode": 19852,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19851,
+      "beta": 0.5175700000000001
+    },
+    {
+      "step": 19854,
+      "episode": 19853,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19852,
+      "beta": 0.517576
+    },
+    {
+      "step": 19855,
+      "episode": 19854,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19853,
+      "beta": 0.517582
+    },
+    {
+      "step": 19856,
+      "episode": 19855,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19854,
+      "beta": 0.517588
+    },
+    {
+      "step": 19857,
+      "episode": 19856,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19855,
+      "beta": 0.517594
+    },
+    {
+      "step": 19858,
+      "episode": 19857,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19856,
+      "beta": 0.5176000000000001
+    },
+    {
+      "step": 19859,
+      "episode": 19858,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19857,
+      "beta": 0.517606
+    },
+    {
+      "step": 19860,
+      "episode": 19859,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19858,
+      "beta": 0.517612
+    },
+    {
+      "step": 19861,
+      "episode": 19860,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19859,
+      "beta": 0.517618
+    },
+    {
+      "step": 19862,
+      "episode": 19861,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19860,
+      "beta": 0.517624
+    },
+    {
+      "step": 19863,
+      "episode": 19862,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19861,
+      "beta": 0.51763
+    },
+    {
+      "step": 19864,
+      "episode": 19863,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19862,
+      "beta": 0.517636
+    },
+    {
+      "step": 19865,
+      "episode": 19864,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19863,
+      "beta": 0.517642
+    },
+    {
+      "step": 19866,
+      "episode": 19865,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19864,
+      "beta": 0.517648
+    },
+    {
+      "step": 19867,
+      "episode": 19866,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19865,
+      "beta": 0.5176540000000001
+    },
+    {
+      "step": 19868,
+      "episode": 19867,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19866,
+      "beta": 0.51766
+    },
+    {
+      "step": 19869,
+      "episode": 19868,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19867,
+      "beta": 0.517666
+    },
+    {
+      "step": 19870,
+      "episode": 19869,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19868,
+      "beta": 0.517672
+    },
+    {
+      "step": 19871,
+      "episode": 19870,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19869,
+      "beta": 0.517678
+    },
+    {
+      "step": 19872,
+      "episode": 19871,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19870,
+      "beta": 0.517684
+    },
+    {
+      "step": 19873,
+      "episode": 19872,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19871,
+      "beta": 0.51769
+    },
+    {
+      "step": 19874,
+      "episode": 19873,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19872,
+      "beta": 0.517696
+    },
+    {
+      "step": 19875,
+      "episode": 19874,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19873,
+      "beta": 0.517702
+    },
+    {
+      "step": 19876,
+      "episode": 19875,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19874,
+      "beta": 0.5177080000000001
+    },
+    {
+      "step": 19877,
+      "episode": 19876,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19875,
+      "beta": 0.517714
+    },
+    {
+      "step": 19878,
+      "episode": 19877,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19876,
+      "beta": 0.5177200000000001
+    },
+    {
+      "step": 19879,
+      "episode": 19878,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19877,
+      "beta": 0.517726
+    },
+    {
+      "step": 19880,
+      "episode": 19879,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19878,
+      "beta": 0.5177320000000001
+    },
+    {
+      "step": 19881,
+      "episode": 19880,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19879,
+      "beta": 0.517738
+    },
+    {
+      "step": 19882,
+      "episode": 19881,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19880,
+      "beta": 0.517744
+    },
+    {
+      "step": 19883,
+      "episode": 19882,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19881,
+      "beta": 0.51775
+    },
+    {
+      "step": 19884,
+      "episode": 19883,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19882,
+      "beta": 0.517756
+    },
+    {
+      "step": 19885,
+      "episode": 19884,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19883,
+      "beta": 0.5177620000000001
+    },
+    {
+      "step": 19886,
+      "episode": 19885,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19884,
+      "beta": 0.517768
+    },
+    {
+      "step": 19887,
+      "episode": 19886,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19885,
+      "beta": 0.517774
+    },
+    {
+      "step": 19888,
+      "episode": 19887,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19886,
+      "beta": 0.51778
+    },
+    {
+      "step": 19889,
+      "episode": 19888,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19887,
+      "beta": 0.5177860000000001
+    },
+    {
+      "step": 19890,
+      "episode": 19889,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19888,
+      "beta": 0.517792
+    },
+    {
+      "step": 19891,
+      "episode": 19890,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19889,
+      "beta": 0.517798
+    },
+    {
+      "step": 19892,
+      "episode": 19891,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19890,
+      "beta": 0.517804
+    },
+    {
+      "step": 19893,
+      "episode": 19892,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19891,
+      "beta": 0.51781
+    },
+    {
+      "step": 19894,
+      "episode": 19893,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19892,
+      "beta": 0.517816
+    },
+    {
+      "step": 19895,
+      "episode": 19894,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19893,
+      "beta": 0.517822
+    },
+    {
+      "step": 19896,
+      "episode": 19895,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19894,
+      "beta": 0.517828
+    },
+    {
+      "step": 19897,
+      "episode": 19896,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19895,
+      "beta": 0.517834
+    },
+    {
+      "step": 19898,
+      "episode": 19897,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19896,
+      "beta": 0.51784
+    },
+    {
+      "step": 19899,
+      "episode": 19898,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19897,
+      "beta": 0.517846
+    },
+    {
+      "step": 19900,
+      "episode": 19899,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19898,
+      "beta": 0.517852
+    },
+    {
+      "step": 19901,
+      "episode": 19900,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19899,
+      "beta": 0.517858
+    },
+    {
+      "step": 19902,
+      "episode": 19901,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19900,
+      "beta": 0.517864
+    },
+    {
+      "step": 19903,
+      "episode": 19902,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19901,
+      "beta": 0.51787
+    },
+    {
+      "step": 19904,
+      "episode": 19903,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19902,
+      "beta": 0.517876
+    },
+    {
+      "step": 19905,
+      "episode": 19904,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19903,
+      "beta": 0.5178820000000001
+    },
+    {
+      "step": 19906,
+      "episode": 19905,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19904,
+      "beta": 0.517888
+    },
+    {
+      "step": 19907,
+      "episode": 19906,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19905,
+      "beta": 0.5178940000000001
+    },
+    {
+      "step": 19908,
+      "episode": 19907,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19906,
+      "beta": 0.5179
+    },
+    {
+      "step": 19909,
+      "episode": 19908,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19907,
+      "beta": 0.517906
+    },
+    {
+      "step": 19910,
+      "episode": 19909,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19908,
+      "beta": 0.517912
+    },
+    {
+      "step": 19911,
+      "episode": 19910,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19909,
+      "beta": 0.517918
+    },
+    {
+      "step": 19912,
+      "episode": 19911,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19910,
+      "beta": 0.517924
+    },
+    {
+      "step": 19913,
+      "episode": 19912,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19911,
+      "beta": 0.51793
+    },
+    {
+      "step": 19914,
+      "episode": 19913,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19912,
+      "beta": 0.5179360000000001
+    },
+    {
+      "step": 19915,
+      "episode": 19914,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19913,
+      "beta": 0.517942
+    },
+    {
+      "step": 19916,
+      "episode": 19915,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19914,
+      "beta": 0.5179480000000001
+    },
+    {
+      "step": 19917,
+      "episode": 19916,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19915,
+      "beta": 0.517954
+    },
+    {
+      "step": 19918,
+      "episode": 19917,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19916,
+      "beta": 0.51796
+    },
+    {
+      "step": 19919,
+      "episode": 19918,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19917,
+      "beta": 0.517966
+    },
+    {
+      "step": 19920,
+      "episode": 19919,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19918,
+      "beta": 0.517972
+    },
+    {
+      "step": 19921,
+      "episode": 19920,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19919,
+      "beta": 0.517978
+    },
+    {
+      "step": 19922,
+      "episode": 19921,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19920,
+      "beta": 0.517984
+    },
+    {
+      "step": 19923,
+      "episode": 19922,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19921,
+      "beta": 0.51799
+    },
+    {
+      "step": 19924,
+      "episode": 19923,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19922,
+      "beta": 0.517996
+    },
+    {
+      "step": 19925,
+      "episode": 19924,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19923,
+      "beta": 0.5180020000000001
+    },
+    {
+      "step": 19926,
+      "episode": 19925,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19924,
+      "beta": 0.518008
+    },
+    {
+      "step": 19927,
+      "episode": 19926,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19925,
+      "beta": 0.518014
+    },
+    {
+      "step": 19928,
+      "episode": 19927,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19926,
+      "beta": 0.51802
+    },
+    {
+      "step": 19929,
+      "episode": 19928,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19927,
+      "beta": 0.518026
+    },
+    {
+      "step": 19930,
+      "episode": 19929,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19928,
+      "beta": 0.518032
+    },
+    {
+      "step": 19931,
+      "episode": 19930,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19929,
+      "beta": 0.518038
+    },
+    {
+      "step": 19932,
+      "episode": 19931,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19930,
+      "beta": 0.5180440000000001
+    },
+    {
+      "step": 19933,
+      "episode": 19932,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19931,
+      "beta": 0.51805
+    },
+    {
+      "step": 19934,
+      "episode": 19933,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19932,
+      "beta": 0.5180560000000001
+    },
+    {
+      "step": 19935,
+      "episode": 19934,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19933,
+      "beta": 0.518062
+    },
+    {
+      "step": 19936,
+      "episode": 19935,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19934,
+      "beta": 0.518068
+    },
+    {
+      "step": 19937,
+      "episode": 19936,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19935,
+      "beta": 0.518074
+    },
+    {
+      "step": 19938,
+      "episode": 19937,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19936,
+      "beta": 0.51808
+    },
+    {
+      "step": 19939,
+      "episode": 19938,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19937,
+      "beta": 0.518086
+    },
+    {
+      "step": 19940,
+      "episode": 19939,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19938,
+      "beta": 0.518092
+    },
+    {
+      "step": 19941,
+      "episode": 19940,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19939,
+      "beta": 0.5180980000000001
+    },
+    {
+      "step": 19942,
+      "episode": 19941,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19940,
+      "beta": 0.518104
+    },
+    {
+      "step": 19943,
+      "episode": 19942,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19941,
+      "beta": 0.5181100000000001
+    },
+    {
+      "step": 19944,
+      "episode": 19943,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19942,
+      "beta": 0.518116
+    },
+    {
+      "step": 19945,
+      "episode": 19944,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19943,
+      "beta": 0.518122
+    },
+    {
+      "step": 19946,
+      "episode": 19945,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19944,
+      "beta": 0.518128
+    },
+    {
+      "step": 19947,
+      "episode": 19946,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19945,
+      "beta": 0.518134
+    },
+    {
+      "step": 19948,
+      "episode": 19947,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19946,
+      "beta": 0.51814
+    },
+    {
+      "step": 19949,
+      "episode": 19948,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19947,
+      "beta": 0.518146
+    },
+    {
+      "step": 19950,
+      "episode": 19949,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19948,
+      "beta": 0.5181520000000001
+    },
+    {
+      "step": 19951,
+      "episode": 19950,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19949,
+      "beta": 0.518158
+    },
+    {
+      "step": 19952,
+      "episode": 19951,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19950,
+      "beta": 0.5181640000000001
+    },
+    {
+      "step": 19953,
+      "episode": 19952,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19951,
+      "beta": 0.51817
+    },
+    {
+      "step": 19954,
+      "episode": 19953,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19952,
+      "beta": 0.518176
+    },
+    {
+      "step": 19955,
+      "episode": 19954,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19953,
+      "beta": 0.518182
+    },
+    {
+      "step": 19956,
+      "episode": 19955,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19954,
+      "beta": 0.518188
+    },
+    {
+      "step": 19957,
+      "episode": 19956,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19955,
+      "beta": 0.518194
+    },
+    {
+      "step": 19958,
+      "episode": 19957,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19956,
+      "beta": 0.5182
+    },
+    {
+      "step": 19959,
+      "episode": 19958,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19957,
+      "beta": 0.518206
+    },
+    {
+      "step": 19960,
+      "episode": 19959,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19958,
+      "beta": 0.518212
+    },
+    {
+      "step": 19961,
+      "episode": 19960,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19959,
+      "beta": 0.5182180000000001
+    },
+    {
+      "step": 19962,
+      "episode": 19961,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19960,
+      "beta": 0.518224
+    },
+    {
+      "step": 19963,
+      "episode": 19962,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19961,
+      "beta": 0.51823
+    },
+    {
+      "step": 19964,
+      "episode": 19963,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19962,
+      "beta": 0.518236
+    },
+    {
+      "step": 19965,
+      "episode": 19964,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19963,
+      "beta": 0.518242
+    },
+    {
+      "step": 19966,
+      "episode": 19965,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19964,
+      "beta": 0.518248
+    },
+    {
+      "step": 19967,
+      "episode": 19966,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19965,
+      "beta": 0.518254
+    },
+    {
+      "step": 19968,
+      "episode": 19967,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19966,
+      "beta": 0.51826
+    },
+    {
+      "step": 19969,
+      "episode": 19968,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19967,
+      "beta": 0.518266
+    },
+    {
+      "step": 19970,
+      "episode": 19969,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19968,
+      "beta": 0.5182720000000001
+    },
+    {
+      "step": 19971,
+      "episode": 19970,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19969,
+      "beta": 0.518278
+    },
+    {
+      "step": 19972,
+      "episode": 19971,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19970,
+      "beta": 0.518284
+    },
+    {
+      "step": 19973,
+      "episode": 19972,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19971,
+      "beta": 0.51829
+    },
+    {
+      "step": 19974,
+      "episode": 19973,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19972,
+      "beta": 0.518296
+    },
+    {
+      "step": 19975,
+      "episode": 19974,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19973,
+      "beta": 0.518302
+    },
+    {
+      "step": 19976,
+      "episode": 19975,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19974,
+      "beta": 0.518308
+    },
+    {
+      "step": 19977,
+      "episode": 19976,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19975,
+      "beta": 0.518314
+    },
+    {
+      "step": 19978,
+      "episode": 19977,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19976,
+      "beta": 0.51832
+    },
+    {
+      "step": 19979,
+      "episode": 19978,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19977,
+      "beta": 0.5183260000000001
+    },
+    {
+      "step": 19980,
+      "episode": 19979,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19978,
+      "beta": 0.518332
+    },
+    {
+      "step": 19981,
+      "episode": 19980,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19979,
+      "beta": 0.518338
+    },
+    {
+      "step": 19982,
+      "episode": 19981,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19980,
+      "beta": 0.518344
+    },
+    {
+      "step": 19983,
+      "episode": 19982,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19981,
+      "beta": 0.51835
+    },
+    {
+      "step": 19984,
+      "episode": 19983,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19982,
+      "beta": 0.518356
+    },
+    {
+      "step": 19985,
+      "episode": 19984,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19983,
+      "beta": 0.518362
+    },
+    {
+      "step": 19986,
+      "episode": 19985,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19984,
+      "beta": 0.518368
+    },
+    {
+      "step": 19987,
+      "episode": 19986,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19985,
+      "beta": 0.518374
+    },
+    {
+      "step": 19988,
+      "episode": 19987,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19986,
+      "beta": 0.5183800000000001
+    },
+    {
+      "step": 19989,
+      "episode": 19988,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19987,
+      "beta": 0.518386
+    },
+    {
+      "step": 19990,
+      "episode": 19989,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19988,
+      "beta": 0.518392
+    },
+    {
+      "step": 19991,
+      "episode": 19990,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19989,
+      "beta": 0.518398
+    },
+    {
+      "step": 19992,
+      "episode": 19991,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19990,
+      "beta": 0.518404
+    },
+    {
+      "step": 19993,
+      "episode": 19992,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19991,
+      "beta": 0.51841
+    },
+    {
+      "step": 19994,
+      "episode": 19993,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19992,
+      "beta": 0.518416
+    },
+    {
+      "step": 19995,
+      "episode": 19994,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19993,
+      "beta": 0.518422
+    },
+    {
+      "step": 19996,
+      "episode": 19995,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19994,
+      "beta": 0.518428
+    },
+    {
+      "step": 19997,
+      "episode": 19996,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19995,
+      "beta": 0.5184340000000001
+    },
+    {
+      "step": 19998,
+      "episode": 19997,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19996,
+      "beta": 0.51844
+    },
+    {
+      "step": 19999,
+      "episode": 19998,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19997,
+      "beta": 0.518446
+    },
+    {
+      "step": 20000,
+      "episode": 19999,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19998,
+      "beta": 0.518452
+    },
+    {
+      "step": 20001,
+      "episode": 20000,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 19999,
+      "beta": 0.518458
+    }
+  ],
+  "evaluation_results": [
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.4905,
+      "std_reward": 1.6305397112612743,
+      "win_rate": 0.286,
+      "push_rate": 0.071,
+      "loss_rate": 0.598,
+      "action_distribution": {
+        "STAND": 0.24626121635094717,
+        "HIT": 0.047856430707876374,
+        "DOUBLE": 0.7058823529411765,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "BASIC_ACTIONS",
+      "total_episodes_trained": 0
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.1855,
+      "std_reward": 0.9802243365679104,
+      "win_rate": 0.343,
+      "push_rate": 0.046,
+      "loss_rate": 0.578,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "BASIC_ACTIONS",
+      "total_episodes_trained": 2001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.1505,
+      "std_reward": 0.9920180189895745,
+      "win_rate": 0.34,
+      "push_rate": 0.052,
+      "loss_rate": 0.561,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SURRENDER",
+      "total_episodes_trained": 4001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.2255,
+      "std_reward": 0.9658673563176261,
+      "win_rate": 0.306,
+      "push_rate": 0.065,
+      "loss_rate": 0.59,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SURRENDER",
+      "total_episodes_trained": 6001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.2045,
+      "std_reward": 0.9830715894582651,
+      "win_rate": 0.31,
+      "push_rate": 0.053,
+      "loss_rate": 0.588,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SPLIT_ACES",
+      "total_episodes_trained": 8001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.143,
+      "std_reward": 0.9930010070488348,
+      "win_rate": 0.338,
+      "push_rate": 0.056,
+      "loss_rate": 0.556,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SPLIT_ACES",
+      "total_episodes_trained": 10001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.1435,
+      "std_reward": 0.9933064733504963,
+      "win_rate": 0.355,
+      "push_rate": 0.044,
+      "loss_rate": 0.56,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SPLIT_ACES",
+      "total_episodes_trained": 12001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.158,
+      "std_reward": 0.9992677318917087,
+      "win_rate": 0.339,
+      "push_rate": 0.039,
+      "loss_rate": 0.572,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SPLIT_ACES",
+      "total_episodes_trained": 14001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.155,
+      "std_reward": 0.9869017174977456,
+      "win_rate": 0.339,
+      "push_rate": 0.057,
+      "loss_rate": 0.56,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SPLIT_ACES",
+      "total_episodes_trained": 16001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.154,
+      "std_reward": 0.99738859026961,
+      "win_rate": 0.346,
+      "push_rate": 0.039,
+      "loss_rate": 0.569,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SPLIT_ACES",
+      "total_episodes_trained": 18001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.169,
+      "std_reward": 0.9884022460516773,
+      "win_rate": 0.347,
+      "push_rate": 0.042,
+      "loss_rate": 0.573,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SPLIT_ACES",
+      "total_episodes_trained": 20001
+    }
+  ]
+}

@@ -36,7 +36,7 @@ class CurriculumConfig:
     # Stage transition criteria
     min_episodes_per_stage: int = 50000      # Minimum episodes before considering transition
     performance_window: int = 10000          # Episodes to average for performance check
-    stability_threshold: float = 0.01       # Max standard deviation for "stable" performance
+    stability_threshold: float = 0.3        # Max coefficient of variation for "stable" performance
     min_improvement_rate: float = 0.001     # Min improvement per 1000 episodes
     
     # Performance thresholds for stage transitions
@@ -188,12 +188,41 @@ class PerformanceMetrics:
         return current_rate * (1 - alpha) + new_value * alpha
     
     def get_performance_stability(self, window: int = 1000) -> float:
-        """Calculate performance stability (lower = more stable)"""
+        """
+        Calculate performance stability (lower = more stable).
+        
+        For blackjack, we measure stability as the coefficient of variation
+        of moving averages rather than raw reward variance, since blackjack
+        rewards naturally have high variance (±1, ±2, etc.).
+        """
         if len(self.recent_rewards) < window:
             return float('inf')  # Not enough data
         
         recent_window = self.recent_rewards[-window:]
-        return np.std(recent_window)
+        
+        # Calculate moving averages over smaller windows to measure stability
+        moving_avg_window = min(100, window // 10)
+        if len(recent_window) < moving_avg_window * 2:
+            return float('inf')  # Not enough data for moving averages
+            
+        moving_averages = []
+        for i in range(moving_avg_window, len(recent_window) + 1):
+            avg = np.mean(recent_window[i-moving_avg_window:i])
+            moving_averages.append(avg)
+        
+        # Calculate coefficient of variation of moving averages
+        if len(moving_averages) < 2:
+            return float('inf')
+            
+        mean_of_averages = np.mean(moving_averages)
+        std_of_averages = np.std(moving_averages)
+        
+        # Avoid division by zero
+        if abs(mean_of_averages) < 1e-6:
+            return std_of_averages
+            
+        # Return coefficient of variation (relative stability)
+        return std_of_averages / abs(mean_of_averages)
     
     def get_recent_performance(self, window: int = 1000) -> float:
         """Get average performance over recent window"""
@@ -399,7 +428,7 @@ def create_curriculum_config(
         return CurriculumConfig(
             min_episodes_per_stage=1000,
             performance_window=500,
-            stability_threshold=0.05,
+            stability_threshold=0.5,  # More lenient for quick mode
             basic_actions_threshold=-0.2,
             surrender_threshold=-0.1,
             split_aces_threshold=-0.05
@@ -410,7 +439,7 @@ def create_curriculum_config(
         return CurriculumConfig(
             min_episodes_per_stage=100000,
             performance_window=20000,
-            stability_threshold=0.005,
+            stability_threshold=0.15,  # Strict but achievable for coefficient of variation
             basic_actions_threshold=-0.05,
             surrender_threshold=-0.02,
             split_aces_threshold=0.01

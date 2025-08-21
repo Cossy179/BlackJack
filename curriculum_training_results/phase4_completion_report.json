@@ -1,0 +1,28 @@
+{
+  "phase4_completed": false,
+  "training_time_minutes": 23.502497927347818,
+  "total_episodes": 25000,
+  "final_stage": "ADD_SPLIT_ACES",
+  "final_performance": -0.1644,
+  "curriculum_progression": [
+    {
+      "stage": "BASIC_ACTIONS",
+      "episodes": 3913,
+      "performance": -0.202,
+      "stability": 0.3998726868758806,
+      "completed_at_episode": 3913
+    },
+    {
+      "stage": "ADD_SURRENDER",
+      "episodes": 14661,
+      "performance": -0.15,
+      "stability": 0.3915547427481277,
+      "completed_at_episode": 18574
+    }
+  ],
+  "transition_log": [
+    "\ud83d\udcc8 Stage Transition: BASIC_ACTIONS \u2192 ADD_SURRENDER (Episode 3913, Performance: -0.2020)",
+    "\ud83d\udcc8 Stage Transition: ADD_SURRENDER \u2192 ADD_SPLIT_ACES (Episode 18574, Performance: -0.1500)"
+  ],
+  "timestamp": "2025-08-21 23:30:03"
+}

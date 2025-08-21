@@ -1,0 +1,9097 @@
+{
+  "total_episodes": 5001,
+  "total_steps": 5001,
+  "curriculum_summary": {
+    "current_stage": {
+      "stage": "ADD_SURRENDER",
+      "stage_description": "Basic + SURRENDER",
+      "episodes_in_stage": 1195,
+      "min_episodes_required": 3000,
+      "recent_performance": -0.14,
+      "stability": 0.7656904450082711,
+      "stability_threshold": 0.5,
+      "ready_to_advance": false,
+      "is_final_stage": false
+    },
+    "total_episodes": 5001,
+    "overall_performance": -0.16076784643071385,
+    "stage_history": [
+      {
+        "stage": "BASIC_ACTIONS",
+        "episodes": 3806,
+        "performance": -0.143,
+        "stability": 0.49987863051142756,
+        "completed_at_episode": 3806
+      }
+    ],
+    "transition_log": [
+      "\ud83d\udcc8 Stage Transition: BASIC_ACTIONS \u2192 ADD_SURRENDER (Episode 3806, Performance: -0.1430)"
+    ],
+    "config": {
+      "min_episodes_per_stage": 3000,
+      "stability_threshold": 0.5,
+      "performance_thresholds": {
+        "basic_actions": -0.25,
+        "surrender": -0.15,
+        "split_aces": -0.12
+      }
+    }
+  },
+  "recent_rewards": [
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    0.0,
+    1.5,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.5,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.5,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.5,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.5,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.5,
+    0.0,
+    -1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.5,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.5,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.5,
+    1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.5,
+    1.0,
+    1.5,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.5,
+    -1.0,
+    1.0,
+    1.5,
+    1.0,
+    0.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.5,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.5,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    1.0
+  ],
+  "training_metrics": [
+    {
+      "step": 4002,
+      "episode": 4001,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4000,
+      "beta": 0.422464
+    },
+    {
+      "step": 4003,
+      "episode": 4002,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4001,
+      "beta": 0.42247
+    },
+    {
+      "step": 4004,
+      "episode": 4003,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4002,
+      "beta": 0.422476
+    },
+    {
+      "step": 4005,
+      "episode": 4004,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4003,
+      "beta": 0.422482
+    },
+    {
+      "step": 4006,
+      "episode": 4005,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4004,
+      "beta": 0.42248800000000003
+    },
+    {
+      "step": 4007,
+      "episode": 4006,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4005,
+      "beta": 0.42249400000000004
+    },
+    {
+      "step": 4008,
+      "episode": 4007,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4006,
+      "beta": 0.42250000000000004
+    },
+    {
+      "step": 4009,
+      "episode": 4008,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4007,
+      "beta": 0.42250600000000005
+    },
+    {
+      "step": 4010,
+      "episode": 4009,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4008,
+      "beta": 0.422512
+    },
+    {
+      "step": 4011,
+      "episode": 4010,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4009,
+      "beta": 0.422518
+    },
+    {
+      "step": 4012,
+      "episode": 4011,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4010,
+      "beta": 0.422524
+    },
+    {
+      "step": 4013,
+      "episode": 4012,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4011,
+      "beta": 0.42253
+    },
+    {
+      "step": 4014,
+      "episode": 4013,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4012,
+      "beta": 0.422536
+    },
+    {
+      "step": 4015,
+      "episode": 4014,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4013,
+      "beta": 0.42254200000000003
+    },
+    {
+      "step": 4016,
+      "episode": 4015,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4014,
+      "beta": 0.42254800000000003
+    },
+    {
+      "step": 4017,
+      "episode": 4016,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4015,
+      "beta": 0.42255400000000004
+    },
+    {
+      "step": 4018,
+      "episode": 4017,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4016,
+      "beta": 0.42256000000000005
+    },
+    {
+      "step": 4019,
+      "episode": 4018,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4017,
+      "beta": 0.422566
+    },
+    {
+      "step": 4020,
+      "episode": 4019,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4018,
+      "beta": 0.422572
+    },
+    {
+      "step": 4021,
+      "episode": 4020,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4019,
+      "beta": 0.422578
+    },
+    {
+      "step": 4022,
+      "episode": 4021,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4020,
+      "beta": 0.422584
+    },
+    {
+      "step": 4023,
+      "episode": 4022,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4021,
+      "beta": 0.42259
+    },
+    {
+      "step": 4024,
+      "episode": 4023,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4022,
+      "beta": 0.422596
+    },
+    {
+      "step": 4025,
+      "episode": 4024,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4023,
+      "beta": 0.42260200000000003
+    },
+    {
+      "step": 4026,
+      "episode": 4025,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4024,
+      "beta": 0.42260800000000004
+    },
+    {
+      "step": 4027,
+      "episode": 4026,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4025,
+      "beta": 0.42261400000000005
+    },
+    {
+      "step": 4028,
+      "episode": 4027,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4026,
+      "beta": 0.42262
+    },
+    {
+      "step": 4029,
+      "episode": 4028,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4027,
+      "beta": 0.422626
+    },
+    {
+      "step": 4030,
+      "episode": 4029,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4028,
+      "beta": 0.422632
+    },
+    {
+      "step": 4031,
+      "episode": 4030,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4029,
+      "beta": 0.422638
+    },
+    {
+      "step": 4032,
+      "episode": 4031,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4030,
+      "beta": 0.422644
+    },
+    {
+      "step": 4033,
+      "episode": 4032,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4031,
+      "beta": 0.42265
+    },
+    {
+      "step": 4034,
+      "episode": 4033,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4032,
+      "beta": 0.42265600000000003
+    },
+    {
+      "step": 4035,
+      "episode": 4034,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4033,
+      "beta": 0.42266200000000004
+    },
+    {
+      "step": 4036,
+      "episode": 4035,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4034,
+      "beta": 0.42266800000000004
+    },
+    {
+      "step": 4037,
+      "episode": 4036,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4035,
+      "beta": 0.422674
+    },
+    {
+      "step": 4038,
+      "episode": 4037,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4036,
+      "beta": 0.42268
+    },
+    {
+      "step": 4039,
+      "episode": 4038,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4037,
+      "beta": 0.422686
+    },
+    {
+      "step": 4040,
+      "episode": 4039,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4038,
+      "beta": 0.422692
+    },
+    {
+      "step": 4041,
+      "episode": 4040,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4039,
+      "beta": 0.422698
+    },
+    {
+      "step": 4042,
+      "episode": 4041,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4040,
+      "beta": 0.422704
+    },
+    {
+      "step": 4043,
+      "episode": 4042,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4041,
+      "beta": 0.42271000000000003
+    },
+    {
+      "step": 4044,
+      "episode": 4043,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4042,
+      "beta": 0.42271600000000004
+    },
+    {
+      "step": 4045,
+      "episode": 4044,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4043,
+      "beta": 0.42272200000000004
+    },
+    {
+      "step": 4046,
+      "episode": 4045,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4044,
+      "beta": 0.422728
+    },
+    {
+      "step": 4047,
+      "episode": 4046,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4045,
+      "beta": 0.422734
+    },
+    {
+      "step": 4048,
+      "episode": 4047,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4046,
+      "beta": 0.42274
+    },
+    {
+      "step": 4049,
+      "episode": 4048,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4047,
+      "beta": 0.422746
+    },
+    {
+      "step": 4050,
+      "episode": 4049,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4048,
+      "beta": 0.422752
+    },
+    {
+      "step": 4051,
+      "episode": 4050,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4049,
+      "beta": 0.422758
+    },
+    {
+      "step": 4052,
+      "episode": 4051,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4050,
+      "beta": 0.42276400000000003
+    },
+    {
+      "step": 4053,
+      "episode": 4052,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4051,
+      "beta": 0.42277000000000003
+    },
+    {
+      "step": 4054,
+      "episode": 4053,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4052,
+      "beta": 0.42277600000000004
+    },
+    {
+      "step": 4055,
+      "episode": 4054,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4053,
+      "beta": 0.422782
+    },
+    {
+      "step": 4056,
+      "episode": 4055,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4054,
+      "beta": 0.422788
+    },
+    {
+      "step": 4057,
+      "episode": 4056,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4055,
+      "beta": 0.422794
+    },
+    {
+      "step": 4058,
+      "episode": 4057,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4056,
+      "beta": 0.4228
+    },
+    {
+      "step": 4059,
+      "episode": 4058,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4057,
+      "beta": 0.422806
+    },
+    {
+      "step": 4060,
+      "episode": 4059,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4058,
+      "beta": 0.422812
+    },
+    {
+      "step": 4061,
+      "episode": 4060,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4059,
+      "beta": 0.422818
+    },
+    {
+      "step": 4062,
+      "episode": 4061,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4060,
+      "beta": 0.42282400000000003
+    },
+    {
+      "step": 4063,
+      "episode": 4062,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4061,
+      "beta": 0.42283000000000004
+    },
+    {
+      "step": 4064,
+      "episode": 4063,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4062,
+      "beta": 0.42283600000000005
+    },
+    {
+      "step": 4065,
+      "episode": 4064,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4063,
+      "beta": 0.422842
+    },
+    {
+      "step": 4066,
+      "episode": 4065,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4064,
+      "beta": 0.422848
+    },
+    {
+      "step": 4067,
+      "episode": 4066,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4065,
+      "beta": 0.422854
+    },
+    {
+      "step": 4068,
+      "episode": 4067,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4066,
+      "beta": 0.42286
+    },
+    {
+      "step": 4069,
+      "episode": 4068,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4067,
+      "beta": 0.422866
+    },
+    {
+      "step": 4070,
+      "episode": 4069,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4068,
+      "beta": 0.422872
+    },
+    {
+      "step": 4071,
+      "episode": 4070,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4069,
+      "beta": 0.42287800000000003
+    },
+    {
+      "step": 4072,
+      "episode": 4071,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4070,
+      "beta": 0.42288400000000004
+    },
+    {
+      "step": 4073,
+      "episode": 4072,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4071,
+      "beta": 0.42289000000000004
+    },
+    {
+      "step": 4074,
+      "episode": 4073,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4072,
+      "beta": 0.42289600000000005
+    },
+    {
+      "step": 4075,
+      "episode": 4074,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4073,
+      "beta": 0.422902
+    },
+    {
+      "step": 4076,
+      "episode": 4075,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4074,
+      "beta": 0.422908
+    },
+    {
+      "step": 4077,
+      "episode": 4076,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4075,
+      "beta": 0.422914
+    },
+    {
+      "step": 4078,
+      "episode": 4077,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4076,
+      "beta": 0.42292
+    },
+    {
+      "step": 4079,
+      "episode": 4078,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4077,
+      "beta": 0.422926
+    },
+    {
+      "step": 4080,
+      "episode": 4079,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4078,
+      "beta": 0.42293200000000003
+    },
+    {
+      "step": 4081,
+      "episode": 4080,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4079,
+      "beta": 0.42293800000000004
+    },
+    {
+      "step": 4082,
+      "episode": 4081,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4080,
+      "beta": 0.42294400000000004
+    },
+    {
+      "step": 4083,
+      "episode": 4082,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4081,
+      "beta": 0.42295000000000005
+    },
+    {
+      "step": 4084,
+      "episode": 4083,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4082,
+      "beta": 0.422956
+    },
+    {
+      "step": 4085,
+      "episode": 4084,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4083,
+      "beta": 0.422962
+    },
+    {
+      "step": 4086,
+      "episode": 4085,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4084,
+      "beta": 0.422968
+    },
+    {
+      "step": 4087,
+      "episode": 4086,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4085,
+      "beta": 0.422974
+    },
+    {
+      "step": 4088,
+      "episode": 4087,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4086,
+      "beta": 0.42298
+    },
+    {
+      "step": 4089,
+      "episode": 4088,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4087,
+      "beta": 0.42298600000000003
+    },
+    {
+      "step": 4090,
+      "episode": 4089,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4088,
+      "beta": 0.42299200000000003
+    },
+    {
+      "step": 4091,
+      "episode": 4090,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4089,
+      "beta": 0.42299800000000004
+    },
+    {
+      "step": 4092,
+      "episode": 4091,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4090,
+      "beta": 0.42300400000000005
+    },
+    {
+      "step": 4093,
+      "episode": 4092,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4091,
+      "beta": 0.42301
+    },
+    {
+      "step": 4094,
+      "episode": 4093,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4092,
+      "beta": 0.423016
+    },
+    {
+      "step": 4095,
+      "episode": 4094,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4093,
+      "beta": 0.423022
+    },
+    {
+      "step": 4096,
+      "episode": 4095,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4094,
+      "beta": 0.423028
+    },
+    {
+      "step": 4097,
+      "episode": 4096,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4095,
+      "beta": 0.423034
+    },
+    {
+      "step": 4098,
+      "episode": 4097,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4096,
+      "beta": 0.42304
+    },
+    {
+      "step": 4099,
+      "episode": 4098,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4097,
+      "beta": 0.42304600000000003
+    },
+    {
+      "step": 4100,
+      "episode": 4099,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4098,
+      "beta": 0.42305200000000004
+    },
+    {
+      "step": 4101,
+      "episode": 4100,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4099,
+      "beta": 0.42305800000000005
+    },
+    {
+      "step": 4102,
+      "episode": 4101,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4100,
+      "beta": 0.423064
+    },
+    {
+      "step": 4103,
+      "episode": 4102,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4101,
+      "beta": 0.42307
+    },
+    {
+      "step": 4104,
+      "episode": 4103,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4102,
+      "beta": 0.423076
+    },
+    {
+      "step": 4105,
+      "episode": 4104,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4103,
+      "beta": 0.423082
+    },
+    {
+      "step": 4106,
+      "episode": 4105,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4104,
+      "beta": 0.423088
+    },
+    {
+      "step": 4107,
+      "episode": 4106,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4105,
+      "beta": 0.423094
+    },
+    {
+      "step": 4108,
+      "episode": 4107,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4106,
+      "beta": 0.42310000000000003
+    },
+    {
+      "step": 4109,
+      "episode": 4108,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4107,
+      "beta": 0.42310600000000004
+    },
+    {
+      "step": 4110,
+      "episode": 4109,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4108,
+      "beta": 0.42311200000000004
+    },
+    {
+      "step": 4111,
+      "episode": 4110,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4109,
+      "beta": 0.423118
+    },
+    {
+      "step": 4112,
+      "episode": 4111,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4110,
+      "beta": 0.423124
+    },
+    {
+      "step": 4113,
+      "episode": 4112,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4111,
+      "beta": 0.42313
+    },
+    {
+      "step": 4114,
+      "episode": 4113,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4112,
+      "beta": 0.423136
+    },
+    {
+      "step": 4115,
+      "episode": 4114,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4113,
+      "beta": 0.423142
+    },
+    {
+      "step": 4116,
+      "episode": 4115,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4114,
+      "beta": 0.423148
+    },
+    {
+      "step": 4117,
+      "episode": 4116,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4115,
+      "beta": 0.42315400000000003
+    },
+    {
+      "step": 4118,
+      "episode": 4117,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4116,
+      "beta": 0.42316000000000004
+    },
+    {
+      "step": 4119,
+      "episode": 4118,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4117,
+      "beta": 0.42316600000000004
+    },
+    {
+      "step": 4120,
+      "episode": 4119,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4118,
+      "beta": 0.42317200000000005
+    },
+    {
+      "step": 4121,
+      "episode": 4120,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4119,
+      "beta": 0.423178
+    },
+    {
+      "step": 4122,
+      "episode": 4121,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4120,
+      "beta": 0.423184
+    },
+    {
+      "step": 4123,
+      "episode": 4122,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4121,
+      "beta": 0.42319
+    },
+    {
+      "step": 4124,
+      "episode": 4123,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4122,
+      "beta": 0.423196
+    },
+    {
+      "step": 4125,
+      "episode": 4124,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4123,
+      "beta": 0.423202
+    },
+    {
+      "step": 4126,
+      "episode": 4125,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4124,
+      "beta": 0.42320800000000003
+    },
+    {
+      "step": 4127,
+      "episode": 4126,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4125,
+      "beta": 0.42321400000000003
+    },
+    {
+      "step": 4128,
+      "episode": 4127,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4126,
+      "beta": 0.42322000000000004
+    },
+    {
+      "step": 4129,
+      "episode": 4128,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4127,
+      "beta": 0.42322600000000005
+    },
+    {
+      "step": 4130,
+      "episode": 4129,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4128,
+      "beta": 0.423232
+    },
+    {
+      "step": 4131,
+      "episode": 4130,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4129,
+      "beta": 0.423238
+    },
+    {
+      "step": 4132,
+      "episode": 4131,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4130,
+      "beta": 0.423244
+    },
+    {
+      "step": 4133,
+      "episode": 4132,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4131,
+      "beta": 0.42325
+    },
+    {
+      "step": 4134,
+      "episode": 4133,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4132,
+      "beta": 0.423256
+    },
+    {
+      "step": 4135,
+      "episode": 4134,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4133,
+      "beta": 0.423262
+    },
+    {
+      "step": 4136,
+      "episode": 4135,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4134,
+      "beta": 0.42326800000000003
+    },
+    {
+      "step": 4137,
+      "episode": 4136,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4135,
+      "beta": 0.42327400000000004
+    },
+    {
+      "step": 4138,
+      "episode": 4137,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4136,
+      "beta": 0.42328000000000005
+    },
+    {
+      "step": 4139,
+      "episode": 4138,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4137,
+      "beta": 0.423286
+    },
+    {
+      "step": 4140,
+      "episode": 4139,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4138,
+      "beta": 0.423292
+    },
+    {
+      "step": 4141,
+      "episode": 4140,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4139,
+      "beta": 0.423298
+    },
+    {
+      "step": 4142,
+      "episode": 4141,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4140,
+      "beta": 0.423304
+    },
+    {
+      "step": 4143,
+      "episode": 4142,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4141,
+      "beta": 0.42331
+    },
+    {
+      "step": 4144,
+      "episode": 4143,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4142,
+      "beta": 0.423316
+    },
+    {
+      "step": 4145,
+      "episode": 4144,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4143,
+      "beta": 0.42332200000000003
+    },
+    {
+      "step": 4146,
+      "episode": 4145,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4144,
+      "beta": 0.42332800000000004
+    },
+    {
+      "step": 4147,
+      "episode": 4146,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4145,
+      "beta": 0.42333400000000004
+    },
+    {
+      "step": 4148,
+      "episode": 4147,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4146,
+      "beta": 0.42334
+    },
+    {
+      "step": 4149,
+      "episode": 4148,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4147,
+      "beta": 0.423346
+    },
+    {
+      "step": 4150,
+      "episode": 4149,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4148,
+      "beta": 0.423352
+    },
+    {
+      "step": 4151,
+      "episode": 4150,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4149,
+      "beta": 0.423358
+    },
+    {
+      "step": 4152,
+      "episode": 4151,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4150,
+      "beta": 0.423364
+    },
+    {
+      "step": 4153,
+      "episode": 4152,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4151,
+      "beta": 0.42337
+    },
+    {
+      "step": 4154,
+      "episode": 4153,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4152,
+      "beta": 0.42337600000000003
+    },
+    {
+      "step": 4155,
+      "episode": 4154,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4153,
+      "beta": 0.42338200000000004
+    },
+    {
+      "step": 4156,
+      "episode": 4155,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4154,
+      "beta": 0.42338800000000004
+    },
+    {
+      "step": 4157,
+      "episode": 4156,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4155,
+      "beta": 0.42339400000000005
+    },
+    {
+      "step": 4158,
+      "episode": 4157,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4156,
+      "beta": 0.4234
+    },
+    {
+      "step": 4159,
+      "episode": 4158,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4157,
+      "beta": 0.423406
+    },
+    {
+      "step": 4160,
+      "episode": 4159,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4158,
+      "beta": 0.423412
+    },
+    {
+      "step": 4161,
+      "episode": 4160,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4159,
+      "beta": 0.423418
+    },
+    {
+      "step": 4162,
+      "episode": 4161,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4160,
+      "beta": 0.423424
+    },
+    {
+      "step": 4163,
+      "episode": 4162,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4161,
+      "beta": 0.42343000000000003
+    },
+    {
+      "step": 4164,
+      "episode": 4163,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4162,
+      "beta": 0.42343600000000003
+    },
+    {
+      "step": 4165,
+      "episode": 4164,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4163,
+      "beta": 0.42344200000000004
+    },
+    {
+      "step": 4166,
+      "episode": 4165,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4164,
+      "beta": 0.42344800000000005
+    },
+    {
+      "step": 4167,
+      "episode": 4166,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4165,
+      "beta": 0.423454
+    },
+    {
+      "step": 4168,
+      "episode": 4167,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4166,
+      "beta": 0.42346
+    },
+    {
+      "step": 4169,
+      "episode": 4168,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4167,
+      "beta": 0.423466
+    },
+    {
+      "step": 4170,
+      "episode": 4169,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4168,
+      "beta": 0.423472
+    },
+    {
+      "step": 4171,
+      "episode": 4170,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4169,
+      "beta": 0.423478
+    },
+    {
+      "step": 4172,
+      "episode": 4171,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4170,
+      "beta": 0.423484
+    },
+    {
+      "step": 4173,
+      "episode": 4172,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4171,
+      "beta": 0.42349000000000003
+    },
+    {
+      "step": 4174,
+      "episode": 4173,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4172,
+      "beta": 0.42349600000000004
+    },
+    {
+      "step": 4175,
+      "episode": 4174,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4173,
+      "beta": 0.42350200000000005
+    },
+    {
+      "step": 4176,
+      "episode": 4175,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4174,
+      "beta": 0.423508
+    },
+    {
+      "step": 4177,
+      "episode": 4176,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4175,
+      "beta": 0.423514
+    },
+    {
+      "step": 4178,
+      "episode": 4177,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4176,
+      "beta": 0.42352
+    },
+    {
+      "step": 4179,
+      "episode": 4178,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4177,
+      "beta": 0.423526
+    },
+    {
+      "step": 4180,
+      "episode": 4179,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4178,
+      "beta": 0.423532
+    },
+    {
+      "step": 4181,
+      "episode": 4180,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4179,
+      "beta": 0.423538
+    },
+    {
+      "step": 4182,
+      "episode": 4181,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4180,
+      "beta": 0.42354400000000003
+    },
+    {
+      "step": 4183,
+      "episode": 4182,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4181,
+      "beta": 0.42355000000000004
+    },
+    {
+      "step": 4184,
+      "episode": 4183,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4182,
+      "beta": 0.42355600000000004
+    },
+    {
+      "step": 4185,
+      "episode": 4184,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4183,
+      "beta": 0.423562
+    },
+    {
+      "step": 4186,
+      "episode": 4185,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4184,
+      "beta": 0.423568
+    },
+    {
+      "step": 4187,
+      "episode": 4186,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4185,
+      "beta": 0.423574
+    },
+    {
+      "step": 4188,
+      "episode": 4187,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4186,
+      "beta": 0.42358
+    },
+    {
+      "step": 4189,
+      "episode": 4188,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4187,
+      "beta": 0.423586
+    },
+    {
+      "step": 4190,
+      "episode": 4189,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4188,
+      "beta": 0.423592
+    },
+    {
+      "step": 4191,
+      "episode": 4190,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4189,
+      "beta": 0.42359800000000003
+    },
+    {
+      "step": 4192,
+      "episode": 4191,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4190,
+      "beta": 0.42360400000000004
+    },
+    {
+      "step": 4193,
+      "episode": 4192,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4191,
+      "beta": 0.42361000000000004
+    },
+    {
+      "step": 4194,
+      "episode": 4193,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4192,
+      "beta": 0.423616
+    },
+    {
+      "step": 4195,
+      "episode": 4194,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4193,
+      "beta": 0.423622
+    },
+    {
+      "step": 4196,
+      "episode": 4195,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4194,
+      "beta": 0.423628
+    },
+    {
+      "step": 4197,
+      "episode": 4196,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4195,
+      "beta": 0.423634
+    },
+    {
+      "step": 4198,
+      "episode": 4197,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4196,
+      "beta": 0.42364
+    },
+    {
+      "step": 4199,
+      "episode": 4198,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4197,
+      "beta": 0.423646
+    },
+    {
+      "step": 4200,
+      "episode": 4199,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4198,
+      "beta": 0.42365200000000003
+    },
+    {
+      "step": 4201,
+      "episode": 4200,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4199,
+      "beta": 0.42365800000000003
+    },
+    {
+      "step": 4202,
+      "episode": 4201,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4200,
+      "beta": 0.42366400000000004
+    },
+    {
+      "step": 4203,
+      "episode": 4202,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4201,
+      "beta": 0.42367000000000005
+    },
+    {
+      "step": 4204,
+      "episode": 4203,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4202,
+      "beta": 0.423676
+    },
+    {
+      "step": 4205,
+      "episode": 4204,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4203,
+      "beta": 0.423682
+    },
+    {
+      "step": 4206,
+      "episode": 4205,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4204,
+      "beta": 0.423688
+    },
+    {
+      "step": 4207,
+      "episode": 4206,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4205,
+      "beta": 0.423694
+    },
+    {
+      "step": 4208,
+      "episode": 4207,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4206,
+      "beta": 0.4237
+    },
+    {
+      "step": 4209,
+      "episode": 4208,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4207,
+      "beta": 0.423706
+    },
+    {
+      "step": 4210,
+      "episode": 4209,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4208,
+      "beta": 0.42371200000000003
+    },
+    {
+      "step": 4211,
+      "episode": 4210,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4209,
+      "beta": 0.42371800000000004
+    },
+    {
+      "step": 4212,
+      "episode": 4211,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4210,
+      "beta": 0.42372400000000005
+    },
+    {
+      "step": 4213,
+      "episode": 4212,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4211,
+      "beta": 0.42373000000000005
+    },
+    {
+      "step": 4214,
+      "episode": 4213,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4212,
+      "beta": 0.423736
+    },
+    {
+      "step": 4215,
+      "episode": 4214,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4213,
+      "beta": 0.423742
+    },
+    {
+      "step": 4216,
+      "episode": 4215,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4214,
+      "beta": 0.423748
+    },
+    {
+      "step": 4217,
+      "episode": 4216,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4215,
+      "beta": 0.423754
+    },
+    {
+      "step": 4218,
+      "episode": 4217,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4216,
+      "beta": 0.42376
+    },
+    {
+      "step": 4219,
+      "episode": 4218,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4217,
+      "beta": 0.42376600000000003
+    },
+    {
+      "step": 4220,
+      "episode": 4219,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4218,
+      "beta": 0.42377200000000004
+    },
+    {
+      "step": 4221,
+      "episode": 4220,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4219,
+      "beta": 0.42377800000000004
+    },
+    {
+      "step": 4222,
+      "episode": 4221,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4220,
+      "beta": 0.42378400000000005
+    },
+    {
+      "step": 4223,
+      "episode": 4222,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4221,
+      "beta": 0.42379
+    },
+    {
+      "step": 4224,
+      "episode": 4223,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4222,
+      "beta": 0.423796
+    },
+    {
+      "step": 4225,
+      "episode": 4224,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4223,
+      "beta": 0.423802
+    },
+    {
+      "step": 4226,
+      "episode": 4225,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4224,
+      "beta": 0.423808
+    },
+    {
+      "step": 4227,
+      "episode": 4226,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4225,
+      "beta": 0.423814
+    },
+    {
+      "step": 4228,
+      "episode": 4227,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4226,
+      "beta": 0.42382000000000003
+    },
+    {
+      "step": 4229,
+      "episode": 4228,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4227,
+      "beta": 0.42382600000000004
+    },
+    {
+      "step": 4230,
+      "episode": 4229,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4228,
+      "beta": 0.42383200000000004
+    },
+    {
+      "step": 4231,
+      "episode": 4230,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4229,
+      "beta": 0.42383800000000005
+    },
+    {
+      "step": 4232,
+      "episode": 4231,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4230,
+      "beta": 0.423844
+    },
+    {
+      "step": 4233,
+      "episode": 4232,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4231,
+      "beta": 0.42385
+    },
+    {
+      "step": 4234,
+      "episode": 4233,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4232,
+      "beta": 0.423856
+    },
+    {
+      "step": 4235,
+      "episode": 4234,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4233,
+      "beta": 0.423862
+    },
+    {
+      "step": 4236,
+      "episode": 4235,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4234,
+      "beta": 0.423868
+    },
+    {
+      "step": 4237,
+      "episode": 4236,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4235,
+      "beta": 0.42387400000000003
+    },
+    {
+      "step": 4238,
+      "episode": 4237,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4236,
+      "beta": 0.42388000000000003
+    },
+    {
+      "step": 4239,
+      "episode": 4238,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4237,
+      "beta": 0.42388600000000004
+    },
+    {
+      "step": 4240,
+      "episode": 4239,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4238,
+      "beta": 0.42389200000000005
+    },
+    {
+      "step": 4241,
+      "episode": 4240,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4239,
+      "beta": 0.423898
+    },
+    {
+      "step": 4242,
+      "episode": 4241,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4240,
+      "beta": 0.423904
+    },
+    {
+      "step": 4243,
+      "episode": 4242,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4241,
+      "beta": 0.42391
+    },
+    {
+      "step": 4244,
+      "episode": 4243,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4242,
+      "beta": 0.423916
+    },
+    {
+      "step": 4245,
+      "episode": 4244,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4243,
+      "beta": 0.423922
+    },
+    {
+      "step": 4246,
+      "episode": 4245,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4244,
+      "beta": 0.423928
+    },
+    {
+      "step": 4247,
+      "episode": 4246,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4245,
+      "beta": 0.42393400000000003
+    },
+    {
+      "step": 4248,
+      "episode": 4247,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4246,
+      "beta": 0.42394000000000004
+    },
+    {
+      "step": 4249,
+      "episode": 4248,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4247,
+      "beta": 0.42394600000000005
+    },
+    {
+      "step": 4250,
+      "episode": 4249,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4248,
+      "beta": 0.423952
+    },
+    {
+      "step": 4251,
+      "episode": 4250,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4249,
+      "beta": 0.423958
+    },
+    {
+      "step": 4252,
+      "episode": 4251,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4250,
+      "beta": 0.423964
+    },
+    {
+      "step": 4253,
+      "episode": 4252,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4251,
+      "beta": 0.42397
+    },
+    {
+      "step": 4254,
+      "episode": 4253,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4252,
+      "beta": 0.423976
+    },
+    {
+      "step": 4255,
+      "episode": 4254,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4253,
+      "beta": 0.423982
+    },
+    {
+      "step": 4256,
+      "episode": 4255,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4254,
+      "beta": 0.42398800000000003
+    },
+    {
+      "step": 4257,
+      "episode": 4256,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4255,
+      "beta": 0.42399400000000004
+    },
+    {
+      "step": 4258,
+      "episode": 4257,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4256,
+      "beta": 0.42400000000000004
+    },
+    {
+      "step": 4259,
+      "episode": 4258,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4257,
+      "beta": 0.424006
+    },
+    {
+      "step": 4260,
+      "episode": 4259,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4258,
+      "beta": 0.424012
+    },
+    {
+      "step": 4261,
+      "episode": 4260,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4259,
+      "beta": 0.424018
+    },
+    {
+      "step": 4262,
+      "episode": 4261,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4260,
+      "beta": 0.424024
+    },
+    {
+      "step": 4263,
+      "episode": 4262,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4261,
+      "beta": 0.42403
+    },
+    {
+      "step": 4264,
+      "episode": 4263,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4262,
+      "beta": 0.424036
+    },
+    {
+      "step": 4265,
+      "episode": 4264,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4263,
+      "beta": 0.42404200000000003
+    },
+    {
+      "step": 4266,
+      "episode": 4265,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4264,
+      "beta": 0.42404800000000004
+    },
+    {
+      "step": 4267,
+      "episode": 4266,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4265,
+      "beta": 0.42405400000000004
+    },
+    {
+      "step": 4268,
+      "episode": 4267,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4266,
+      "beta": 0.42406
+    },
+    {
+      "step": 4269,
+      "episode": 4268,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4267,
+      "beta": 0.424066
+    },
+    {
+      "step": 4270,
+      "episode": 4269,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4268,
+      "beta": 0.424072
+    },
+    {
+      "step": 4271,
+      "episode": 4270,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4269,
+      "beta": 0.424078
+    },
+    {
+      "step": 4272,
+      "episode": 4271,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4270,
+      "beta": 0.424084
+    },
+    {
+      "step": 4273,
+      "episode": 4272,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4271,
+      "beta": 0.42409
+    },
+    {
+      "step": 4274,
+      "episode": 4273,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4272,
+      "beta": 0.42409600000000003
+    },
+    {
+      "step": 4275,
+      "episode": 4274,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4273,
+      "beta": 0.42410200000000003
+    },
+    {
+      "step": 4276,
+      "episode": 4275,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4274,
+      "beta": 0.42410800000000004
+    },
+    {
+      "step": 4277,
+      "episode": 4276,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4275,
+      "beta": 0.424114
+    },
+    {
+      "step": 4278,
+      "episode": 4277,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4276,
+      "beta": 0.42412
+    },
+    {
+      "step": 4279,
+      "episode": 4278,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4277,
+      "beta": 0.424126
+    },
+    {
+      "step": 4280,
+      "episode": 4279,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4278,
+      "beta": 0.424132
+    },
+    {
+      "step": 4281,
+      "episode": 4280,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4279,
+      "beta": 0.424138
+    },
+    {
+      "step": 4282,
+      "episode": 4281,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4280,
+      "beta": 0.424144
+    },
+    {
+      "step": 4283,
+      "episode": 4282,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4281,
+      "beta": 0.42415
+    },
+    {
+      "step": 4284,
+      "episode": 4283,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4282,
+      "beta": 0.42415600000000003
+    },
+    {
+      "step": 4285,
+      "episode": 4284,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4283,
+      "beta": 0.42416200000000004
+    },
+    {
+      "step": 4286,
+      "episode": 4285,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4284,
+      "beta": 0.42416800000000005
+    },
+    {
+      "step": 4287,
+      "episode": 4286,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4285,
+      "beta": 0.424174
+    },
+    {
+      "step": 4288,
+      "episode": 4287,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4286,
+      "beta": 0.42418
+    },
+    {
+      "step": 4289,
+      "episode": 4288,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4287,
+      "beta": 0.424186
+    },
+    {
+      "step": 4290,
+      "episode": 4289,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4288,
+      "beta": 0.424192
+    },
+    {
+      "step": 4291,
+      "episode": 4290,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4289,
+      "beta": 0.424198
+    },
+    {
+      "step": 4292,
+      "episode": 4291,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4290,
+      "beta": 0.424204
+    },
+    {
+      "step": 4293,
+      "episode": 4292,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4291,
+      "beta": 0.42421000000000003
+    },
+    {
+      "step": 4294,
+      "episode": 4293,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4292,
+      "beta": 0.42421600000000004
+    },
+    {
+      "step": 4295,
+      "episode": 4294,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4293,
+      "beta": 0.42422200000000004
+    },
+    {
+      "step": 4296,
+      "episode": 4295,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4294,
+      "beta": 0.42422800000000005
+    },
+    {
+      "step": 4297,
+      "episode": 4296,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4295,
+      "beta": 0.424234
+    },
+    {
+      "step": 4298,
+      "episode": 4297,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4296,
+      "beta": 0.42424
+    },
+    {
+      "step": 4299,
+      "episode": 4298,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4297,
+      "beta": 0.424246
+    },
+    {
+      "step": 4300,
+      "episode": 4299,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4298,
+      "beta": 0.424252
+    },
+    {
+      "step": 4301,
+      "episode": 4300,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4299,
+      "beta": 0.424258
+    },
+    {
+      "step": 4302,
+      "episode": 4301,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4300,
+      "beta": 0.42426400000000003
+    },
+    {
+      "step": 4303,
+      "episode": 4302,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4301,
+      "beta": 0.42427000000000004
+    },
+    {
+      "step": 4304,
+      "episode": 4303,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4302,
+      "beta": 0.42427600000000004
+    },
+    {
+      "step": 4305,
+      "episode": 4304,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4303,
+      "beta": 0.42428200000000005
+    },
+    {
+      "step": 4306,
+      "episode": 4305,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4304,
+      "beta": 0.424288
+    },
+    {
+      "step": 4307,
+      "episode": 4306,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4305,
+      "beta": 0.424294
+    },
+    {
+      "step": 4308,
+      "episode": 4307,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4306,
+      "beta": 0.4243
+    },
+    {
+      "step": 4309,
+      "episode": 4308,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4307,
+      "beta": 0.424306
+    },
+    {
+      "step": 4310,
+      "episode": 4309,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4308,
+      "beta": 0.424312
+    },
+    {
+      "step": 4311,
+      "episode": 4310,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4309,
+      "beta": 0.42431800000000003
+    },
+    {
+      "step": 4312,
+      "episode": 4311,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4310,
+      "beta": 0.42432400000000003
+    },
+    {
+      "step": 4313,
+      "episode": 4312,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4311,
+      "beta": 0.42433000000000004
+    },
+    {
+      "step": 4314,
+      "episode": 4313,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4312,
+      "beta": 0.42433600000000005
+    },
+    {
+      "step": 4315,
+      "episode": 4314,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4313,
+      "beta": 0.424342
+    },
+    {
+      "step": 4316,
+      "episode": 4315,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4314,
+      "beta": 0.424348
+    },
+    {
+      "step": 4317,
+      "episode": 4316,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4315,
+      "beta": 0.424354
+    },
+    {
+      "step": 4318,
+      "episode": 4317,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4316,
+      "beta": 0.42436
+    },
+    {
+      "step": 4319,
+      "episode": 4318,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4317,
+      "beta": 0.424366
+    },
+    {
+      "step": 4320,
+      "episode": 4319,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4318,
+      "beta": 0.424372
+    },
+    {
+      "step": 4321,
+      "episode": 4320,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4319,
+      "beta": 0.42437800000000003
+    },
+    {
+      "step": 4322,
+      "episode": 4321,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4320,
+      "beta": 0.42438400000000004
+    },
+    {
+      "step": 4323,
+      "episode": 4322,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4321,
+      "beta": 0.42439000000000004
+    },
+    {
+      "step": 4324,
+      "episode": 4323,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4322,
+      "beta": 0.424396
+    },
+    {
+      "step": 4325,
+      "episode": 4324,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4323,
+      "beta": 0.424402
+    },
+    {
+      "step": 4326,
+      "episode": 4325,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4324,
+      "beta": 0.424408
+    },
+    {
+      "step": 4327,
+      "episode": 4326,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4325,
+      "beta": 0.424414
+    },
+    {
+      "step": 4328,
+      "episode": 4327,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4326,
+      "beta": 0.42442
+    },
+    {
+      "step": 4329,
+      "episode": 4328,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4327,
+      "beta": 0.424426
+    },
+    {
+      "step": 4330,
+      "episode": 4329,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4328,
+      "beta": 0.42443200000000003
+    },
+    {
+      "step": 4331,
+      "episode": 4330,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4329,
+      "beta": 0.42443800000000004
+    },
+    {
+      "step": 4332,
+      "episode": 4331,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4330,
+      "beta": 0.42444400000000004
+    },
+    {
+      "step": 4333,
+      "episode": 4332,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4331,
+      "beta": 0.42445
+    },
+    {
+      "step": 4334,
+      "episode": 4333,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4332,
+      "beta": 0.424456
+    },
+    {
+      "step": 4335,
+      "episode": 4334,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4333,
+      "beta": 0.424462
+    },
+    {
+      "step": 4336,
+      "episode": 4335,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4334,
+      "beta": 0.424468
+    },
+    {
+      "step": 4337,
+      "episode": 4336,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4335,
+      "beta": 0.424474
+    },
+    {
+      "step": 4338,
+      "episode": 4337,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4336,
+      "beta": 0.42448
+    },
+    {
+      "step": 4339,
+      "episode": 4338,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4337,
+      "beta": 0.42448600000000003
+    },
+    {
+      "step": 4340,
+      "episode": 4339,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4338,
+      "beta": 0.42449200000000004
+    },
+    {
+      "step": 4341,
+      "episode": 4340,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4339,
+      "beta": 0.42449800000000004
+    },
+    {
+      "step": 4342,
+      "episode": 4341,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4340,
+      "beta": 0.42450400000000005
+    },
+    {
+      "step": 4343,
+      "episode": 4342,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4341,
+      "beta": 0.42451
+    },
+    {
+      "step": 4344,
+      "episode": 4343,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4342,
+      "beta": 0.424516
+    },
+    {
+      "step": 4345,
+      "episode": 4344,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4343,
+      "beta": 0.424522
+    },
+    {
+      "step": 4346,
+      "episode": 4345,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4344,
+      "beta": 0.424528
+    },
+    {
+      "step": 4347,
+      "episode": 4346,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4345,
+      "beta": 0.424534
+    },
+    {
+      "step": 4348,
+      "episode": 4347,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4346,
+      "beta": 0.42454000000000003
+    },
+    {
+      "step": 4349,
+      "episode": 4348,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4347,
+      "beta": 0.42454600000000003
+    },
+    {
+      "step": 4350,
+      "episode": 4349,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4348,
+      "beta": 0.42455200000000004
+    },
+    {
+      "step": 4351,
+      "episode": 4350,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4349,
+      "beta": 0.42455800000000005
+    },
+    {
+      "step": 4352,
+      "episode": 4351,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4350,
+      "beta": 0.424564
+    },
+    {
+      "step": 4353,
+      "episode": 4352,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4351,
+      "beta": 0.42457
+    },
+    {
+      "step": 4354,
+      "episode": 4353,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4352,
+      "beta": 0.424576
+    },
+    {
+      "step": 4355,
+      "episode": 4354,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4353,
+      "beta": 0.424582
+    },
+    {
+      "step": 4356,
+      "episode": 4355,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4354,
+      "beta": 0.424588
+    },
+    {
+      "step": 4357,
+      "episode": 4356,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4355,
+      "beta": 0.424594
+    },
+    {
+      "step": 4358,
+      "episode": 4357,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4356,
+      "beta": 0.42460000000000003
+    },
+    {
+      "step": 4359,
+      "episode": 4358,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4357,
+      "beta": 0.42460600000000004
+    },
+    {
+      "step": 4360,
+      "episode": 4359,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4358,
+      "beta": 0.42461200000000004
+    },
+    {
+      "step": 4361,
+      "episode": 4360,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4359,
+      "beta": 0.424618
+    },
+    {
+      "step": 4362,
+      "episode": 4361,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4360,
+      "beta": 0.424624
+    },
+    {
+      "step": 4363,
+      "episode": 4362,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4361,
+      "beta": 0.42463
+    },
+    {
+      "step": 4364,
+      "episode": 4363,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4362,
+      "beta": 0.424636
+    },
+    {
+      "step": 4365,
+      "episode": 4364,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4363,
+      "beta": 0.424642
+    },
+    {
+      "step": 4366,
+      "episode": 4365,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4364,
+      "beta": 0.424648
+    },
+    {
+      "step": 4367,
+      "episode": 4366,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4365,
+      "beta": 0.42465400000000003
+    },
+    {
+      "step": 4368,
+      "episode": 4367,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4366,
+      "beta": 0.42466000000000004
+    },
+    {
+      "step": 4369,
+      "episode": 4368,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4367,
+      "beta": 0.42466600000000004
+    },
+    {
+      "step": 4370,
+      "episode": 4369,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4368,
+      "beta": 0.424672
+    },
+    {
+      "step": 4371,
+      "episode": 4370,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4369,
+      "beta": 0.424678
+    },
+    {
+      "step": 4372,
+      "episode": 4371,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4370,
+      "beta": 0.424684
+    },
+    {
+      "step": 4373,
+      "episode": 4372,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4371,
+      "beta": 0.42469
+    },
+    {
+      "step": 4374,
+      "episode": 4373,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4372,
+      "beta": 0.424696
+    },
+    {
+      "step": 4375,
+      "episode": 4374,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4373,
+      "beta": 0.424702
+    },
+    {
+      "step": 4376,
+      "episode": 4375,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4374,
+      "beta": 0.42470800000000003
+    },
+    {
+      "step": 4377,
+      "episode": 4376,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4375,
+      "beta": 0.42471400000000004
+    },
+    {
+      "step": 4378,
+      "episode": 4377,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4376,
+      "beta": 0.42472000000000004
+    },
+    {
+      "step": 4379,
+      "episode": 4378,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4377,
+      "beta": 0.42472600000000005
+    },
+    {
+      "step": 4380,
+      "episode": 4379,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4378,
+      "beta": 0.424732
+    },
+    {
+      "step": 4381,
+      "episode": 4380,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4379,
+      "beta": 0.424738
+    },
+    {
+      "step": 4382,
+      "episode": 4381,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4380,
+      "beta": 0.424744
+    },
+    {
+      "step": 4383,
+      "episode": 4382,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4381,
+      "beta": 0.42475
+    },
+    {
+      "step": 4384,
+      "episode": 4383,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4382,
+      "beta": 0.424756
+    },
+    {
+      "step": 4385,
+      "episode": 4384,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4383,
+      "beta": 0.42476200000000003
+    },
+    {
+      "step": 4386,
+      "episode": 4385,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4384,
+      "beta": 0.42476800000000003
+    },
+    {
+      "step": 4387,
+      "episode": 4386,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4385,
+      "beta": 0.42477400000000004
+    },
+    {
+      "step": 4388,
+      "episode": 4387,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4386,
+      "beta": 0.42478000000000005
+    },
+    {
+      "step": 4389,
+      "episode": 4388,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4387,
+      "beta": 0.424786
+    },
+    {
+      "step": 4390,
+      "episode": 4389,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4388,
+      "beta": 0.424792
+    },
+    {
+      "step": 4391,
+      "episode": 4390,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4389,
+      "beta": 0.424798
+    },
+    {
+      "step": 4392,
+      "episode": 4391,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4390,
+      "beta": 0.424804
+    },
+    {
+      "step": 4393,
+      "episode": 4392,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4391,
+      "beta": 0.42481
+    },
+    {
+      "step": 4394,
+      "episode": 4393,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4392,
+      "beta": 0.424816
+    },
+    {
+      "step": 4395,
+      "episode": 4394,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4393,
+      "beta": 0.42482200000000003
+    },
+    {
+      "step": 4396,
+      "episode": 4395,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4394,
+      "beta": 0.42482800000000004
+    },
+    {
+      "step": 4397,
+      "episode": 4396,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4395,
+      "beta": 0.42483400000000004
+    },
+    {
+      "step": 4398,
+      "episode": 4397,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4396,
+      "beta": 0.42484
+    },
+    {
+      "step": 4399,
+      "episode": 4398,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4397,
+      "beta": 0.424846
+    },
+    {
+      "step": 4400,
+      "episode": 4399,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4398,
+      "beta": 0.424852
+    },
+    {
+      "step": 4401,
+      "episode": 4400,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4399,
+      "beta": 0.424858
+    },
+    {
+      "step": 4402,
+      "episode": 4401,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4400,
+      "beta": 0.424864
+    },
+    {
+      "step": 4403,
+      "episode": 4402,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4401,
+      "beta": 0.42487
+    },
+    {
+      "step": 4404,
+      "episode": 4403,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4402,
+      "beta": 0.42487600000000003
+    },
+    {
+      "step": 4405,
+      "episode": 4404,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4403,
+      "beta": 0.42488200000000004
+    },
+    {
+      "step": 4406,
+      "episode": 4405,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4404,
+      "beta": 0.42488800000000004
+    },
+    {
+      "step": 4407,
+      "episode": 4406,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4405,
+      "beta": 0.424894
+    },
+    {
+      "step": 4408,
+      "episode": 4407,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4406,
+      "beta": 0.4249
+    },
+    {
+      "step": 4409,
+      "episode": 4408,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4407,
+      "beta": 0.424906
+    },
+    {
+      "step": 4410,
+      "episode": 4409,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4408,
+      "beta": 0.424912
+    },
+    {
+      "step": 4411,
+      "episode": 4410,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4409,
+      "beta": 0.424918
+    },
+    {
+      "step": 4412,
+      "episode": 4411,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4410,
+      "beta": 0.424924
+    },
+    {
+      "step": 4413,
+      "episode": 4412,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4411,
+      "beta": 0.42493000000000003
+    },
+    {
+      "step": 4414,
+      "episode": 4413,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4412,
+      "beta": 0.42493600000000004
+    },
+    {
+      "step": 4415,
+      "episode": 4414,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4413,
+      "beta": 0.42494200000000004
+    },
+    {
+      "step": 4416,
+      "episode": 4415,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4414,
+      "beta": 0.424948
+    },
+    {
+      "step": 4417,
+      "episode": 4416,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4415,
+      "beta": 0.424954
+    },
+    {
+      "step": 4418,
+      "episode": 4417,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4416,
+      "beta": 0.42496
+    },
+    {
+      "step": 4419,
+      "episode": 4418,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4417,
+      "beta": 0.424966
+    },
+    {
+      "step": 4420,
+      "episode": 4419,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4418,
+      "beta": 0.424972
+    },
+    {
+      "step": 4421,
+      "episode": 4420,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4419,
+      "beta": 0.424978
+    },
+    {
+      "step": 4422,
+      "episode": 4421,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4420,
+      "beta": 0.42498400000000003
+    },
+    {
+      "step": 4423,
+      "episode": 4422,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4421,
+      "beta": 0.42499000000000003
+    },
+    {
+      "step": 4424,
+      "episode": 4423,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4422,
+      "beta": 0.42499600000000004
+    },
+    {
+      "step": 4425,
+      "episode": 4424,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4423,
+      "beta": 0.42500200000000005
+    },
+    {
+      "step": 4426,
+      "episode": 4425,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4424,
+      "beta": 0.425008
+    },
+    {
+      "step": 4427,
+      "episode": 4426,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4425,
+      "beta": 0.425014
+    },
+    {
+      "step": 4428,
+      "episode": 4427,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4426,
+      "beta": 0.42502
+    },
+    {
+      "step": 4429,
+      "episode": 4428,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4427,
+      "beta": 0.425026
+    },
+    {
+      "step": 4430,
+      "episode": 4429,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4428,
+      "beta": 0.425032
+    },
+    {
+      "step": 4431,
+      "episode": 4430,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4429,
+      "beta": 0.425038
+    },
+    {
+      "step": 4432,
+      "episode": 4431,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4430,
+      "beta": 0.42504400000000003
+    },
+    {
+      "step": 4433,
+      "episode": 4432,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4431,
+      "beta": 0.42505000000000004
+    },
+    {
+      "step": 4434,
+      "episode": 4433,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4432,
+      "beta": 0.42505600000000004
+    },
+    {
+      "step": 4435,
+      "episode": 4434,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4433,
+      "beta": 0.42506200000000005
+    },
+    {
+      "step": 4436,
+      "episode": 4435,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4434,
+      "beta": 0.425068
+    },
+    {
+      "step": 4437,
+      "episode": 4436,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4435,
+      "beta": 0.425074
+    },
+    {
+      "step": 4438,
+      "episode": 4437,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4436,
+      "beta": 0.42508
+    },
+    {
+      "step": 4439,
+      "episode": 4438,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4437,
+      "beta": 0.425086
+    },
+    {
+      "step": 4440,
+      "episode": 4439,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4438,
+      "beta": 0.425092
+    },
+    {
+      "step": 4441,
+      "episode": 4440,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4439,
+      "beta": 0.42509800000000003
+    },
+    {
+      "step": 4442,
+      "episode": 4441,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4440,
+      "beta": 0.42510400000000004
+    },
+    {
+      "step": 4443,
+      "episode": 4442,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4441,
+      "beta": 0.42511000000000004
+    },
+    {
+      "step": 4444,
+      "episode": 4443,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4442,
+      "beta": 0.42511600000000005
+    },
+    {
+      "step": 4445,
+      "episode": 4444,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4443,
+      "beta": 0.425122
+    },
+    {
+      "step": 4446,
+      "episode": 4445,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4444,
+      "beta": 0.425128
+    },
+    {
+      "step": 4447,
+      "episode": 4446,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4445,
+      "beta": 0.425134
+    },
+    {
+      "step": 4448,
+      "episode": 4447,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4446,
+      "beta": 0.42514
+    },
+    {
+      "step": 4449,
+      "episode": 4448,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4447,
+      "beta": 0.425146
+    },
+    {
+      "step": 4450,
+      "episode": 4449,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4448,
+      "beta": 0.42515200000000003
+    },
+    {
+      "step": 4451,
+      "episode": 4450,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4449,
+      "beta": 0.42515800000000004
+    },
+    {
+      "step": 4452,
+      "episode": 4451,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4450,
+      "beta": 0.42516400000000004
+    },
+    {
+      "step": 4453,
+      "episode": 4452,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4451,
+      "beta": 0.42517000000000005
+    },
+    {
+      "step": 4454,
+      "episode": 4453,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4452,
+      "beta": 0.425176
+    },
+    {
+      "step": 4455,
+      "episode": 4454,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4453,
+      "beta": 0.425182
+    },
+    {
+      "step": 4456,
+      "episode": 4455,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4454,
+      "beta": 0.425188
+    },
+    {
+      "step": 4457,
+      "episode": 4456,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4455,
+      "beta": 0.425194
+    },
+    {
+      "step": 4458,
+      "episode": 4457,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4456,
+      "beta": 0.4252
+    },
+    {
+      "step": 4459,
+      "episode": 4458,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4457,
+      "beta": 0.42520600000000003
+    },
+    {
+      "step": 4460,
+      "episode": 4459,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4458,
+      "beta": 0.42521200000000003
+    },
+    {
+      "step": 4461,
+      "episode": 4460,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4459,
+      "beta": 0.42521800000000004
+    },
+    {
+      "step": 4462,
+      "episode": 4461,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4460,
+      "beta": 0.42522400000000005
+    },
+    {
+      "step": 4463,
+      "episode": 4462,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4461,
+      "beta": 0.42523
+    },
+    {
+      "step": 4464,
+      "episode": 4463,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4462,
+      "beta": 0.425236
+    },
+    {
+      "step": 4465,
+      "episode": 4464,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4463,
+      "beta": 0.425242
+    },
+    {
+      "step": 4466,
+      "episode": 4465,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4464,
+      "beta": 0.425248
+    },
+    {
+      "step": 4467,
+      "episode": 4466,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4465,
+      "beta": 0.425254
+    },
+    {
+      "step": 4468,
+      "episode": 4467,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4466,
+      "beta": 0.42526
+    },
+    {
+      "step": 4469,
+      "episode": 4468,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4467,
+      "beta": 0.42526600000000003
+    },
+    {
+      "step": 4470,
+      "episode": 4469,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4468,
+      "beta": 0.42527200000000004
+    },
+    {
+      "step": 4471,
+      "episode": 4470,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4469,
+      "beta": 0.42527800000000004
+    },
+    {
+      "step": 4472,
+      "episode": 4471,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4470,
+      "beta": 0.425284
+    },
+    {
+      "step": 4473,
+      "episode": 4472,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4471,
+      "beta": 0.42529
+    },
+    {
+      "step": 4474,
+      "episode": 4473,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4472,
+      "beta": 0.425296
+    },
+    {
+      "step": 4475,
+      "episode": 4474,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4473,
+      "beta": 0.425302
+    },
+    {
+      "step": 4476,
+      "episode": 4475,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4474,
+      "beta": 0.425308
+    },
+    {
+      "step": 4477,
+      "episode": 4476,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4475,
+      "beta": 0.425314
+    },
+    {
+      "step": 4478,
+      "episode": 4477,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4476,
+      "beta": 0.42532000000000003
+    },
+    {
+      "step": 4479,
+      "episode": 4478,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4477,
+      "beta": 0.42532600000000004
+    },
+    {
+      "step": 4480,
+      "episode": 4479,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4478,
+      "beta": 0.42533200000000004
+    },
+    {
+      "step": 4481,
+      "episode": 4480,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4479,
+      "beta": 0.425338
+    },
+    {
+      "step": 4482,
+      "episode": 4481,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4480,
+      "beta": 0.425344
+    },
+    {
+      "step": 4483,
+      "episode": 4482,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4481,
+      "beta": 0.42535
+    },
+    {
+      "step": 4484,
+      "episode": 4483,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4482,
+      "beta": 0.425356
+    },
+    {
+      "step": 4485,
+      "episode": 4484,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4483,
+      "beta": 0.425362
+    },
+    {
+      "step": 4486,
+      "episode": 4485,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4484,
+      "beta": 0.425368
+    },
+    {
+      "step": 4487,
+      "episode": 4486,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4485,
+      "beta": 0.42537400000000003
+    },
+    {
+      "step": 4488,
+      "episode": 4487,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4486,
+      "beta": 0.42538000000000004
+    },
+    {
+      "step": 4489,
+      "episode": 4488,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4487,
+      "beta": 0.42538600000000004
+    },
+    {
+      "step": 4490,
+      "episode": 4489,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4488,
+      "beta": 0.42539200000000005
+    },
+    {
+      "step": 4491,
+      "episode": 4490,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4489,
+      "beta": 0.425398
+    },
+    {
+      "step": 4492,
+      "episode": 4491,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4490,
+      "beta": 0.425404
+    },
+    {
+      "step": 4493,
+      "episode": 4492,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4491,
+      "beta": 0.42541
+    },
+    {
+      "step": 4494,
+      "episode": 4493,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4492,
+      "beta": 0.425416
+    },
+    {
+      "step": 4495,
+      "episode": 4494,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4493,
+      "beta": 0.425422
+    },
+    {
+      "step": 4496,
+      "episode": 4495,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4494,
+      "beta": 0.42542800000000003
+    },
+    {
+      "step": 4497,
+      "episode": 4496,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4495,
+      "beta": 0.42543400000000003
+    },
+    {
+      "step": 4498,
+      "episode": 4497,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4496,
+      "beta": 0.42544000000000004
+    },
+    {
+      "step": 4499,
+      "episode": 4498,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4497,
+      "beta": 0.42544600000000005
+    },
+    {
+      "step": 4500,
+      "episode": 4499,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4498,
+      "beta": 0.425452
+    },
+    {
+      "step": 4501,
+      "episode": 4500,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4499,
+      "beta": 0.425458
+    },
+    {
+      "step": 4502,
+      "episode": 4501,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4500,
+      "beta": 0.425464
+    },
+    {
+      "step": 4503,
+      "episode": 4502,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4501,
+      "beta": 0.42547
+    },
+    {
+      "step": 4504,
+      "episode": 4503,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4502,
+      "beta": 0.425476
+    },
+    {
+      "step": 4505,
+      "episode": 4504,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4503,
+      "beta": 0.425482
+    },
+    {
+      "step": 4506,
+      "episode": 4505,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4504,
+      "beta": 0.42548800000000003
+    },
+    {
+      "step": 4507,
+      "episode": 4506,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4505,
+      "beta": 0.42549400000000004
+    },
+    {
+      "step": 4508,
+      "episode": 4507,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4506,
+      "beta": 0.42550000000000004
+    },
+    {
+      "step": 4509,
+      "episode": 4508,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4507,
+      "beta": 0.425506
+    },
+    {
+      "step": 4510,
+      "episode": 4509,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4508,
+      "beta": 0.425512
+    },
+    {
+      "step": 4511,
+      "episode": 4510,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4509,
+      "beta": 0.425518
+    },
+    {
+      "step": 4512,
+      "episode": 4511,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4510,
+      "beta": 0.425524
+    },
+    {
+      "step": 4513,
+      "episode": 4512,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4511,
+      "beta": 0.42553
+    },
+    {
+      "step": 4514,
+      "episode": 4513,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4512,
+      "beta": 0.425536
+    },
+    {
+      "step": 4515,
+      "episode": 4514,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4513,
+      "beta": 0.42554200000000003
+    },
+    {
+      "step": 4516,
+      "episode": 4515,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4514,
+      "beta": 0.42554800000000004
+    },
+    {
+      "step": 4517,
+      "episode": 4516,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4515,
+      "beta": 0.42555400000000004
+    },
+    {
+      "step": 4518,
+      "episode": 4517,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4516,
+      "beta": 0.42556000000000005
+    },
+    {
+      "step": 4519,
+      "episode": 4518,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4517,
+      "beta": 0.425566
+    },
+    {
+      "step": 4520,
+      "episode": 4519,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4518,
+      "beta": 0.425572
+    },
+    {
+      "step": 4521,
+      "episode": 4520,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4519,
+      "beta": 0.425578
+    },
+    {
+      "step": 4522,
+      "episode": 4521,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4520,
+      "beta": 0.425584
+    },
+    {
+      "step": 4523,
+      "episode": 4522,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4521,
+      "beta": 0.42559
+    },
+    {
+      "step": 4524,
+      "episode": 4523,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4522,
+      "beta": 0.42559600000000003
+    },
+    {
+      "step": 4525,
+      "episode": 4524,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4523,
+      "beta": 0.42560200000000004
+    },
+    {
+      "step": 4526,
+      "episode": 4525,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4524,
+      "beta": 0.42560800000000004
+    },
+    {
+      "step": 4527,
+      "episode": 4526,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4525,
+      "beta": 0.42561400000000005
+    },
+    {
+      "step": 4528,
+      "episode": 4527,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4526,
+      "beta": 0.42562
+    },
+    {
+      "step": 4529,
+      "episode": 4528,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4527,
+      "beta": 0.425626
+    },
+    {
+      "step": 4530,
+      "episode": 4529,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4528,
+      "beta": 0.425632
+    },
+    {
+      "step": 4531,
+      "episode": 4530,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4529,
+      "beta": 0.425638
+    },
+    {
+      "step": 4532,
+      "episode": 4531,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4530,
+      "beta": 0.425644
+    },
+    {
+      "step": 4533,
+      "episode": 4532,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4531,
+      "beta": 0.42565000000000003
+    },
+    {
+      "step": 4534,
+      "episode": 4533,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4532,
+      "beta": 0.42565600000000003
+    },
+    {
+      "step": 4535,
+      "episode": 4534,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4533,
+      "beta": 0.42566200000000004
+    },
+    {
+      "step": 4536,
+      "episode": 4535,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4534,
+      "beta": 0.42566800000000005
+    },
+    {
+      "step": 4537,
+      "episode": 4536,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4535,
+      "beta": 0.425674
+    },
+    {
+      "step": 4538,
+      "episode": 4537,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4536,
+      "beta": 0.42568
+    },
+    {
+      "step": 4539,
+      "episode": 4538,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4537,
+      "beta": 0.425686
+    },
+    {
+      "step": 4540,
+      "episode": 4539,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4538,
+      "beta": 0.425692
+    },
+    {
+      "step": 4541,
+      "episode": 4540,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4539,
+      "beta": 0.425698
+    },
+    {
+      "step": 4542,
+      "episode": 4541,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4540,
+      "beta": 0.425704
+    },
+    {
+      "step": 4543,
+      "episode": 4542,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4541,
+      "beta": 0.42571000000000003
+    },
+    {
+      "step": 4544,
+      "episode": 4543,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4542,
+      "beta": 0.42571600000000004
+    },
+    {
+      "step": 4545,
+      "episode": 4544,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4543,
+      "beta": 0.42572200000000004
+    },
+    {
+      "step": 4546,
+      "episode": 4545,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4544,
+      "beta": 0.425728
+    },
+    {
+      "step": 4547,
+      "episode": 4546,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4545,
+      "beta": 0.425734
+    },
+    {
+      "step": 4548,
+      "episode": 4547,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4546,
+      "beta": 0.42574
+    },
+    {
+      "step": 4549,
+      "episode": 4548,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4547,
+      "beta": 0.425746
+    },
+    {
+      "step": 4550,
+      "episode": 4549,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4548,
+      "beta": 0.425752
+    },
+    {
+      "step": 4551,
+      "episode": 4550,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4549,
+      "beta": 0.425758
+    },
+    {
+      "step": 4552,
+      "episode": 4551,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4550,
+      "beta": 0.42576400000000003
+    },
+    {
+      "step": 4553,
+      "episode": 4552,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4551,
+      "beta": 0.42577000000000004
+    },
+    {
+      "step": 4554,
+      "episode": 4553,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4552,
+      "beta": 0.42577600000000004
+    },
+    {
+      "step": 4555,
+      "episode": 4554,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4553,
+      "beta": 0.425782
+    },
+    {
+      "step": 4556,
+      "episode": 4555,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4554,
+      "beta": 0.425788
+    },
+    {
+      "step": 4557,
+      "episode": 4556,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4555,
+      "beta": 0.425794
+    },
+    {
+      "step": 4558,
+      "episode": 4557,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4556,
+      "beta": 0.4258
+    },
+    {
+      "step": 4559,
+      "episode": 4558,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4557,
+      "beta": 0.425806
+    },
+    {
+      "step": 4560,
+      "episode": 4559,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4558,
+      "beta": 0.425812
+    },
+    {
+      "step": 4561,
+      "episode": 4560,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4559,
+      "beta": 0.42581800000000003
+    },
+    {
+      "step": 4562,
+      "episode": 4561,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4560,
+      "beta": 0.42582400000000004
+    },
+    {
+      "step": 4563,
+      "episode": 4562,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4561,
+      "beta": 0.42583000000000004
+    },
+    {
+      "step": 4564,
+      "episode": 4563,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4562,
+      "beta": 0.42583600000000005
+    },
+    {
+      "step": 4565,
+      "episode": 4564,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4563,
+      "beta": 0.425842
+    },
+    {
+      "step": 4566,
+      "episode": 4565,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4564,
+      "beta": 0.425848
+    },
+    {
+      "step": 4567,
+      "episode": 4566,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4565,
+      "beta": 0.425854
+    },
+    {
+      "step": 4568,
+      "episode": 4567,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4566,
+      "beta": 0.42586
+    },
+    {
+      "step": 4569,
+      "episode": 4568,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4567,
+      "beta": 0.425866
+    },
+    {
+      "step": 4570,
+      "episode": 4569,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4568,
+      "beta": 0.42587200000000003
+    },
+    {
+      "step": 4571,
+      "episode": 4570,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4569,
+      "beta": 0.42587800000000003
+    },
+    {
+      "step": 4572,
+      "episode": 4571,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4570,
+      "beta": 0.42588400000000004
+    },
+    {
+      "step": 4573,
+      "episode": 4572,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4571,
+      "beta": 0.42589000000000005
+    },
+    {
+      "step": 4574,
+      "episode": 4573,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4572,
+      "beta": 0.425896
+    },
+    {
+      "step": 4575,
+      "episode": 4574,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4573,
+      "beta": 0.425902
+    },
+    {
+      "step": 4576,
+      "episode": 4575,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4574,
+      "beta": 0.425908
+    },
+    {
+      "step": 4577,
+      "episode": 4576,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4575,
+      "beta": 0.425914
+    },
+    {
+      "step": 4578,
+      "episode": 4577,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4576,
+      "beta": 0.42592
+    },
+    {
+      "step": 4579,
+      "episode": 4578,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4577,
+      "beta": 0.425926
+    },
+    {
+      "step": 4580,
+      "episode": 4579,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4578,
+      "beta": 0.42593200000000003
+    },
+    {
+      "step": 4581,
+      "episode": 4580,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4579,
+      "beta": 0.42593800000000004
+    },
+    {
+      "step": 4582,
+      "episode": 4581,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4580,
+      "beta": 0.42594400000000004
+    },
+    {
+      "step": 4583,
+      "episode": 4582,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4581,
+      "beta": 0.42595
+    },
+    {
+      "step": 4584,
+      "episode": 4583,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4582,
+      "beta": 0.425956
+    },
+    {
+      "step": 4585,
+      "episode": 4584,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4583,
+      "beta": 0.425962
+    },
+    {
+      "step": 4586,
+      "episode": 4585,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4584,
+      "beta": 0.425968
+    },
+    {
+      "step": 4587,
+      "episode": 4586,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4585,
+      "beta": 0.425974
+    },
+    {
+      "step": 4588,
+      "episode": 4587,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4586,
+      "beta": 0.42598
+    },
+    {
+      "step": 4589,
+      "episode": 4588,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4587,
+      "beta": 0.42598600000000003
+    },
+    {
+      "step": 4590,
+      "episode": 4589,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4588,
+      "beta": 0.42599200000000004
+    },
+    {
+      "step": 4591,
+      "episode": 4590,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4589,
+      "beta": 0.42599800000000004
+    },
+    {
+      "step": 4592,
+      "episode": 4591,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4590,
+      "beta": 0.426004
+    },
+    {
+      "step": 4593,
+      "episode": 4592,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4591,
+      "beta": 0.42601
+    },
+    {
+      "step": 4594,
+      "episode": 4593,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4592,
+      "beta": 0.426016
+    },
+    {
+      "step": 4595,
+      "episode": 4594,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4593,
+      "beta": 0.426022
+    },
+    {
+      "step": 4596,
+      "episode": 4595,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4594,
+      "beta": 0.426028
+    },
+    {
+      "step": 4597,
+      "episode": 4596,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4595,
+      "beta": 0.426034
+    },
+    {
+      "step": 4598,
+      "episode": 4597,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4596,
+      "beta": 0.42604000000000003
+    },
+    {
+      "step": 4599,
+      "episode": 4598,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4597,
+      "beta": 0.42604600000000004
+    },
+    {
+      "step": 4600,
+      "episode": 4599,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4598,
+      "beta": 0.42605200000000004
+    },
+    {
+      "step": 4601,
+      "episode": 4600,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4599,
+      "beta": 0.42605800000000005
+    },
+    {
+      "step": 4602,
+      "episode": 4601,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4600,
+      "beta": 0.426064
+    },
+    {
+      "step": 4603,
+      "episode": 4602,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4601,
+      "beta": 0.42607
+    },
+    {
+      "step": 4604,
+      "episode": 4603,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4602,
+      "beta": 0.426076
+    },
+    {
+      "step": 4605,
+      "episode": 4604,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4603,
+      "beta": 0.426082
+    },
+    {
+      "step": 4606,
+      "episode": 4605,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4604,
+      "beta": 0.426088
+    },
+    {
+      "step": 4607,
+      "episode": 4606,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4605,
+      "beta": 0.42609400000000003
+    },
+    {
+      "step": 4608,
+      "episode": 4607,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4606,
+      "beta": 0.42610000000000003
+    },
+    {
+      "step": 4609,
+      "episode": 4608,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4607,
+      "beta": 0.42610600000000004
+    },
+    {
+      "step": 4610,
+      "episode": 4609,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4608,
+      "beta": 0.42611200000000005
+    },
+    {
+      "step": 4611,
+      "episode": 4610,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4609,
+      "beta": 0.426118
+    },
+    {
+      "step": 4612,
+      "episode": 4611,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4610,
+      "beta": 0.426124
+    },
+    {
+      "step": 4613,
+      "episode": 4612,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4611,
+      "beta": 0.42613
+    },
+    {
+      "step": 4614,
+      "episode": 4613,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4612,
+      "beta": 0.426136
+    },
+    {
+      "step": 4615,
+      "episode": 4614,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4613,
+      "beta": 0.426142
+    },
+    {
+      "step": 4616,
+      "episode": 4615,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4614,
+      "beta": 0.426148
+    },
+    {
+      "step": 4617,
+      "episode": 4616,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4615,
+      "beta": 0.42615400000000003
+    },
+    {
+      "step": 4618,
+      "episode": 4617,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4616,
+      "beta": 0.42616000000000004
+    },
+    {
+      "step": 4619,
+      "episode": 4618,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4617,
+      "beta": 0.42616600000000004
+    },
+    {
+      "step": 4620,
+      "episode": 4619,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4618,
+      "beta": 0.426172
+    },
+    {
+      "step": 4621,
+      "episode": 4620,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4619,
+      "beta": 0.426178
+    },
+    {
+      "step": 4622,
+      "episode": 4621,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4620,
+      "beta": 0.426184
+    },
+    {
+      "step": 4623,
+      "episode": 4622,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4621,
+      "beta": 0.42619
+    },
+    {
+      "step": 4624,
+      "episode": 4623,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4622,
+      "beta": 0.426196
+    },
+    {
+      "step": 4625,
+      "episode": 4624,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4623,
+      "beta": 0.426202
+    },
+    {
+      "step": 4626,
+      "episode": 4625,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4624,
+      "beta": 0.42620800000000003
+    },
+    {
+      "step": 4627,
+      "episode": 4626,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4625,
+      "beta": 0.42621400000000004
+    },
+    {
+      "step": 4628,
+      "episode": 4627,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4626,
+      "beta": 0.42622000000000004
+    },
+    {
+      "step": 4629,
+      "episode": 4628,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4627,
+      "beta": 0.426226
+    },
+    {
+      "step": 4630,
+      "episode": 4629,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4628,
+      "beta": 0.426232
+    },
+    {
+      "step": 4631,
+      "episode": 4630,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4629,
+      "beta": 0.426238
+    },
+    {
+      "step": 4632,
+      "episode": 4631,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4630,
+      "beta": 0.426244
+    },
+    {
+      "step": 4633,
+      "episode": 4632,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4631,
+      "beta": 0.42625
+    },
+    {
+      "step": 4634,
+      "episode": 4633,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4632,
+      "beta": 0.426256
+    },
+    {
+      "step": 4635,
+      "episode": 4634,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4633,
+      "beta": 0.42626200000000003
+    },
+    {
+      "step": 4636,
+      "episode": 4635,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4634,
+      "beta": 0.42626800000000004
+    },
+    {
+      "step": 4637,
+      "episode": 4636,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4635,
+      "beta": 0.42627400000000004
+    },
+    {
+      "step": 4638,
+      "episode": 4637,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4636,
+      "beta": 0.42628
+    },
+    {
+      "step": 4639,
+      "episode": 4638,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4637,
+      "beta": 0.426286
+    },
+    {
+      "step": 4640,
+      "episode": 4639,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4638,
+      "beta": 0.426292
+    },
+    {
+      "step": 4641,
+      "episode": 4640,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4639,
+      "beta": 0.426298
+    },
+    {
+      "step": 4642,
+      "episode": 4641,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4640,
+      "beta": 0.426304
+    },
+    {
+      "step": 4643,
+      "episode": 4642,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4641,
+      "beta": 0.42631
+    },
+    {
+      "step": 4644,
+      "episode": 4643,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4642,
+      "beta": 0.42631600000000003
+    },
+    {
+      "step": 4645,
+      "episode": 4644,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4643,
+      "beta": 0.42632200000000003
+    },
+    {
+      "step": 4646,
+      "episode": 4645,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4644,
+      "beta": 0.42632800000000004
+    },
+    {
+      "step": 4647,
+      "episode": 4646,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4645,
+      "beta": 0.42633400000000005
+    },
+    {
+      "step": 4648,
+      "episode": 4647,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4646,
+      "beta": 0.42634
+    },
+    {
+      "step": 4649,
+      "episode": 4648,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4647,
+      "beta": 0.426346
+    },
+    {
+      "step": 4650,
+      "episode": 4649,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4648,
+      "beta": 0.426352
+    },
+    {
+      "step": 4651,
+      "episode": 4650,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4649,
+      "beta": 0.426358
+    },
+    {
+      "step": 4652,
+      "episode": 4651,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4650,
+      "beta": 0.426364
+    },
+    {
+      "step": 4653,
+      "episode": 4652,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4651,
+      "beta": 0.42637
+    },
+    {
+      "step": 4654,
+      "episode": 4653,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4652,
+      "beta": 0.42637600000000003
+    },
+    {
+      "step": 4655,
+      "episode": 4654,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4653,
+      "beta": 0.42638200000000004
+    },
+    {
+      "step": 4656,
+      "episode": 4655,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4654,
+      "beta": 0.42638800000000004
+    },
+    {
+      "step": 4657,
+      "episode": 4656,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4655,
+      "beta": 0.42639400000000005
+    },
+    {
+      "step": 4658,
+      "episode": 4657,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4656,
+      "beta": 0.4264
+    },
+    {
+      "step": 4659,
+      "episode": 4658,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4657,
+      "beta": 0.426406
+    },
+    {
+      "step": 4660,
+      "episode": 4659,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4658,
+      "beta": 0.426412
+    },
+    {
+      "step": 4661,
+      "episode": 4660,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4659,
+      "beta": 0.426418
+    },
+    {
+      "step": 4662,
+      "episode": 4661,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4660,
+      "beta": 0.426424
+    },
+    {
+      "step": 4663,
+      "episode": 4662,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4661,
+      "beta": 0.42643000000000003
+    },
+    {
+      "step": 4664,
+      "episode": 4663,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4662,
+      "beta": 0.42643600000000004
+    },
+    {
+      "step": 4665,
+      "episode": 4664,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4663,
+      "beta": 0.42644200000000004
+    },
+    {
+      "step": 4666,
+      "episode": 4665,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4664,
+      "beta": 0.42644800000000005
+    },
+    {
+      "step": 4667,
+      "episode": 4666,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4665,
+      "beta": 0.426454
+    },
+    {
+      "step": 4668,
+      "episode": 4667,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4666,
+      "beta": 0.42646
+    },
+    {
+      "step": 4669,
+      "episode": 4668,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4667,
+      "beta": 0.426466
+    },
+    {
+      "step": 4670,
+      "episode": 4669,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4668,
+      "beta": 0.426472
+    },
+    {
+      "step": 4671,
+      "episode": 4670,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4669,
+      "beta": 0.426478
+    },
+    {
+      "step": 4672,
+      "episode": 4671,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4670,
+      "beta": 0.42648400000000003
+    },
+    {
+      "step": 4673,
+      "episode": 4672,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4671,
+      "beta": 0.42649000000000004
+    },
+    {
+      "step": 4674,
+      "episode": 4673,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4672,
+      "beta": 0.42649600000000004
+    },
+    {
+      "step": 4675,
+      "episode": 4674,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4673,
+      "beta": 0.42650200000000005
+    },
+    {
+      "step": 4676,
+      "episode": 4675,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4674,
+      "beta": 0.426508
+    },
+    {
+      "step": 4677,
+      "episode": 4676,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4675,
+      "beta": 0.426514
+    },
+    {
+      "step": 4678,
+      "episode": 4677,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4676,
+      "beta": 0.42652
+    },
+    {
+      "step": 4679,
+      "episode": 4678,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4677,
+      "beta": 0.426526
+    },
+    {
+      "step": 4680,
+      "episode": 4679,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4678,
+      "beta": 0.426532
+    },
+    {
+      "step": 4681,
+      "episode": 4680,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4679,
+      "beta": 0.42653800000000003
+    },
+    {
+      "step": 4682,
+      "episode": 4681,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4680,
+      "beta": 0.42654400000000003
+    },
+    {
+      "step": 4683,
+      "episode": 4682,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4681,
+      "beta": 0.42655000000000004
+    },
+    {
+      "step": 4684,
+      "episode": 4683,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4682,
+      "beta": 0.42655600000000005
+    },
+    {
+      "step": 4685,
+      "episode": 4684,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4683,
+      "beta": 0.426562
+    },
+    {
+      "step": 4686,
+      "episode": 4685,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4684,
+      "beta": 0.426568
+    },
+    {
+      "step": 4687,
+      "episode": 4686,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4685,
+      "beta": 0.426574
+    },
+    {
+      "step": 4688,
+      "episode": 4687,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4686,
+      "beta": 0.42658
+    },
+    {
+      "step": 4689,
+      "episode": 4688,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4687,
+      "beta": 0.426586
+    },
+    {
+      "step": 4690,
+      "episode": 4689,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4688,
+      "beta": 0.426592
+    },
+    {
+      "step": 4691,
+      "episode": 4690,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4689,
+      "beta": 0.42659800000000003
+    },
+    {
+      "step": 4692,
+      "episode": 4691,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4690,
+      "beta": 0.42660400000000004
+    },
+    {
+      "step": 4693,
+      "episode": 4692,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4691,
+      "beta": 0.42661000000000004
+    },
+    {
+      "step": 4694,
+      "episode": 4693,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4692,
+      "beta": 0.426616
+    },
+    {
+      "step": 4695,
+      "episode": 4694,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4693,
+      "beta": 0.426622
+    },
+    {
+      "step": 4696,
+      "episode": 4695,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4694,
+      "beta": 0.426628
+    },
+    {
+      "step": 4697,
+      "episode": 4696,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4695,
+      "beta": 0.426634
+    },
+    {
+      "step": 4698,
+      "episode": 4697,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4696,
+      "beta": 0.42664
+    },
+    {
+      "step": 4699,
+      "episode": 4698,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4697,
+      "beta": 0.426646
+    },
+    {
+      "step": 4700,
+      "episode": 4699,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4698,
+      "beta": 0.42665200000000003
+    },
+    {
+      "step": 4701,
+      "episode": 4700,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4699,
+      "beta": 0.42665800000000004
+    },
+    {
+      "step": 4702,
+      "episode": 4701,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4700,
+      "beta": 0.42666400000000004
+    },
+    {
+      "step": 4703,
+      "episode": 4702,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4701,
+      "beta": 0.42667000000000005
+    },
+    {
+      "step": 4704,
+      "episode": 4703,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4702,
+      "beta": 0.426676
+    },
+    {
+      "step": 4705,
+      "episode": 4704,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4703,
+      "beta": 0.426682
+    },
+    {
+      "step": 4706,
+      "episode": 4705,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4704,
+      "beta": 0.426688
+    },
+    {
+      "step": 4707,
+      "episode": 4706,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4705,
+      "beta": 0.426694
+    },
+    {
+      "step": 4708,
+      "episode": 4707,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4706,
+      "beta": 0.4267
+    },
+    {
+      "step": 4709,
+      "episode": 4708,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4707,
+      "beta": 0.42670600000000003
+    },
+    {
+      "step": 4710,
+      "episode": 4709,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4708,
+      "beta": 0.42671200000000004
+    },
+    {
+      "step": 4711,
+      "episode": 4710,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4709,
+      "beta": 0.42671800000000004
+    },
+    {
+      "step": 4712,
+      "episode": 4711,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4710,
+      "beta": 0.42672400000000005
+    },
+    {
+      "step": 4713,
+      "episode": 4712,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4711,
+      "beta": 0.42673
+    },
+    {
+      "step": 4714,
+      "episode": 4713,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4712,
+      "beta": 0.426736
+    },
+    {
+      "step": 4715,
+      "episode": 4714,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4713,
+      "beta": 0.426742
+    },
+    {
+      "step": 4716,
+      "episode": 4715,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4714,
+      "beta": 0.426748
+    },
+    {
+      "step": 4717,
+      "episode": 4716,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4715,
+      "beta": 0.426754
+    },
+    {
+      "step": 4718,
+      "episode": 4717,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4716,
+      "beta": 0.42676000000000003
+    },
+    {
+      "step": 4719,
+      "episode": 4718,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4717,
+      "beta": 0.42676600000000003
+    },
+    {
+      "step": 4720,
+      "episode": 4719,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4718,
+      "beta": 0.42677200000000004
+    },
+    {
+      "step": 4721,
+      "episode": 4720,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4719,
+      "beta": 0.42677800000000005
+    },
+    {
+      "step": 4722,
+      "episode": 4721,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4720,
+      "beta": 0.426784
+    },
+    {
+      "step": 4723,
+      "episode": 4722,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4721,
+      "beta": 0.42679
+    },
+    {
+      "step": 4724,
+      "episode": 4723,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4722,
+      "beta": 0.426796
+    },
+    {
+      "step": 4725,
+      "episode": 4724,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4723,
+      "beta": 0.426802
+    },
+    {
+      "step": 4726,
+      "episode": 4725,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4724,
+      "beta": 0.426808
+    },
+    {
+      "step": 4727,
+      "episode": 4726,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4725,
+      "beta": 0.426814
+    },
+    {
+      "step": 4728,
+      "episode": 4727,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4726,
+      "beta": 0.42682000000000003
+    },
+    {
+      "step": 4729,
+      "episode": 4728,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4727,
+      "beta": 0.42682600000000004
+    },
+    {
+      "step": 4730,
+      "episode": 4729,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4728,
+      "beta": 0.42683200000000004
+    },
+    {
+      "step": 4731,
+      "episode": 4730,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4729,
+      "beta": 0.426838
+    },
+    {
+      "step": 4732,
+      "episode": 4731,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4730,
+      "beta": 0.426844
+    },
+    {
+      "step": 4733,
+      "episode": 4732,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4731,
+      "beta": 0.42685
+    },
+    {
+      "step": 4734,
+      "episode": 4733,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4732,
+      "beta": 0.426856
+    },
+    {
+      "step": 4735,
+      "episode": 4734,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4733,
+      "beta": 0.426862
+    },
+    {
+      "step": 4736,
+      "episode": 4735,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4734,
+      "beta": 0.426868
+    },
+    {
+      "step": 4737,
+      "episode": 4736,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4735,
+      "beta": 0.42687400000000003
+    },
+    {
+      "step": 4738,
+      "episode": 4737,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4736,
+      "beta": 0.42688000000000004
+    },
+    {
+      "step": 4739,
+      "episode": 4738,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4737,
+      "beta": 0.42688600000000004
+    },
+    {
+      "step": 4740,
+      "episode": 4739,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4738,
+      "beta": 0.42689200000000005
+    },
+    {
+      "step": 4741,
+      "episode": 4740,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4739,
+      "beta": 0.426898
+    },
+    {
+      "step": 4742,
+      "episode": 4741,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4740,
+      "beta": 0.426904
+    },
+    {
+      "step": 4743,
+      "episode": 4742,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4741,
+      "beta": 0.42691
+    },
+    {
+      "step": 4744,
+      "episode": 4743,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4742,
+      "beta": 0.426916
+    },
+    {
+      "step": 4745,
+      "episode": 4744,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4743,
+      "beta": 0.426922
+    },
+    {
+      "step": 4746,
+      "episode": 4745,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4744,
+      "beta": 0.42692800000000003
+    },
+    {
+      "step": 4747,
+      "episode": 4746,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4745,
+      "beta": 0.42693400000000004
+    },
+    {
+      "step": 4748,
+      "episode": 4747,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4746,
+      "beta": 0.42694000000000004
+    },
+    {
+      "step": 4749,
+      "episode": 4748,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4747,
+      "beta": 0.42694600000000005
+    },
+    {
+      "step": 4750,
+      "episode": 4749,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4748,
+      "beta": 0.426952
+    },
+    {
+      "step": 4751,
+      "episode": 4750,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4749,
+      "beta": 0.426958
+    },
+    {
+      "step": 4752,
+      "episode": 4751,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4750,
+      "beta": 0.426964
+    },
+    {
+      "step": 4753,
+      "episode": 4752,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4751,
+      "beta": 0.42697
+    },
+    {
+      "step": 4754,
+      "episode": 4753,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4752,
+      "beta": 0.426976
+    },
+    {
+      "step": 4755,
+      "episode": 4754,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4753,
+      "beta": 0.42698200000000003
+    },
+    {
+      "step": 4756,
+      "episode": 4755,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4754,
+      "beta": 0.42698800000000003
+    },
+    {
+      "step": 4757,
+      "episode": 4756,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4755,
+      "beta": 0.42699400000000004
+    },
+    {
+      "step": 4758,
+      "episode": 4757,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4756,
+      "beta": 0.42700000000000005
+    },
+    {
+      "step": 4759,
+      "episode": 4758,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4757,
+      "beta": 0.427006
+    },
+    {
+      "step": 4760,
+      "episode": 4759,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4758,
+      "beta": 0.427012
+    },
+    {
+      "step": 4761,
+      "episode": 4760,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4759,
+      "beta": 0.427018
+    },
+    {
+      "step": 4762,
+      "episode": 4761,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4760,
+      "beta": 0.427024
+    },
+    {
+      "step": 4763,
+      "episode": 4762,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4761,
+      "beta": 0.42703
+    },
+    {
+      "step": 4764,
+      "episode": 4763,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4762,
+      "beta": 0.427036
+    },
+    {
+      "step": 4765,
+      "episode": 4764,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4763,
+      "beta": 0.42704200000000003
+    },
+    {
+      "step": 4766,
+      "episode": 4765,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4764,
+      "beta": 0.42704800000000004
+    },
+    {
+      "step": 4767,
+      "episode": 4766,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4765,
+      "beta": 0.42705400000000004
+    },
+    {
+      "step": 4768,
+      "episode": 4767,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4766,
+      "beta": 0.42706
+    },
+    {
+      "step": 4769,
+      "episode": 4768,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4767,
+      "beta": 0.427066
+    },
+    {
+      "step": 4770,
+      "episode": 4769,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4768,
+      "beta": 0.427072
+    },
+    {
+      "step": 4771,
+      "episode": 4770,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4769,
+      "beta": 0.427078
+    },
+    {
+      "step": 4772,
+      "episode": 4771,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4770,
+      "beta": 0.427084
+    },
+    {
+      "step": 4773,
+      "episode": 4772,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4771,
+      "beta": 0.42709
+    },
+    {
+      "step": 4774,
+      "episode": 4773,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4772,
+      "beta": 0.42709600000000003
+    },
+    {
+      "step": 4775,
+      "episode": 4774,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4773,
+      "beta": 0.42710200000000004
+    },
+    {
+      "step": 4776,
+      "episode": 4775,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4774,
+      "beta": 0.42710800000000004
+    },
+    {
+      "step": 4777,
+      "episode": 4776,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4775,
+      "beta": 0.427114
+    },
+    {
+      "step": 4778,
+      "episode": 4777,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4776,
+      "beta": 0.42712
+    },
+    {
+      "step": 4779,
+      "episode": 4778,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4777,
+      "beta": 0.427126
+    },
+    {
+      "step": 4780,
+      "episode": 4779,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4778,
+      "beta": 0.427132
+    },
+    {
+      "step": 4781,
+      "episode": 4780,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4779,
+      "beta": 0.427138
+    },
+    {
+      "step": 4782,
+      "episode": 4781,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4780,
+      "beta": 0.427144
+    },
+    {
+      "step": 4783,
+      "episode": 4782,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4781,
+      "beta": 0.42715000000000003
+    },
+    {
+      "step": 4784,
+      "episode": 4783,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4782,
+      "beta": 0.42715600000000004
+    },
+    {
+      "step": 4785,
+      "episode": 4784,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4783,
+      "beta": 0.42716200000000004
+    },
+    {
+      "step": 4786,
+      "episode": 4785,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4784,
+      "beta": 0.42716800000000005
+    },
+    {
+      "step": 4787,
+      "episode": 4786,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4785,
+      "beta": 0.427174
+    },
+    {
+      "step": 4788,
+      "episode": 4787,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4786,
+      "beta": 0.42718
+    },
+    {
+      "step": 4789,
+      "episode": 4788,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4787,
+      "beta": 0.427186
+    },
+    {
+      "step": 4790,
+      "episode": 4789,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4788,
+      "beta": 0.427192
+    },
+    {
+      "step": 4791,
+      "episode": 4790,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4789,
+      "beta": 0.427198
+    },
+    {
+      "step": 4792,
+      "episode": 4791,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4790,
+      "beta": 0.42720400000000003
+    },
+    {
+      "step": 4793,
+      "episode": 4792,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4791,
+      "beta": 0.42721000000000003
+    },
+    {
+      "step": 4794,
+      "episode": 4793,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4792,
+      "beta": 0.42721600000000004
+    },
+    {
+      "step": 4795,
+      "episode": 4794,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4793,
+      "beta": 0.42722200000000005
+    },
+    {
+      "step": 4796,
+      "episode": 4795,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4794,
+      "beta": 0.427228
+    },
+    {
+      "step": 4797,
+      "episode": 4796,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4795,
+      "beta": 0.427234
+    },
+    {
+      "step": 4798,
+      "episode": 4797,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4796,
+      "beta": 0.42724
+    },
+    {
+      "step": 4799,
+      "episode": 4798,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4797,
+      "beta": 0.427246
+    },
+    {
+      "step": 4800,
+      "episode": 4799,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4798,
+      "beta": 0.427252
+    },
+    {
+      "step": 4801,
+      "episode": 4800,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4799,
+      "beta": 0.427258
+    },
+    {
+      "step": 4802,
+      "episode": 4801,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4800,
+      "beta": 0.42726400000000003
+    },
+    {
+      "step": 4803,
+      "episode": 4802,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4801,
+      "beta": 0.42727000000000004
+    },
+    {
+      "step": 4804,
+      "episode": 4803,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4802,
+      "beta": 0.42727600000000004
+    },
+    {
+      "step": 4805,
+      "episode": 4804,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4803,
+      "beta": 0.427282
+    },
+    {
+      "step": 4806,
+      "episode": 4805,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4804,
+      "beta": 0.427288
+    },
+    {
+      "step": 4807,
+      "episode": 4806,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4805,
+      "beta": 0.427294
+    },
+    {
+      "step": 4808,
+      "episode": 4807,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4806,
+      "beta": 0.4273
+    },
+    {
+      "step": 4809,
+      "episode": 4808,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4807,
+      "beta": 0.427306
+    },
+    {
+      "step": 4810,
+      "episode": 4809,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4808,
+      "beta": 0.427312
+    },
+    {
+      "step": 4811,
+      "episode": 4810,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4809,
+      "beta": 0.42731800000000003
+    },
+    {
+      "step": 4812,
+      "episode": 4811,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4810,
+      "beta": 0.42732400000000004
+    },
+    {
+      "step": 4813,
+      "episode": 4812,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4811,
+      "beta": 0.42733000000000004
+    },
+    {
+      "step": 4814,
+      "episode": 4813,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4812,
+      "beta": 0.42733600000000005
+    },
+    {
+      "step": 4815,
+      "episode": 4814,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4813,
+      "beta": 0.427342
+    },
+    {
+      "step": 4816,
+      "episode": 4815,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4814,
+      "beta": 0.427348
+    },
+    {
+      "step": 4817,
+      "episode": 4816,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4815,
+      "beta": 0.427354
+    },
+    {
+      "step": 4818,
+      "episode": 4817,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4816,
+      "beta": 0.42736
+    },
+    {
+      "step": 4819,
+      "episode": 4818,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4817,
+      "beta": 0.427366
+    },
+    {
+      "step": 4820,
+      "episode": 4819,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4818,
+      "beta": 0.42737200000000003
+    },
+    {
+      "step": 4821,
+      "episode": 4820,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4819,
+      "beta": 0.42737800000000004
+    },
+    {
+      "step": 4822,
+      "episode": 4821,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4820,
+      "beta": 0.42738400000000004
+    },
+    {
+      "step": 4823,
+      "episode": 4822,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4821,
+      "beta": 0.42739000000000005
+    },
+    {
+      "step": 4824,
+      "episode": 4823,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4822,
+      "beta": 0.427396
+    },
+    {
+      "step": 4825,
+      "episode": 4824,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4823,
+      "beta": 0.427402
+    },
+    {
+      "step": 4826,
+      "episode": 4825,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4824,
+      "beta": 0.427408
+    },
+    {
+      "step": 4827,
+      "episode": 4826,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4825,
+      "beta": 0.427414
+    },
+    {
+      "step": 4828,
+      "episode": 4827,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4826,
+      "beta": 0.42742
+    },
+    {
+      "step": 4829,
+      "episode": 4828,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4827,
+      "beta": 0.42742600000000003
+    },
+    {
+      "step": 4830,
+      "episode": 4829,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4828,
+      "beta": 0.42743200000000003
+    },
+    {
+      "step": 4831,
+      "episode": 4830,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4829,
+      "beta": 0.42743800000000004
+    },
+    {
+      "step": 4832,
+      "episode": 4831,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4830,
+      "beta": 0.42744400000000005
+    },
+    {
+      "step": 4833,
+      "episode": 4832,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4831,
+      "beta": 0.42745
+    },
+    {
+      "step": 4834,
+      "episode": 4833,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4832,
+      "beta": 0.427456
+    },
+    {
+      "step": 4835,
+      "episode": 4834,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4833,
+      "beta": 0.427462
+    },
+    {
+      "step": 4836,
+      "episode": 4835,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4834,
+      "beta": 0.427468
+    },
+    {
+      "step": 4837,
+      "episode": 4836,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4835,
+      "beta": 0.427474
+    },
+    {
+      "step": 4838,
+      "episode": 4837,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4836,
+      "beta": 0.42748
+    },
+    {
+      "step": 4839,
+      "episode": 4838,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4837,
+      "beta": 0.42748600000000003
+    },
+    {
+      "step": 4840,
+      "episode": 4839,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4838,
+      "beta": 0.42749200000000004
+    },
+    {
+      "step": 4841,
+      "episode": 4840,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4839,
+      "beta": 0.42749800000000004
+    },
+    {
+      "step": 4842,
+      "episode": 4841,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4840,
+      "beta": 0.427504
+    },
+    {
+      "step": 4843,
+      "episode": 4842,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4841,
+      "beta": 0.42751
+    },
+    {
+      "step": 4844,
+      "episode": 4843,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4842,
+      "beta": 0.427516
+    },
+    {
+      "step": 4845,
+      "episode": 4844,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4843,
+      "beta": 0.427522
+    },
+    {
+      "step": 4846,
+      "episode": 4845,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4844,
+      "beta": 0.427528
+    },
+    {
+      "step": 4847,
+      "episode": 4846,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4845,
+      "beta": 0.427534
+    },
+    {
+      "step": 4848,
+      "episode": 4847,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4846,
+      "beta": 0.42754000000000003
+    },
+    {
+      "step": 4849,
+      "episode": 4848,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4847,
+      "beta": 0.42754600000000004
+    },
+    {
+      "step": 4850,
+      "episode": 4849,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4848,
+      "beta": 0.42755200000000004
+    },
+    {
+      "step": 4851,
+      "episode": 4850,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4849,
+      "beta": 0.427558
+    },
+    {
+      "step": 4852,
+      "episode": 4851,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4850,
+      "beta": 0.427564
+    },
+    {
+      "step": 4853,
+      "episode": 4852,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4851,
+      "beta": 0.42757
+    },
+    {
+      "step": 4854,
+      "episode": 4853,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4852,
+      "beta": 0.427576
+    },
+    {
+      "step": 4855,
+      "episode": 4854,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4853,
+      "beta": 0.427582
+    },
+    {
+      "step": 4856,
+      "episode": 4855,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4854,
+      "beta": 0.427588
+    },
+    {
+      "step": 4857,
+      "episode": 4856,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4855,
+      "beta": 0.42759400000000003
+    },
+    {
+      "step": 4858,
+      "episode": 4857,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4856,
+      "beta": 0.42760000000000004
+    },
+    {
+      "step": 4859,
+      "episode": 4858,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4857,
+      "beta": 0.42760600000000004
+    },
+    {
+      "step": 4860,
+      "episode": 4859,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4858,
+      "beta": 0.427612
+    },
+    {
+      "step": 4861,
+      "episode": 4860,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4859,
+      "beta": 0.427618
+    },
+    {
+      "step": 4862,
+      "episode": 4861,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4860,
+      "beta": 0.427624
+    },
+    {
+      "step": 4863,
+      "episode": 4862,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4861,
+      "beta": 0.42763
+    },
+    {
+      "step": 4864,
+      "episode": 4863,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4862,
+      "beta": 0.427636
+    },
+    {
+      "step": 4865,
+      "episode": 4864,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4863,
+      "beta": 0.427642
+    },
+    {
+      "step": 4866,
+      "episode": 4865,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4864,
+      "beta": 0.42764800000000003
+    },
+    {
+      "step": 4867,
+      "episode": 4866,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4865,
+      "beta": 0.42765400000000003
+    },
+    {
+      "step": 4868,
+      "episode": 4867,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4866,
+      "beta": 0.42766000000000004
+    },
+    {
+      "step": 4869,
+      "episode": 4868,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4867,
+      "beta": 0.42766600000000005
+    },
+    {
+      "step": 4870,
+      "episode": 4869,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4868,
+      "beta": 0.427672
+    },
+    {
+      "step": 4871,
+      "episode": 4870,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4869,
+      "beta": 0.427678
+    },
+    {
+      "step": 4872,
+      "episode": 4871,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4870,
+      "beta": 0.427684
+    },
+    {
+      "step": 4873,
+      "episode": 4872,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4871,
+      "beta": 0.42769
+    },
+    {
+      "step": 4874,
+      "episode": 4873,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4872,
+      "beta": 0.427696
+    },
+    {
+      "step": 4875,
+      "episode": 4874,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4873,
+      "beta": 0.427702
+    },
+    {
+      "step": 4876,
+      "episode": 4875,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4874,
+      "beta": 0.42770800000000003
+    },
+    {
+      "step": 4877,
+      "episode": 4876,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4875,
+      "beta": 0.42771400000000004
+    },
+    {
+      "step": 4878,
+      "episode": 4877,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4876,
+      "beta": 0.42772000000000004
+    },
+    {
+      "step": 4879,
+      "episode": 4878,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4877,
+      "beta": 0.42772600000000005
+    },
+    {
+      "step": 4880,
+      "episode": 4879,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4878,
+      "beta": 0.427732
+    },
+    {
+      "step": 4881,
+      "episode": 4880,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4879,
+      "beta": 0.427738
+    },
+    {
+      "step": 4882,
+      "episode": 4881,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4880,
+      "beta": 0.427744
+    },
+    {
+      "step": 4883,
+      "episode": 4882,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4881,
+      "beta": 0.42775
+    },
+    {
+      "step": 4884,
+      "episode": 4883,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4882,
+      "beta": 0.427756
+    },
+    {
+      "step": 4885,
+      "episode": 4884,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4883,
+      "beta": 0.42776200000000003
+    },
+    {
+      "step": 4886,
+      "episode": 4885,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4884,
+      "beta": 0.42776800000000004
+    },
+    {
+      "step": 4887,
+      "episode": 4886,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4885,
+      "beta": 0.42777400000000004
+    },
+    {
+      "step": 4888,
+      "episode": 4887,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4886,
+      "beta": 0.42778000000000005
+    },
+    {
+      "step": 4889,
+      "episode": 4888,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4887,
+      "beta": 0.427786
+    },
+    {
+      "step": 4890,
+      "episode": 4889,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4888,
+      "beta": 0.427792
+    },
+    {
+      "step": 4891,
+      "episode": 4890,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4889,
+      "beta": 0.427798
+    },
+    {
+      "step": 4892,
+      "episode": 4891,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4890,
+      "beta": 0.427804
+    },
+    {
+      "step": 4893,
+      "episode": 4892,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4891,
+      "beta": 0.42781
+    },
+    {
+      "step": 4894,
+      "episode": 4893,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4892,
+      "beta": 0.42781600000000003
+    },
+    {
+      "step": 4895,
+      "episode": 4894,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4893,
+      "beta": 0.42782200000000004
+    },
+    {
+      "step": 4896,
+      "episode": 4895,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4894,
+      "beta": 0.42782800000000004
+    },
+    {
+      "step": 4897,
+      "episode": 4896,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4895,
+      "beta": 0.42783400000000005
+    },
+    {
+      "step": 4898,
+      "episode": 4897,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4896,
+      "beta": 0.42784
+    },
+    {
+      "step": 4899,
+      "episode": 4898,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4897,
+      "beta": 0.427846
+    },
+    {
+      "step": 4900,
+      "episode": 4899,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4898,
+      "beta": 0.427852
+    },
+    {
+      "step": 4901,
+      "episode": 4900,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4899,
+      "beta": 0.427858
+    },
+    {
+      "step": 4902,
+      "episode": 4901,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4900,
+      "beta": 0.427864
+    },
+    {
+      "step": 4903,
+      "episode": 4902,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4901,
+      "beta": 0.42787000000000003
+    },
+    {
+      "step": 4904,
+      "episode": 4903,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4902,
+      "beta": 0.42787600000000003
+    },
+    {
+      "step": 4905,
+      "episode": 4904,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4903,
+      "beta": 0.42788200000000004
+    },
+    {
+      "step": 4906,
+      "episode": 4905,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4904,
+      "beta": 0.42788800000000005
+    },
+    {
+      "step": 4907,
+      "episode": 4906,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4905,
+      "beta": 0.427894
+    },
+    {
+      "step": 4908,
+      "episode": 4907,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4906,
+      "beta": 0.4279
+    },
+    {
+      "step": 4909,
+      "episode": 4908,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4907,
+      "beta": 0.427906
+    },
+    {
+      "step": 4910,
+      "episode": 4909,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4908,
+      "beta": 0.427912
+    },
+    {
+      "step": 4911,
+      "episode": 4910,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4909,
+      "beta": 0.427918
+    },
+    {
+      "step": 4912,
+      "episode": 4911,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4910,
+      "beta": 0.427924
+    },
+    {
+      "step": 4913,
+      "episode": 4912,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4911,
+      "beta": 0.42793000000000003
+    },
+    {
+      "step": 4914,
+      "episode": 4913,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4912,
+      "beta": 0.42793600000000004
+    },
+    {
+      "step": 4915,
+      "episode": 4914,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4913,
+      "beta": 0.42794200000000004
+    },
+    {
+      "step": 4916,
+      "episode": 4915,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4914,
+      "beta": 0.427948
+    },
+    {
+      "step": 4917,
+      "episode": 4916,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4915,
+      "beta": 0.427954
+    },
+    {
+      "step": 4918,
+      "episode": 4917,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4916,
+      "beta": 0.42796
+    },
+    {
+      "step": 4919,
+      "episode": 4918,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4917,
+      "beta": 0.427966
+    },
+    {
+      "step": 4920,
+      "episode": 4919,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4918,
+      "beta": 0.427972
+    },
+    {
+      "step": 4921,
+      "episode": 4920,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4919,
+      "beta": 0.427978
+    },
+    {
+      "step": 4922,
+      "episode": 4921,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4920,
+      "beta": 0.42798400000000003
+    },
+    {
+      "step": 4923,
+      "episode": 4922,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4921,
+      "beta": 0.42799000000000004
+    },
+    {
+      "step": 4924,
+      "episode": 4923,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4922,
+      "beta": 0.42799600000000004
+    },
+    {
+      "step": 4925,
+      "episode": 4924,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4923,
+      "beta": 0.42800200000000005
+    },
+    {
+      "step": 4926,
+      "episode": 4925,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4924,
+      "beta": 0.428008
+    },
+    {
+      "step": 4927,
+      "episode": 4926,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4925,
+      "beta": 0.428014
+    },
+    {
+      "step": 4928,
+      "episode": 4927,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4926,
+      "beta": 0.42802
+    },
+    {
+      "step": 4929,
+      "episode": 4928,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4927,
+      "beta": 0.428026
+    },
+    {
+      "step": 4930,
+      "episode": 4929,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4928,
+      "beta": 0.428032
+    },
+    {
+      "step": 4931,
+      "episode": 4930,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4929,
+      "beta": 0.42803800000000003
+    },
+    {
+      "step": 4932,
+      "episode": 4931,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4930,
+      "beta": 0.42804400000000004
+    },
+    {
+      "step": 4933,
+      "episode": 4932,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4931,
+      "beta": 0.42805000000000004
+    },
+    {
+      "step": 4934,
+      "episode": 4933,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4932,
+      "beta": 0.42805600000000005
+    },
+    {
+      "step": 4935,
+      "episode": 4934,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4933,
+      "beta": 0.428062
+    },
+    {
+      "step": 4936,
+      "episode": 4935,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4934,
+      "beta": 0.428068
+    },
+    {
+      "step": 4937,
+      "episode": 4936,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4935,
+      "beta": 0.428074
+    },
+    {
+      "step": 4938,
+      "episode": 4937,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4936,
+      "beta": 0.42808
+    },
+    {
+      "step": 4939,
+      "episode": 4938,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4937,
+      "beta": 0.428086
+    },
+    {
+      "step": 4940,
+      "episode": 4939,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4938,
+      "beta": 0.42809200000000003
+    },
+    {
+      "step": 4941,
+      "episode": 4940,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4939,
+      "beta": 0.42809800000000003
+    },
+    {
+      "step": 4942,
+      "episode": 4941,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4940,
+      "beta": 0.42810400000000004
+    },
+    {
+      "step": 4943,
+      "episode": 4942,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4941,
+      "beta": 0.42811000000000005
+    },
+    {
+      "step": 4944,
+      "episode": 4943,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4942,
+      "beta": 0.428116
+    },
+    {
+      "step": 4945,
+      "episode": 4944,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4943,
+      "beta": 0.428122
+    },
+    {
+      "step": 4946,
+      "episode": 4945,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4944,
+      "beta": 0.428128
+    },
+    {
+      "step": 4947,
+      "episode": 4946,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4945,
+      "beta": 0.428134
+    },
+    {
+      "step": 4948,
+      "episode": 4947,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4946,
+      "beta": 0.42814
+    },
+    {
+      "step": 4949,
+      "episode": 4948,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4947,
+      "beta": 0.428146
+    },
+    {
+      "step": 4950,
+      "episode": 4949,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4948,
+      "beta": 0.42815200000000003
+    },
+    {
+      "step": 4951,
+      "episode": 4950,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4949,
+      "beta": 0.42815800000000004
+    },
+    {
+      "step": 4952,
+      "episode": 4951,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4950,
+      "beta": 0.42816400000000004
+    },
+    {
+      "step": 4953,
+      "episode": 4952,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4951,
+      "beta": 0.42817
+    },
+    {
+      "step": 4954,
+      "episode": 4953,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4952,
+      "beta": 0.428176
+    },
+    {
+      "step": 4955,
+      "episode": 4954,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4953,
+      "beta": 0.428182
+    },
+    {
+      "step": 4956,
+      "episode": 4955,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4954,
+      "beta": 0.428188
+    },
+    {
+      "step": 4957,
+      "episode": 4956,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4955,
+      "beta": 0.428194
+    },
+    {
+      "step": 4958,
+      "episode": 4957,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4956,
+      "beta": 0.4282
+    },
+    {
+      "step": 4959,
+      "episode": 4958,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4957,
+      "beta": 0.42820600000000003
+    },
+    {
+      "step": 4960,
+      "episode": 4959,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4958,
+      "beta": 0.42821200000000004
+    },
+    {
+      "step": 4961,
+      "episode": 4960,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4959,
+      "beta": 0.42821800000000004
+    },
+    {
+      "step": 4962,
+      "episode": 4961,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4960,
+      "beta": 0.42822400000000005
+    },
+    {
+      "step": 4963,
+      "episode": 4962,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4961,
+      "beta": 0.42823
+    },
+    {
+      "step": 4964,
+      "episode": 4963,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4962,
+      "beta": 0.428236
+    },
+    {
+      "step": 4965,
+      "episode": 4964,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4963,
+      "beta": 0.428242
+    },
+    {
+      "step": 4966,
+      "episode": 4965,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4964,
+      "beta": 0.428248
+    },
+    {
+      "step": 4967,
+      "episode": 4966,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4965,
+      "beta": 0.428254
+    },
+    {
+      "step": 4968,
+      "episode": 4967,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4966,
+      "beta": 0.42826000000000003
+    },
+    {
+      "step": 4969,
+      "episode": 4968,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4967,
+      "beta": 0.42826600000000004
+    },
+    {
+      "step": 4970,
+      "episode": 4969,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4968,
+      "beta": 0.42827200000000004
+    },
+    {
+      "step": 4971,
+      "episode": 4970,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4969,
+      "beta": 0.42827800000000005
+    },
+    {
+      "step": 4972,
+      "episode": 4971,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4970,
+      "beta": 0.428284
+    },
+    {
+      "step": 4973,
+      "episode": 4972,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4971,
+      "beta": 0.42829
+    },
+    {
+      "step": 4974,
+      "episode": 4973,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4972,
+      "beta": 0.428296
+    },
+    {
+      "step": 4975,
+      "episode": 4974,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4973,
+      "beta": 0.428302
+    },
+    {
+      "step": 4976,
+      "episode": 4975,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4974,
+      "beta": 0.428308
+    },
+    {
+      "step": 4977,
+      "episode": 4976,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4975,
+      "beta": 0.42831400000000003
+    },
+    {
+      "step": 4978,
+      "episode": 4977,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4976,
+      "beta": 0.42832000000000003
+    },
+    {
+      "step": 4979,
+      "episode": 4978,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4977,
+      "beta": 0.42832600000000004
+    },
+    {
+      "step": 4980,
+      "episode": 4979,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4978,
+      "beta": 0.42833200000000005
+    },
+    {
+      "step": 4981,
+      "episode": 4980,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4979,
+      "beta": 0.428338
+    },
+    {
+      "step": 4982,
+      "episode": 4981,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4980,
+      "beta": 0.428344
+    },
+    {
+      "step": 4983,
+      "episode": 4982,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4981,
+      "beta": 0.42835
+    },
+    {
+      "step": 4984,
+      "episode": 4983,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4982,
+      "beta": 0.428356
+    },
+    {
+      "step": 4985,
+      "episode": 4984,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4983,
+      "beta": 0.428362
+    },
+    {
+      "step": 4986,
+      "episode": 4985,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4984,
+      "beta": 0.428368
+    },
+    {
+      "step": 4987,
+      "episode": 4986,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4985,
+      "beta": 0.42837400000000003
+    },
+    {
+      "step": 4988,
+      "episode": 4987,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4986,
+      "beta": 0.42838000000000004
+    },
+    {
+      "step": 4989,
+      "episode": 4988,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4987,
+      "beta": 0.42838600000000004
+    },
+    {
+      "step": 4990,
+      "episode": 4989,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4988,
+      "beta": 0.428392
+    },
+    {
+      "step": 4991,
+      "episode": 4990,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4989,
+      "beta": 0.428398
+    },
+    {
+      "step": 4992,
+      "episode": 4991,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4990,
+      "beta": 0.428404
+    },
+    {
+      "step": 4993,
+      "episode": 4992,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4991,
+      "beta": 0.42841
+    },
+    {
+      "step": 4994,
+      "episode": 4993,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4992,
+      "beta": 0.428416
+    },
+    {
+      "step": 4995,
+      "episode": 4994,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4993,
+      "beta": 0.428422
+    },
+    {
+      "step": 4996,
+      "episode": 4995,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4994,
+      "beta": 0.42842800000000003
+    },
+    {
+      "step": 4997,
+      "episode": 4996,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4995,
+      "beta": 0.42843400000000004
+    },
+    {
+      "step": 4998,
+      "episode": 4997,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4996,
+      "beta": 0.42844000000000004
+    },
+    {
+      "step": 4999,
+      "episode": 4998,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4997,
+      "beta": 0.428446
+    },
+    {
+      "step": 5000,
+      "episode": 4999,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4998,
+      "beta": 0.428452
+    },
+    {
+      "step": 5001,
+      "episode": 5000,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 4999,
+      "beta": 0.428458
+    }
+  ],
+  "evaluation_results": [
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.4905,
+      "std_reward": 1.6305397112612743,
+      "win_rate": 0.286,
+      "push_rate": 0.071,
+      "loss_rate": 0.598,
+      "action_distribution": {
+        "STAND": 0.24626121635094717,
+        "HIT": 0.047856430707876374,
+        "DOUBLE": 0.7058823529411765,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "BASIC_ACTIONS",
+      "total_episodes_trained": 0
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.1855,
+      "std_reward": 0.9802243365679104,
+      "win_rate": 0.343,
+      "push_rate": 0.046,
+      "loss_rate": 0.578,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "BASIC_ACTIONS",
+      "total_episodes_trained": 2001
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.1505,
+      "std_reward": 0.9920180189895745,
+      "win_rate": 0.34,
+      "push_rate": 0.052,
+      "loss_rate": 0.561,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "ADD_SURRENDER",
+      "total_episodes_trained": 4001
+    }
+  ]
+}
