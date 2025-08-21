@@ -1,0 +1,161 @@
+{
+  "total_episodes": 27,
+  "total_steps": 42,
+  "curriculum_summary": {
+    "current_stage": {
+      "stage": "BASIC_ACTIONS",
+      "stage_description": "Basic Actions: HIT, STAND, DOUBLE",
+      "episodes_in_stage": 27,
+      "min_episodes_required": 10,
+      "recent_performance": -0.5740740740740741,
+      "stability": 0.8244381218352617,
+      "stability_threshold": 0.05,
+      "ready_to_advance": false,
+      "is_final_stage": false
+    },
+    "total_episodes": 27,
+    "overall_performance": -0.5740740740740741,
+    "stage_history": [],
+    "transition_log": [],
+    "config": {
+      "min_episodes_per_stage": 10,
+      "stability_threshold": 0.05,
+      "performance_thresholds": {
+        "basic_actions": -0.2,
+        "surrender": -0.1,
+        "split_aces": -0.05
+      }
+    }
+  },
+  "recent_rewards": [
+    -1.0,
+    1.5,
+    -1.0,
+    0.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    1.0,
+    -1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    1.0
+  ],
+  "training_metrics": [
+    {
+      "step": 35,
+      "episode": 19,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 33,
+      "beta": 0.40000600000000003
+    },
+    {
+      "step": 36,
+      "episode": 20,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 34,
+      "beta": 0.40001200000000003
+    },
+    {
+      "step": 37,
+      "episode": 21,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 35,
+      "beta": 0.40001800000000004
+    },
+    {
+      "step": 38,
+      "episode": 22,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 36,
+      "beta": 0.40002400000000005
+    },
+    {
+      "step": 39,
+      "episode": 23,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 37,
+      "beta": 0.40003
+    },
+    {
+      "step": 40,
+      "episode": 24,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 38,
+      "beta": 0.400036
+    },
+    {
+      "step": 41,
+      "episode": 25,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 39,
+      "beta": 0.400042
+    },
+    {
+      "step": 42,
+      "episode": 26,
+      "loss": NaN,
+      "td_error_mean": NaN,
+      "buffer_size": 40,
+      "beta": 0.400048
+    }
+  ],
+  "evaluation_results": [
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.8835,
+      "std_reward": 0.521227157772885,
+      "win_rate": 0.0,
+      "push_rate": 0.004,
+      "loss_rate": 0.951,
+      "action_distribution": {
+        "STAND": 0.0,
+        "HIT": 1.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "BASIC_ACTIONS",
+      "total_episodes_trained": 1
+    },
+    {
+      "num_episodes": 1000,
+      "mean_reward": -0.2615,
+      "std_reward": 0.9655919169090015,
+      "win_rate": 0.304,
+      "push_rate": 0.043,
+      "loss_rate": 0.618,
+      "action_distribution": {
+        "STAND": 1.0,
+        "HIT": 0.0,
+        "DOUBLE": 0.0,
+        "SPLIT": 0.0,
+        "SURRENDER": 0.0
+      },
+      "curriculum_stage": "BASIC_ACTIONS",
+      "total_episodes_trained": 27
+    }
+  ]
+}

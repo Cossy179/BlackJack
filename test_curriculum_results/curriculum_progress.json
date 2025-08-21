@@ -1,0 +1,26 @@
+{
+  "current_stage": {
+    "stage": "BASIC_ACTIONS",
+    "stage_description": "Basic Actions: HIT, STAND, DOUBLE",
+    "episodes_in_stage": 51,
+    "min_episodes_required": 10,
+    "recent_performance": -0.4117647058823529,
+    "stability": 0.9219857212163723,
+    "stability_threshold": 0.05,
+    "ready_to_advance": false,
+    "is_final_stage": false
+  },
+  "total_episodes": 51,
+  "overall_performance": -0.4117647058823529,
+  "stage_history": [],
+  "transition_log": [],
+  "config": {
+    "min_episodes_per_stage": 10,
+    "stability_threshold": 0.05,
+    "performance_thresholds": {
+      "basic_actions": -0.2,
+      "surrender": -0.1,
+      "split_aces": -0.05
+    }
+  }
+}
